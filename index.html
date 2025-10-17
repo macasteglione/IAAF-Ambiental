@@ -1,13 +1,112 @@
-<!doctype html>
-<html lang="en">
+
+<!DOCTYPE html>
+<html lang="en-GB">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>iaaf-ambiental-webpage</title>
+    <title>IAAF Ambiental | Consultora Ambiental Puerto Madryn</title>
+    <meta name="description" content="Consultoría ambiental especializada en Puerto Madryn. Ofrecemos servicios de evaluación de impacto ambiental, gestión de residuos, asesoramiento en sustentabilidad y soluciones ambientales integrales." />
+    <meta name="author" content="IAAF Ambiental" />
+    <meta name="keywords" content="consultoría ambiental, impacto ambiental, gestión ambiental, sustentabilidad, medio ambiente, Puerto Madryn, Chubut, servicios ambientales, asesoría ambiental" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    
+    <!-- Performance optimizations -->
+    <meta name="theme-color" content="#B0C933" />
+    <meta name="msapplication-TileColor" content="#B0C933" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    
+    <!-- DNS prefetch for external domains -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    <link rel="dns-prefetch" href="//www.cognitoforms.com">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/lovable-uploads/79b6e9f8-e9dc-45a9-807e-b50a03fae874.png" as="image" type="image/png">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
+    
+    <!-- Favicon IAAF Ambiental - Adaptable a tema claro/oscuro -->
+    <link rel="icon" href="/src/assets/logo negro.png" type="image/png" media="(prefers-color-scheme: light)" />
+    <link rel="icon" href="/src/assets/logo blanco.png" type="image/png" media="(prefers-color-scheme: dark)" />
+
+    <!-- Enhanced Open Graph tags -->
+    <meta property="og:title" content="IAAF Ambiental | Consultoría Ambiental" />
+    <meta property="og:description" content="Consultoría ambiental especializada en Puerto Madryn. Soluciones integrales en gestión ambiental y sustentabilidad." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/lovable-uploads/iaaf-ambiental.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="IAAF Ambiental" />
+    <meta property="og:locale" content="es_AR" />
+    <meta property="og:url" content="https://iaafambiental.com" />
+
+    <!-- Geographic and business tags -->
+    <meta name="geo.region" content="AR-U" />
+    <meta name="geo.placename" content="Puerto Madryn" />
+    <meta name="geo.position" content="-42.7683;-65.0364" />
+    <meta name="ICBM" content="-42.7683, -65.0364" />
+    
+    <!-- Business information -->
+    <meta name="business:contact_data:street_address" content="[Dirección de la empresa]" />
+    <meta name="business:contact_data:locality" content="Puerto Madryn" />
+    <meta name="business:contact_data:postal_code" content="9120" />
+    <meta name="business:contact_data:country_name" content="Argentina" />
+    <meta name="business:contact_data:phone_number" content="+54 280 XXX-XXXX" />
+    <meta name="business:contact_data:email" content="administracion@iaafambiental.com" />
+    
+    <!-- Chat widget script can be added here if needed -->
+    
+    <!-- Critical CSS inlined for above-the-fold content -->
+    <style>
+      body { 
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+        margin: 0; 
+        padding: 0; 
+        font-display: swap;
+      }
+      .loading-spinner { 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh; 
+        background-color: #f9fafb;
+      }
+      .spinner { 
+        width: 40px; 
+        height: 40px; 
+        border: 4px solid #f3f3f3; 
+        border-top: 4px solid #d2f406; 
+        border-radius: 50%; 
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin { 
+        0% { transform: rotate(0deg); } 
+        100% { transform: rotate(360deg); } 
+      }
+      /* Above-the-fold critical styles */
+      .hero-section { 
+        min-height: 60vh; 
+        background: linear-gradient(135deg, #B0C933 0%, #7A8C23 100%);
+      }
+    </style>
   </head>
+
   <body>
-    <div id="app"></div>
+    <div id="root">
+      <div class="loading-spinner">
+        <div class="spinner"></div>
+      </div>
+    </div>
+    
+    <!-- Module script for better performance -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

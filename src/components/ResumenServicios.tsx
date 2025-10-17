@@ -1,0 +1,179 @@
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import {
+  Shield,
+  Leaf,
+  TrendingUp,
+  Clock,
+  Award,
+  MapPin,
+  CheckCircle,
+} from "lucide-react";
+import { Link } from "react-router-dom";
+
+const ServicesOverview = () => {
+  const services = [
+    {
+      icon: Shield,
+      title: "Proteger",
+      description:
+        "Protegemos el medio ambiente mediante evaluaciones rigurosas y planes de gestión que minimizan el impacto ambiental de proyectos y operaciones.",
+      features: [
+        "Estudios de Impacto Ambiental",
+        "Auditorías y monitoreo continuo",
+        "Planes de contingencia ambiental",
+      ],
+      color: "from-green-500 to-green-600",
+    },
+    {
+      icon: Leaf,
+      title: "Conservar",
+      description:
+        "Desarrollamos estrategias de conservación y uso sustentable de recursos naturales, promoviendo prácticas que benefician al ambiente y la comunidad.",
+      features: [
+        "Gestión de recursos naturales",
+        "Planes de conservación de biodiversidad",
+        "Evaluación de ecosistemas",
+      ],
+      color: "from-emerald-500 to-emerald-600",
+    },
+    {
+      icon: TrendingUp,
+      title: "Desarrollar",
+      description:
+        "Impulsamos el desarrollo sustentable mediante soluciones innovadoras que equilibran el crecimiento económico con la responsabilidad ambiental.",
+      features: [
+        "Certificaciones ambientales ISO 14001",
+        "Capacitación y formación ambiental",
+        "Asesoría en normativa vigente",
+      ],
+      color: "from-teal-500 to-teal-600",
+    },
+  ];
+
+  const features = [
+    {
+      icon: Clock,
+      title: "Respuesta Rápida",
+      description:
+        "Atención y respuesta a consultas dentro de 24-48 horas hábiles para todos sus proyectos ambientales.",
+    },
+    {
+      icon: Award,
+      title: "Experiencia Comprobada",
+      description:
+        "Más de 15 años brindando soluciones ambientales exitosas en toda la región patagónica.",
+    },
+    {
+      icon: MapPin,
+      title: "Cobertura Patagónica",
+      description:
+        "Servicios integrales en Puerto Madryn, Trelew, Rawson y toda la provincia de Chubut.",
+    },
+  ];
+
+  return (
+    <section
+      aria-labelledby="services-heading"
+      className="py-16 lg:py-20 bg-gradient-to-br from-gray-50 to-green-50"
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Header */}
+        <div className="text-center mb-16">
+          <h2
+            id="services-heading"
+            className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6"
+          >
+            Nuestra Misión
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            En IAAF Ambiental trabajamos para{" "}
+            <strong className="text-green-700">
+              proteger, conservar y desarrollar
+            </strong>{" "}
+            soluciones ambientales que permitan el crecimiento económico en
+            armonía con la naturaleza patagónica, asegurando un futuro
+            sustentable para las próximas generaciones.
+          </p>
+        </div>
+
+        {/* Main Services Cards */}
+        <div className="grid md:grid-cols-3 gap-8 mb-16">
+          {services.map((service, index) => {
+            const IconComponent = service.icon;
+            return (
+              <Card
+                key={index}
+                className="hover:shadow-2xl transition-all duration-300 border-t-4 border-t-green-600 hover:scale-105 group bg-white"
+              >
+                <CardHeader className="text-center pb-4">
+                  <div className="flex justify-center mb-4" aria-hidden="true">
+                    <div
+                      className={`w-20 h-20 bg-gradient-to-br ${service.color} rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform`}
+                    >
+                      <IconComponent className="h-10 w-10 text-white" />
+                    </div>
+                  </div>
+                  <CardTitle className="text-2xl text-gray-900 mb-3 group-hover:text-green-700 transition-colors">
+                    {service.title}
+                  </CardTitle>
+                  <CardDescription className="text-gray-600 leading-relaxed text-base">
+                    {service.description}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-3">
+                    {service.features.map((feature, featureIndex) => (
+                      <li
+                        key={featureIndex}
+                        className="flex items-start text-gray-700"
+                      >
+                        <CheckCircle className="h-5 w-5 text-green-600 mr-3 flex-shrink-0 mt-0.5" />
+                        <span className="text-sm leading-relaxed">
+                          {feature}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+            );
+          })}
+        </div>
+
+        {/* Features Section */}
+        <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-xl border-2 border-green-100">
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
+            {features.map((feature, index) => {
+              const IconComponent = feature.icon;
+              return (
+                <div
+                  key={index}
+                  className="flex flex-col items-center text-center group"
+                >
+                  <div className="flex-shrink-0 w-14 h-14 bg-green-600 rounded-full flex items-center justify-center mb-4 group-hover:bg-green-700 transition-colors shadow-lg">
+                    <IconComponent className="h-7 w-7 text-white" />
+                  </div>
+                  <h3 className="font-bold text-gray-900 mb-2 text-lg">
+                    {feature.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {feature.description}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ServicesOverview;
