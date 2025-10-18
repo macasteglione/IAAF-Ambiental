@@ -75,14 +75,14 @@ const Dolavon = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="relative overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/src/assets/dolavon-region01.png"
+                src="/img/dolavon-region01.png"
                 alt="Molinos harineros históricos de Dolavon"
                 className="w-full h-64 object-cover"
               />
             </div>
             <div className="relative overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/src/assets/dolavon-region02.png"
+                src="/img/dolavon-region02.png"
                 alt="Equipo de IAAF Ambiental brindando servicios ambientales en Dolavon"
                 className="w-full h-64 object-cover"
               />

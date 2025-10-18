@@ -95,7 +95,7 @@ const ComarcaLosAlerces = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <img
-                  src="/src/assets/comarca-region01.png"
+                  src="/img/comarca-region01.png"
                   alt="Bosques andino-patagónicos de Comarca Los Alerces"
                   className="w-full h-64 object-cover"
                   loading="lazy"
@@ -105,7 +105,7 @@ const ComarcaLosAlerces = () => {
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <img
-                  src="/src/assets/comarca-region02.png"
+                  src="/img/comarca-region02.png"
                   alt="Equipo de IAAF Ambiental brindando servicios ambientales en Comarca Los Alerces"
                   className="w-full h-64 object-cover"
                   loading="lazy"

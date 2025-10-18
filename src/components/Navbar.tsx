@@ -74,7 +74,7 @@ const Header = () => {
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-3" aria-label="IAAF Ambiental - Volver al inicio">
                 <img
-                  src="/src/assets/logo_color.svg"
+                  src="/img/logo_color.svg"
                   alt="IAAF Ambiental - Consultoría Ambiental en Puerto Madryn"
                   className="h-20 w-auto transition-transform hover:scale-105"
                 />

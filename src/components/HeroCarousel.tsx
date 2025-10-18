@@ -10,7 +10,7 @@ const HeroCarousel = () => {
   const slides = [
     {
       id: 1,
-      image: "/src/assets/consultora-ambiental-hero.jpg",
+      image: "/img/consultora-ambiental-hero.jpg",
       title: "Consultoría Ambiental Profesional",
       subtitle: "Expertos en Gestión Ambiental en la Patagonia",
       description: "Brindamos soluciones integrales para la gestión ambiental de tu empresa, garantizando el cumplimiento normativo y promoviendo prácticas sostenibles que benefician tanto a tu negocio como al medio ambiente.",
@@ -21,7 +21,7 @@ const HeroCarousel = () => {
     },
     {
       id: 2,
-      image: "/src/assets/estudio-impacto-hero.jpg",
+      image: "/img/estudio-impacto-hero.jpg",
       title: "Estudios de Impacto Ambiental",
       subtitle: "Evaluaciones Completas y Detalladas",
       description: "Realizamos estudios de impacto ambiental exhaustivos que identifican, prevén y evalúan los efectos ambientales de tus proyectos, asegurando su viabilidad y sostenibilidad a largo plazo.",
@@ -32,7 +32,7 @@ const HeroCarousel = () => {
     },
     {
       id: 3,
-      image: "/src/assets/gestion-residual-hero.jpeg",
+      image: "/img/gestion-residual-hero.jpeg",
       title: "Gestión de Residuos",
       subtitle: "Soluciones Sostenibles para tu Empresa",
       description: "Desarrollamos e implementamos planes integrales de gestión de residuos, optimizando procesos y reduciendo el impacto ambiental de tu organización mientras cumples con la normativa vigente.",
@@ -43,7 +43,7 @@ const HeroCarousel = () => {
     },
     {
       id: 4,
-      image: "/src/assets/auditoria-ambiental-hero.png",
+      image: "/img/auditoria-ambiental-hero.png",
       title: "Auditorías y Certificaciones",
       subtitle: "ISO 14001 y Cumplimiento Normativo",
       description: "Te acompañamos en el proceso de obtención y mantenimiento de certificaciones ambientales, mejorando tus procesos y fortaleciendo tu compromiso con la sostenibilidad.",

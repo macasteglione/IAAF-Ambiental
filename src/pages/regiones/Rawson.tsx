@@ -92,7 +92,7 @@ const Rawson = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <img
-                  src="/src/assets/rawson-region01.jpg"
+                  src="/img/rawson-region01.jpg"
                   alt="Rawson - Capital de la provincia de Chubut"
                   className="w-full h-64 object-cover"
                   loading="lazy"
@@ -102,7 +102,7 @@ const Rawson = () => {
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <img
-                  src="/src/assets/rawson-region02.jpeg"
+                  src="/img/rawson-region02.jpeg"
                   alt="Equipo de IAAF Ambiental brindando servicios ambientales en Rawson"
                   className="w-full h-64 object-cover"
                   loading="lazy"

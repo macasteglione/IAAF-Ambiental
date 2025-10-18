@@ -98,14 +98,14 @@ const TrelewSEOContent = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="relative overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/src/assets/trelew-region01.jpeg"
+                src="/img/trelew-region01.jpeg"
                 alt="Trelew - Ciudad industrial y agropecuaria del Valle Inferior del Chubut"
                 className="w-full h-64 object-cover"
               />
             </div>
             <div className="relative overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/src/assets/trelew-region02.webp"
+                src="/img/trelew-region02.webp"
                 alt="Equipo de IAAF Ambiental brindando servicios ambientales en Trelew"
                 className="w-full h-64 object-cover"
               />
