@@ -1,5 +1,6 @@
 import { Suspense, lazy } from "react";
 import EnhancedSEO from "@/components/EnhancedSEO";
+import SocialSidebar from "@/components/SocialSidebar";
 
 // Lazy load components for better performance
 const Header = lazy(() => import("@/components/Navbar"));
@@ -167,6 +168,9 @@ const Index = () => {
         ]}
         critical={true}
       />
+      
+      {/* Social Media Sidebar */}
+      <SocialSidebar />
       
       <Suspense fallback={<ComponentLoader />}>
         <Header />

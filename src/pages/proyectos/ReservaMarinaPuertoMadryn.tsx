@@ -148,22 +148,25 @@ const ReservaMarinaPuertoMadryn = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="py-16 lg:py-20 bg-gradient-to-br from-blue-50 via-cyan-50 to-green-50/20 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-blue-300 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-cyan-300 rounded-full blur-3xl"></div>
+      <section className="text-gray-900 h-[500px] lg:h-[550px] relative overflow-hidden flex items-center pt-20">
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url(/img/puerto-madryn-region02.jpg)" }}
+        >
+          {/* Overlay para oscurecer/aclarar la imagen */}
+          <div className="absolute inset-0 bg-black/70"></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 leading-tight">
               Reserva Marina Puerto Madryn
             </h1>
-            <p className="text-xl lg:text-2xl text-gray-700 max-w-4xl mx-auto mb-8 leading-relaxed">
+            <p className="text-xl lg:text-2xl text-white max-w-4xl mx-auto mb-8 leading-relaxed">
               Proyecto integral de conservación y gestión sustentable de los
               ecosistemas marinos del Golfo Nuevo. Un trabajo colaborativo entre
-              IAAF Ambiental, autoridades locales y la comunidad para proteger la
-              biodiversidad marina de la Patagonia.
+              IAAF Ambiental, autoridades locales y la comunidad para proteger
+              la biodiversidad marina de la Patagonia.
             </p>
             <div className="flex items-center justify-center text-blue-700 mb-8">
               <MapPin className="h-6 w-6 mr-2" />
@@ -171,7 +174,7 @@ const ReservaMarinaPuertoMadryn = () => {
                 Puerto Madryn, Golfo Nuevo, Chubut
               </span>
             </div>
-            <div className="flex items-center justify-center text-gray-600 gap-6">
+            <div className="flex items-center justify-center text-white gap-6">
               <div className="flex items-center gap-2">
                 <Calendar className="h-5 w-5" />
                 <span>Inicio: Enero 2024</span>
@@ -222,13 +225,13 @@ const ReservaMarinaPuertoMadryn = () => {
               </p>
               <p className="text-gray-700 mb-4 leading-relaxed">
                 Este proyecto surge de la necesidad de establecer un marco de
-                gestión que permita compatibilizar las actividades humanas con la
-                conservación de estos ecosistemas únicos.
+                gestión que permita compatibilizar las actividades humanas con
+                la conservación de estos ecosistemas únicos.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                IAAF Ambiental lidera el estudio técnico y la elaboración del plan
-                de manejo, trabajando en conjunto con pescadores artesanales,
-                operadores turísticos y la comunidad científica.
+                IAAF Ambiental lidera el estudio técnico y la elaboración del
+                plan de manejo, trabajando en conjunto con pescadores
+                artesanales, operadores turísticos y la comunidad científica.
               </p>
             </div>
           </div>
@@ -332,8 +335,8 @@ const ReservaMarinaPuertoMadryn = () => {
             ¿Interesado en Nuestros Proyectos?
           </h2>
           <p className="text-xl lg:text-2xl mb-8 max-w-3xl mx-auto text-white/95">
-            Conoce más sobre nuestros proyectos ambientales o consulta cómo podemos
-            ayudarte con tu iniciativa de conservación.
+            Conoce más sobre nuestros proyectos ambientales o consulta cómo
+            podemos ayudarte con tu iniciativa de conservación.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button

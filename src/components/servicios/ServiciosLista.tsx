@@ -44,7 +44,7 @@ const ServiciosLista = () => {
       title: "Planes de Manejo Ambiental",
       description:
         "Diseño e implementación de planes para minimizar impactos y asegurar prácticas sustentables en proyectos de todas las escalas.",
-      image: "/img/manejo-ambiental-servicio.webp",
+      image: "/img/manejo-ambiental-servicio.png",
       features: [
         "Diseño de programas ambientales",
         "Seguimiento y control",
@@ -66,7 +66,7 @@ const ServiciosLista = () => {
       title: "Monitoreos Ambientales",
       description:
         "Recolección y análisis de datos ambientales para garantizar el cumplimiento normativo y la calidad del entorno.",
-      image: "/img/monitoreo-ambiental-servicio.webp",
+      image: "/img/monitoreo-ambiental-servicio.png",
       features: [
         "Calidad de aire, agua y suelo",
         "Ruido y vibraciones",
@@ -88,7 +88,7 @@ const ServiciosLista = () => {
       title: "Auditorías Ambientales",
       description:
         "Evaluación del desempeño ambiental de una organización o proyecto según normativa vigente nacional y provincial.",
-      image: "/img/auditoria-ambiental-servicio.webp",
+      image: "/img/auditoria-ambiental-servicio.png",
       features: [
         "Diagnóstico de cumplimiento",
         "Recomendaciones de mejora",
@@ -110,7 +110,7 @@ const ServiciosLista = () => {
       title: "Gestión de Residuos",
       description:
         "Asesoramiento en la correcta gestión de residuos sólidos urbanos, peligrosos y patogénicos según normativa argentina.",
-      image: "/img/gestion-residual-servicio.avif",
+      image: "/img/gestion-residual-servicio.png",
       features: [
         "Caracterización de residuos",
         "Planes de manejo",
@@ -183,7 +183,7 @@ const ServiciosLista = () => {
       title: "Licencias y Permisos Ambientales",
       description:
         "Gestión integral de trámites ambientales ante organismos provinciales y nacionales para asegurar el cumplimiento normativo.",
-      image: "/img/permisos-ambientales-servicio.avif",
+      image: "/img/permisos-ambientales-servicio.png",
       features: [
         "Gestión ante organismos",
         "Asesoramiento técnico",

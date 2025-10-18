@@ -82,7 +82,7 @@ const HeroCarousel = () => {
 
   return (
     <div
-      className="relative h-[600px] lg:h-[700px] overflow-hidden"
+      className="relative h-screen overflow-hidden"
       role="region"
       aria-label="Servicios de consultoría ambiental destacados"
       aria-live="polite"
@@ -115,15 +115,15 @@ const HeroCarousel = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
               <div className="max-w-3xl text-white">
 
-                <h1 className="text-4xl lg:text-6xl font-bold mb-4 animate-fade-in leading-tight">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 sm:mb-4 animate-fade-in leading-tight">
                   {slide.title}
                 </h1>
                 
-                <p className="text-xl lg:text-2xl mb-6 text-brand-lime font-semibold animate-fade-in">
+                <p className="text-lg sm:text-xl lg:text-2xl mb-4 sm:mb-6 text-brand-lime font-semibold animate-fade-in">
                   {slide.subtitle}
                 </p>
                 
-                <p className="text-base lg:text-lg mb-8 text-gray-100 max-w-2xl animate-fade-in leading-relaxed">
+                <p className="text-sm sm:text-base lg:text-lg mb-6 sm:mb-8 text-gray-100 max-w-2xl animate-fade-in leading-relaxed">
                   {slide.description}
                 </p>
 
@@ -176,18 +176,18 @@ const HeroCarousel = () => {
       {/* Navigation arrows */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 lg:left-8 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/40 backdrop-blur-sm text-white p-3 rounded-full transition-all duration-200 hover:scale-110 shadow-lg"
+        className="absolute left-2 bottom-20 lg:left-8 lg:bottom-auto lg:top-[60%] lg:-translate-y-1/2 bg-white/20 hover:bg-white/40 backdrop-blur-sm text-white p-2 lg:p-3 rounded-full transition-all duration-200 hover:scale-110 shadow-lg"
         aria-label="Ir a la diapositiva anterior"
       >
-        <ChevronLeft className="h-6 w-6" aria-hidden="true" />
+        <ChevronLeft className="h-5 w-5 lg:h-6 lg:w-6" aria-hidden="true" />
       </button>
       
       <button
         onClick={nextSlide}
-        className="absolute right-4 lg:right-8 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/40 backdrop-blur-sm text-white p-3 rounded-full transition-all duration-200 hover:scale-110 shadow-lg"
+        className="absolute right-2 bottom-20 lg:right-8 lg:bottom-auto lg:top-[60%] lg:-translate-y-1/2 bg-white/20 hover:bg-white/40 backdrop-blur-sm text-white p-2 lg:p-3 rounded-full transition-all duration-200 hover:scale-110 shadow-lg"
         aria-label="Ir a la siguiente diapositiva"
       >
-        <ChevronRight className="h-6 w-6" aria-hidden="true" />
+        <ChevronRight className="h-5 w-5 lg:h-6 lg:w-6" aria-hidden="true" />
       </button>
 
       {/* Slide indicators */}

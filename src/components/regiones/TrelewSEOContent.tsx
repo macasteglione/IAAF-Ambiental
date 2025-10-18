@@ -105,7 +105,7 @@ const TrelewSEOContent = () => {
             </div>
             <div className="relative overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/img/trelew-region02.webp"
+                src="/img/trelew-region02.png"
                 alt="Equipo de IAAF Ambiental brindando servicios ambientales en Trelew"
                 className="w-full h-64 object-cover"
               />
