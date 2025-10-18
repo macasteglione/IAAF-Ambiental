@@ -1,5 +1,10 @@
-
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Shield, Binoculars, TreePine } from "lucide-react";
 
 const PeninsulaValdesServicios = () => {
@@ -7,45 +12,58 @@ const PeninsulaValdesServicios = () => {
     {
       icon: Shield,
       title: "Conservación y Patrimonio UNESCO",
-      description: "Servicios ambientales especializados para proyectos en Patrimonio de la Humanidad UNESCO.",
+      description:
+        "Servicios ambientales especializados para proyectos en Patrimonio de la Humanidad UNESCO.",
       features: [
         "Patrimonio UNESCO",
         "Área Natural Protegida",
         "Conservación de Fauna",
         "Normativas Internacionales",
         "Gestión de Área Protegida",
-        "Planes de Conservación"
+        "Planes de Conservación",
       ],
-      suitableFor: ["Proyectos UNESCO", "Conservación", "Área Protegida", "Investigación"]
+      suitableFor: [
+        "Proyectos UNESCO",
+        "Conservación",
+        "Área Protegida",
+        "Investigación",
+      ],
     },
     {
       icon: Binoculars,
       title: "Monitoreo de Fauna Marina",
-      description: "Estudios y monitoreo de fauna marina protegida en la Península Valdés.",
+      description:
+        "Estudios y monitoreo de fauna marina protegida en la Península Valdés.",
       features: [
         "Ballenas Francas",
         "Orcas y Lobos Marinos",
         "Elefantes Marinos",
         "Pingüinos de Magallanes",
         "Monitoreo de Especies",
-        "Estudios de Población"
+        "Estudios de Población",
       ],
-      suitableFor: ["Monitoreo", "Investigación", "Conservación", "Fauna Marina"]
+      suitableFor: [
+        "Monitoreo",
+        "Investigación",
+        "Conservación",
+        "Fauna Marina",
+      ],
     },
     {
       icon: TreePine,
       title: "Turismo Sustentable",
-      description: "Asesoramiento ambiental para proyectos de turismo sustentable en área protegida.",
+      description:
+        "Asesoramiento ambiental para proyectos de turismo sustentable en área protegida.",
       features: [
         "Turismo Responsable",
         "Infraestructura Sustentable",
         "Avistaje de Fauna",
         "Emprendimientos Turísticos",
         "Educación Ambiental",
-        "Gestión de Visitantes"
+        "Gestión de Visitantes",
       ],
-      suitableFor: ["Turismo", "Avistaje", "Emprendimientos", "Educación"]
-    }
+      suitableFor: ["Turismo", "Avistaje", "Emprendimientos", "Educación"],
+    },
   ];
 
   return (
@@ -66,10 +84,15 @@ const PeninsulaValdesServicios = () => {
               </CardHeader>
               <CardContent>
                 <div className="mb-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">Características del Servicio:</h4>
+                  <h4 className="font-semibold text-gray-900 mb-2">
+                    Características del Servicio:
+                  </h4>
                   <ul className="space-y-1">
                     {service.features.map((feature, idx) => (
-                      <li key={idx} className="text-sm text-gray-600 flex items-center">
+                      <li
+                        key={idx}
+                        className="text-sm text-gray-600 flex items-center"
+                      >
                         <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2" />
                         {feature}
                       </li>
@@ -77,10 +100,15 @@ const PeninsulaValdesServicios = () => {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Adecuado Para:</h4>
+                  <h4 className="font-semibold text-gray-900 mb-2">
+                    Adecuado Para:
+                  </h4>
                   <div className="flex flex-wrap gap-1">
                     {service.suitableFor.map((item, idx) => (
-                      <span key={idx} className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                      <span
+                        key={idx}
+                        className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded"
+                      >
                         {item}
                       </span>
                     ))}

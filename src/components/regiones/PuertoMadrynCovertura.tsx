@@ -1,30 +1,95 @@
-
 const PuertoMadrynCovertura = () => {
   const areas = [
     {
       title: "Zona Urbana",
-      cities: ["Centro", "Barrio Pujol", "Barrio Fontana", "Barrio Roque González", "Barrio Belgrano", "Barrio San Miguel", "Barrio Alberdi", "Barrio Pueyrredón", "Barrio Julio A. Roca", "Barrio Gobernador Fontana"]
+      cities: [
+        "Centro",
+        "Barrio Pujol",
+        "Barrio Fontana",
+        "Barrio Roque González",
+        "Barrio Belgrano",
+        "Barrio San Miguel",
+        "Barrio Alberdi",
+        "Barrio Pueyrredón",
+        "Barrio Julio A. Roca",
+        "Barrio Gobernador Fontana",
+      ],
     },
     {
       title: "Área Industrial y Comercial",
-      cities: ["Parque Industrial", "Zona Franca", "Puerto Comercial", "Zona Industrial Pesquera", "Polo Científico Tecnológico", "Zona Comercial Centro", "Avenida Roca", "Bulevar Brown", "Zona Gastronómica", "Complejo Punta Cuevas"]
+      cities: [
+        "Parque Industrial",
+        "Zona Franca",
+        "Puerto Comercial",
+        "Zona Industrial Pesquera",
+        "Polo Científico Tecnológico",
+        "Zona Comercial Centro",
+        "Avenida Roca",
+        "Bulevar Brown",
+        "Zona Gastronómica",
+        "Complejo Punta Cuevas",
+      ],
     },
     {
-      title: "Zona Costera", 
-      cities: ["Playa El Doradillo", "Punta Loma", "Playa Paraná", "Playa Kaiser", "Playa Unión", "Punta Cuevas", "Costanera", "Muelle Luis Piedra Buena", "Golfo Nuevo", "Frente Marítimo"]
+      title: "Zona Costera",
+      cities: [
+        "Playa El Doradillo",
+        "Punta Loma",
+        "Playa Paraná",
+        "Playa Kaiser",
+        "Playa Unión",
+        "Punta Cuevas",
+        "Costanera",
+        "Muelle Luis Piedra Buena",
+        "Golfo Nuevo",
+        "Frente Marítimo",
+      ],
     },
     {
       title: "Atractivos Turísticos",
-      cities: ["Ecocentro", "Punta Loma (Lobos Marinos)", "Playa El Doradillo (Ballenas)", "Punta Cuevas", "Museo del Hombre y el Mar", "Monumento Natural", "Istmo Ameghino", "Puerto Pirámides", "Península Valdés", "Reserva Natural"]
+      cities: [
+        "Ecocentro",
+        "Punta Loma (Lobos Marinos)",
+        "Playa El Doradillo (Ballenas)",
+        "Punta Cuevas",
+        "Museo del Hombre y el Mar",
+        "Monumento Natural",
+        "Istmo Ameghino",
+        "Puerto Pirámides",
+        "Península Valdés",
+        "Reserva Natural",
+      ],
     },
     {
       title: "Servicios Públicos",
-      cities: ["Planta de Tratamiento", "Vertedero Municipal", "Planta Potabilizadora", "Red Cloacal", "Sistema de Agua Potable", "Aeropuerto El Tehuelche", "Terminal de Ómnibus", "Puerto Madryn", "Infraestructura Urbana", "Servicios Sanitarios"]
+      cities: [
+        "Planta de Tratamiento",
+        "Vertedero Municipal",
+        "Planta Potabilizadora",
+        "Red Cloacal",
+        "Sistema de Agua Potable",
+        "Aeropuerto El Tehuelche",
+        "Terminal de Ómnibus",
+        "Puerto Madryn",
+        "Infraestructura Urbana",
+        "Servicios Sanitarios",
+      ],
     },
     {
       title: "Zona de Expansión",
-      cities: ["Nuevos Desarrollos Urbanos", "Zona Residencial Norte", "Zona Residencial Sur", "Proyectos Turísticos", "Emprendimientos Inmobiliarios", "Barrios Privados", "Loteos", "Zona de Chacras", "Periferia Urbana", "Área de Crecimiento"]
-    }
+      cities: [
+        "Nuevos Desarrollos Urbanos",
+        "Zona Residencial Norte",
+        "Zona Residencial Sur",
+        "Proyectos Turísticos",
+        "Emprendimientos Inmobiliarios",
+        "Barrios Privados",
+        "Loteos",
+        "Zona de Chacras",
+        "Periferia Urbana",
+        "Área de Crecimiento",
+      ],
+    },
   ];
 
   return (

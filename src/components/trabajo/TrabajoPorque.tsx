@@ -58,7 +58,7 @@ const TrabajoPorque = () => {
 
         {/* Featured Section */}
         <div className="mb-16">
-          <div className="bg-white rounded-2xl shadow-xl overflow-hidden max-w-5xl mx-auto border border-green-100">
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden max-w-5xl mx-auto border border-brand-lime/20">
             <div className="grid md:grid-cols-2 gap-8 items-center p-8 lg:p-12">
               <div>
                 <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
@@ -73,7 +73,7 @@ const TrabajoPorque = () => {
                     const IconComponent = perk.icon;
                     return (
                       <div key={index} className="flex items-center text-gray-700">
-                        <div className="flex-shrink-0 w-10 h-10 bg-green-600 rounded-full flex items-center justify-center mr-3">
+                        <div className="flex-shrink-0 w-10 h-10 bg-brand-green rounded-full flex items-center justify-center mr-3">
                           <IconComponent className="h-5 w-5 text-white" />
                         </div>
                         <span className="font-medium">{perk.text}</span>
@@ -87,7 +87,7 @@ const TrabajoPorque = () => {
                   {/* Placeholder for image - replace with actual team photo */}
                   <div className="w-full h-full flex items-center justify-center">
                     <div className="text-center p-8">
-                      <div className="w-24 h-24 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <div className="w-24 h-24 bg-brand-green rounded-full flex items-center justify-center mx-auto mb-4">
                         <Users className="h-12 w-12 text-white" />
                       </div>
                       <p className="text-gray-700 font-semibold text-lg">
@@ -113,7 +113,7 @@ const TrabajoPorque = () => {
                 key={index} 
                 className="text-center bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow border border-green-50"
               >
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-green-600 rounded-full mb-6 shadow-lg">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-brand-green rounded-full mb-6 shadow-lg">
                   <IconComponent className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">

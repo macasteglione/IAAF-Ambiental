@@ -140,8 +140,8 @@ const CurrentOpportunities = () => {
 
         {/* Posiciones Junior */}
         <div className="mb-16">
-          <div className="flex items-center mb-6 bg-green-50 p-4 rounded-lg border-l-4 border-green-600">
-            <div className="flex-shrink-0 w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mr-4">
+          <div className="flex items-center mb-6 bg-green-50 p-4 rounded-lg border-l-4 border-brand-green">
+            <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center mr-4">
               <GraduationCap className="h-6 w-6 text-white" />
             </div>
             <div>
@@ -163,8 +163,8 @@ const CurrentOpportunities = () => {
 
         {/* Posiciones con Experiencia */}
         <div className="mb-16">
-          <div className="flex items-center mb-6 bg-emerald-50 p-4 rounded-lg border-l-4 border-emerald-600">
-            <div className="flex-shrink-0 w-12 h-12 bg-emerald-600 rounded-full flex items-center justify-center mr-4">
+          <div className="flex items-center mb-6 bg-green-50/30 p-4 rounded-lg border-l-4 border-brand-teal">
+            <div className="flex-shrink-0 w-12 h-12 bg-brand-teal rounded-full flex items-center justify-center mr-4">
               <Briefcase className="h-6 w-6 text-white" />
             </div>
             <div>
@@ -186,8 +186,8 @@ const CurrentOpportunities = () => {
 
         {/* Posiciones Especializadas */}
         <div className="mb-16">
-          <div className="flex items-center mb-6 bg-teal-50 p-4 rounded-lg border-l-4 border-teal-600">
-            <div className="flex-shrink-0 w-12 h-12 bg-teal-600 rounded-full flex items-center justify-center mr-4">
+          <div className="flex items-center mb-6 bg-green-50/30 p-4 rounded-lg border-l-4 border-brand-teal">
+            <div className="flex-shrink-0 w-12 h-12 bg-brand-teal rounded-full flex items-center justify-center mr-4">
               <Users className="h-6 w-6 text-white" />
             </div>
             <div>

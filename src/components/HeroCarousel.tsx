@@ -119,7 +119,7 @@ const HeroCarousel = () => {
                   {slide.title}
                 </h1>
                 
-                <p className="text-xl lg:text-2xl mb-6 text-green-300 font-semibold animate-fade-in">
+                <p className="text-xl lg:text-2xl mb-6 text-brand-lime font-semibold animate-fade-in">
                   {slide.subtitle}
                 </p>
                 
@@ -132,7 +132,7 @@ const HeroCarousel = () => {
                   <Link to={slide.ctaLink}>
                     <Button
                       size="lg"
-                      className="bg-green-600 hover:bg-green-700 text-white shadow-2xl hover:shadow-green-600/50 transition-all transform hover:scale-105 font-semibold text-base px-8 py-6"
+                      className="bg-brand-lime hover:bg-brand-green text-black shadow-2xl hover:shadow-brand-teal/50 transition-all transform hover:scale-105 font-semibold text-base px-8 py-6"
                       aria-label={`${slide.cta} - ${slide.title}`}
                     >
                       {slide.cta}
@@ -202,7 +202,7 @@ const HeroCarousel = () => {
             onClick={() => setCurrentSlide(index)}
             className={`transition-all duration-300 rounded-full ${
               index === currentSlide 
-                ? "bg-green-400 w-8 h-3" 
+                ? "bg-brand-lime w-8 h-3" 
                 : "bg-white/50 hover:bg-white/70 w-3 h-3"
             }`}
             role="tab"

@@ -1,6 +1,6 @@
 const TrabajoHero = () => {
   return (
-    <section className="bg-[#5AB75B] text-white py-20">
+    <section className="bg-gradient-to-r from-brand-lime to-brand-teal text-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">

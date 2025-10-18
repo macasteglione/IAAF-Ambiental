@@ -1,30 +1,95 @@
-
 const TrelewCoverageAreas = () => {
   const areas = [
     {
       title: "Zona Urbana Central",
-      cities: ["Centro", "Barrio Centenario", "Barrio Don Bosco", "Barrio Moreira", "Barrio Belgrano", "Barrio San Martín", "Barrio Planta de Gas", "Barrio Inta", "Barrio Menfa", "Barrio Progreso"]
+      cities: [
+        "Centro",
+        "Barrio Centenario",
+        "Barrio Don Bosco",
+        "Barrio Moreira",
+        "Barrio Belgrano",
+        "Barrio San Martín",
+        "Barrio Planta de Gas",
+        "Barrio Inta",
+        "Barrio Menfa",
+        "Barrio Progreso",
+      ],
     },
     {
       title: "Parque Industrial",
-      cities: ["Parque Industrial Trelew", "Zona Industrial Pesquera", "Frigoríficos", "Plantas Procesadoras", "Industria Textil", "Sector Metalúrgico", "Zona Franca", "Empresas Productivas", "Talleres Industriales", "Depósitos"]
+      cities: [
+        "Parque Industrial Trelew",
+        "Zona Industrial Pesquera",
+        "Frigoríficos",
+        "Plantas Procesadoras",
+        "Industria Textil",
+        "Sector Metalúrgico",
+        "Zona Franca",
+        "Empresas Productivas",
+        "Talleres Industriales",
+        "Depósitos",
+      ],
     },
     {
-      title: "Zona Comercial", 
-      cities: ["Avenida Fontana", "Calle 25 de Mayo", "Calle San Martín", "Calle Belgrano", "Zona Comercial Centro", "Galerías Comerciales", "Supermercados", "Locales Comerciales", "Oficinas", "Bancos"]
+      title: "Zona Comercial",
+      cities: [
+        "Avenida Fontana",
+        "Calle 25 de Mayo",
+        "Calle San Martín",
+        "Calle Belgrano",
+        "Zona Comercial Centro",
+        "Galerías Comerciales",
+        "Supermercados",
+        "Locales Comerciales",
+        "Oficinas",
+        "Bancos",
+      ],
     },
     {
       title: "Chacras y Zona Rural",
-      cities: ["Chacras Norte", "Chacras Sur", "Chacras Este", "Chacras Oeste", "Establecimientos Agropecuarios", "Zona de Riego", "Campos Productivos", "Quintas", "Huertas", "Zona Agrícola"]
+      cities: [
+        "Chacras Norte",
+        "Chacras Sur",
+        "Chacras Este",
+        "Chacras Oeste",
+        "Establecimientos Agropecuarios",
+        "Zona de Riego",
+        "Campos Productivos",
+        "Quintas",
+        "Huertas",
+        "Zona Agrícola",
+      ],
     },
     {
       title: "Servicios Públicos",
-      cities: ["Planta de Tratamiento", "Vertedero Municipal", "Planta Potabilizadora", "Red Cloacal", "Sistema de Agua", "Aeropuerto Trelew", "Terminal de Ómnibus", "Estación de Servicio", "Infraestructura Urbana", "Servicios Sanitarios"]
+      cities: [
+        "Planta de Tratamiento",
+        "Vertedero Municipal",
+        "Planta Potabilizadora",
+        "Red Cloacal",
+        "Sistema de Agua",
+        "Aeropuerto Trelew",
+        "Terminal de Ómnibus",
+        "Estación de Servicio",
+        "Infraestructura Urbana",
+        "Servicios Sanitarios",
+      ],
     },
     {
       title: "Zona de Expansión",
-      cities: ["Nuevos Barrios", "Zona Residencial Norte", "Zona Residencial Sur", "Desarrollos Inmobiliarios", "Loteos Nuevos", "Barrios en Construcción", "Zona de Crecimiento", "Periferia Urbana", "Área de Desarrollo", "Proyectos Urbanos"]
-    }
+      cities: [
+        "Nuevos Barrios",
+        "Zona Residencial Norte",
+        "Zona Residencial Sur",
+        "Desarrollos Inmobiliarios",
+        "Loteos Nuevos",
+        "Barrios en Construcción",
+        "Zona de Crecimiento",
+        "Periferia Urbana",
+        "Área de Desarrollo",
+        "Proyectos Urbanos",
+      ],
+    },
   ];
 
   return (

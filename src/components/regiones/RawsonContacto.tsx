@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -9,17 +8,27 @@ const RawsonContacto = () => {
         {/* SEO Hidden Cities List */}
         <div className="sr-only">
           <h2>Áreas de Cobertura de Servicios Ambientales en Rawson</h2>
-          <p>Brindamos servicios integrales de consultoría ambiental en Rawson, incluyendo el centro administrativo, Playa Unión, Puerto Rawson, zona comercial, zona costera, organismos gubernamentales, infraestructura provincial y toda la capital de Chubut.</p>
+          <p>
+            Brindamos servicios integrales de consultoría ambiental en Rawson,
+            incluyendo el centro administrativo, Playa Unión, Puerto Rawson,
+            zona comercial, zona costera, organismos gubernamentales,
+            infraestructura provincial y toda la capital de Chubut.
+          </p>
         </div>
 
         <h2 className="text-3xl font-bold mb-4">
           ¿Necesita Consultoría Ambiental en Rawson?
         </h2>
         <p className="text-xl mb-8 max-w-2xl mx-auto">
-          Especialistas en proyectos ambientales en Rawson. Atendemos proyectos gubernamentales, turísticos, comerciales e infraestructura provincial.
+          Especialistas en proyectos ambientales en Rawson. Atendemos proyectos
+          gubernamentales, turísticos, comerciales e infraestructura provincial.
         </p>
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-          <Button asChild size="lg" className="bg-white text-[#33B779] hover:bg-gray-100">
+          <Button
+            asChild
+            size="lg"
+            className="bg-white text-[#33B779] hover:bg-gray-100"
+          >
             <Link to="/contacto">Agendar Consulta</Link>
           </Button>
         </div>

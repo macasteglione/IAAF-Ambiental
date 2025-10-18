@@ -1,6 +1,5 @@
 import { proyectos } from "@/data/ProyectosDatos";
 import ProyectoCard from "./ProyectosCard";
-import { Briefcase, TrendingUp } from "lucide-react";
 
 const IndustriesGrid = () => {
   return (
@@ -12,10 +11,9 @@ const IndustriesGrid = () => {
             Nuestros Proyectos Ambientales
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Trabajamos con diversos sectores productivos en la Patagonia,
-            brindando soluciones ambientales personalizadas que garantizan el
-            cumplimiento normativo y promueven el desarrollo sustentable de cada
-            industria.
+            Cada proyecto refleja nuestro compromiso con la excelencia técnica y
+            el cuidado del ambiente patagónico, adaptándonos a las necesidades
+            específicas de cada cliente e industria.
           </p>
         </div>
 

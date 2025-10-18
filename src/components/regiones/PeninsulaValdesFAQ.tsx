@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { HelpCircle } from "lucide-react";
 
@@ -6,24 +5,29 @@ const PeninsulaValdesFAQ = () => {
   const faqs = [
     {
       question: "¿Brindan servicios ambientales en Península Valdés?",
-      answer: "Sí, brindamos servicios integrales de consultoría ambiental en toda la Península Valdés, Patrimonio de la Humanidad UNESCO. Trabajamos en área natural protegida con profesionales especializados en conservación y fauna marina."
+      answer:
+        "Sí, brindamos servicios integrales de consultoría ambiental en toda la Península Valdés, Patrimonio de la Humanidad UNESCO. Trabajamos en área natural protegida con profesionales especializados en conservación y fauna marina.",
     },
     {
       question: "¿Atienden proyectos en Patrimonio de la Humanidad UNESCO?",
-      answer: "Absolutamente. Atendemos proyectos de conservación, turismo sustentable, monitoreo de fauna, investigación científica y emprendimientos en área protegida respetando estrictamente las normativas UNESCO y de conservación."
+      answer:
+        "Absolutamente. Atendemos proyectos de conservación, turismo sustentable, monitoreo de fauna, investigación científica y emprendimientos en área protegida respetando estrictamente las normativas UNESCO y de conservación.",
     },
     {
       question: "¿Trabajan en Punta Norte, Punta Delgada y Caleta Valdés?",
-      answer: "Sí, tenemos experiencia trabajando en todos los puntos de la Península Valdés: Punta Norte (orcas, lobos marinos), Punta Delgada (elefantes marinos), Caleta Valdés (pingüinos) y Puerto Pirámides (ballenas)."
+      answer:
+        "Sí, tenemos experiencia trabajando en todos los puntos de la Península Valdés: Punta Norte (orcas, lobos marinos), Punta Delgada (elefantes marinos), Caleta Valdés (pingüinos) y Puerto Pirámides (ballenas).",
     },
     {
       question: "¿Atienden proyectos de monitoreo de fauna marina?",
-      answer: "Sí, atendemos proyectos de monitoreo de ballenas francas, orcas, lobos marinos, elefantes marinos, pingüinos y otras especies protegidas. Conocemos las regulaciones especiales de fauna marina del área UNESCO."
+      answer:
+        "Sí, atendemos proyectos de monitoreo de ballenas francas, orcas, lobos marinos, elefantes marinos, pingüinos y otras especies protegidas. Conocemos las regulaciones especiales de fauna marina del área UNESCO.",
     },
     {
       question: "¿Qué tipos de proyectos atienden en Península Valdés?",
-      answer: "Atendemos proyectos de conservación, turismo sustentable, monitoreo de fauna, investigación científica, infraestructura en área protegida y emprendimientos respetando el Patrimonio de la Humanidad UNESCO."
-    }
+      answer:
+        "Atendemos proyectos de conservación, turismo sustentable, monitoreo de fauna, investigación científica, infraestructura en área protegida y emprendimientos respetando el Patrimonio de la Humanidad UNESCO.",
+    },
   ];
 
   return (

@@ -1,30 +1,95 @@
-
 const PeninsulaValdesCovertura = () => {
   const areas = [
     {
       title: "Zona Norte",
-      cities: ["Punta Norte", "Caleta Valdés", "Punta Cantor", "Zona de Orcas", "Lobería Punta Norte", "Zona de Elefantes Marinos", "Pingüinera", "Área de Avistaje", "Mirador Norte", "Zona Costera Norte"]
+      cities: [
+        "Punta Norte",
+        "Caleta Valdés",
+        "Punta Cantor",
+        "Zona de Orcas",
+        "Lobería Punta Norte",
+        "Zona de Elefantes Marinos",
+        "Pingüinera",
+        "Área de Avistaje",
+        "Mirador Norte",
+        "Zona Costera Norte",
+      ],
     },
     {
       title: "Zona Sur",
-      cities: ["Punta Delgada", "Faro Punta Delgada", "Lobería Punta Delgada", "Zona de Elefantes Marinos Sur", "Mirador Sur", "Playa Sur", "Área de Conservación", "Zona Costera Sur", "Punta Pirámide", "Zona de Fauna"]
+      cities: [
+        "Punta Delgada",
+        "Faro Punta Delgada",
+        "Lobería Punta Delgada",
+        "Zona de Elefantes Marinos Sur",
+        "Mirador Sur",
+        "Playa Sur",
+        "Área de Conservación",
+        "Zona Costera Sur",
+        "Punta Pirámide",
+        "Zona de Fauna",
+      ],
     },
     {
-      title: "Puerto Pirámides", 
-      cities: ["Puerto Pirámides Centro", "Zona de Avistaje de Ballenas", "Playa Principal", "Zona Hotelera", "Zona Comercial", "Embarcadero", "Zona Turística", "Alojamientos", "Restaurantes", "Servicios Turísticos"]
+      title: "Puerto Pirámides",
+      cities: [
+        "Puerto Pirámides Centro",
+        "Zona de Avistaje de Ballenas",
+        "Playa Principal",
+        "Zona Hotelera",
+        "Zona Comercial",
+        "Embarcadero",
+        "Zona Turística",
+        "Alojamientos",
+        "Restaurantes",
+        "Servicios Turísticos",
+      ],
     },
     {
       title: "Istmo Ameghino",
-      cities: ["Istmo Carlos Ameghino", "Puerta de Acceso", "Centro de Interpretación", "Zona de Ingreso", "Área de Control", "Mirador del Istmo", "Zona de Información", "Acceso Principal", "Área de Servicios", "Zona de Recepción"]
+      cities: [
+        "Istmo Carlos Ameghino",
+        "Puerta de Acceso",
+        "Centro de Interpretación",
+        "Zona de Ingreso",
+        "Área de Control",
+        "Mirador del Istmo",
+        "Zona de Información",
+        "Acceso Principal",
+        "Área de Servicios",
+        "Zona de Recepción",
+      ],
     },
     {
       title: "Golfos y Costas",
-      cities: ["Golfo Nuevo", "Golfo San José", "Costa Atlántica", "Playas Protegidas", "Zona de Mareas", "Costas Rocosas", "Bahías", "Zona Intermareal", "Área Marina", "Ecosistema Costero"]
+      cities: [
+        "Golfo Nuevo",
+        "Golfo San José",
+        "Costa Atlántica",
+        "Playas Protegidas",
+        "Zona de Mareas",
+        "Costas Rocosas",
+        "Bahías",
+        "Zona Intermareal",
+        "Área Marina",
+        "Ecosistema Costero",
+      ],
     },
     {
       title: "Área Protegida",
-      cities: ["Reserva Natural", "Patrimonio UNESCO", "Zona de Conservación", "Hábitat de Fauna", "Área de Protección", "Zona Intangible", "Ecosistema Único", "Fauna Marina Protegida", "Zona de Investigación", "Área de Monitoreo"]
-    }
+      cities: [
+        "Reserva Natural",
+        "Patrimonio UNESCO",
+        "Zona de Conservación",
+        "Hábitat de Fauna",
+        "Área de Protección",
+        "Zona Intangible",
+        "Ecosistema Único",
+        "Fauna Marina Protegida",
+        "Zona de Investigación",
+        "Área de Monitoreo",
+      ],
+    },
   ];
 
   return (

@@ -8,42 +8,42 @@ const NosotrosObjetivos = () => {
       title: "Compromiso Ambiental",
       description:
         "Priorizamos la protección del medio ambiente y el desarrollo sostenible en cada proyecto que emprendemos en la Patagonia.",
-      color: "from-green-500 to-green-600",
+      color: "from-brand-green to-brand-green",
     },
     {
       icon: Award,
       title: "Excelencia Profesional",
       description:
         "Nuestro equipo de consultores ambientales mantiene los más altos estándares de calidad, profesionalismo y actualización continua.",
-      color: "from-emerald-500 to-emerald-600",
+      color: "from-brand-teal to-brand-green",
     },
     {
       icon: Users,
       title: "Trabajo en Equipo",
       description:
         "Colaboramos estrechamente con nuestros clientes para desarrollar soluciones ambientales efectivas, personalizadas e innovadoras.",
-      color: "from-teal-500 to-teal-600",
+      color: "from-brand-lime to-brand-green",
     },
     {
       icon: Clock,
       title: "Respuesta Eficiente",
       description:
         "Ofrecemos soluciones ágiles y efectivas para cumplir con los plazos y requerimientos normativos de cada proyecto ambiental.",
-      color: "from-green-600 to-green-700",
+      color: "from-brand-green to-brand-teal",
     },
     {
       icon: Target,
       title: "Soluciones Integrales",
       description:
         "Brindamos servicios ambientales completos, desde evaluaciones de impacto hasta gestión de residuos, auditorías y certificaciones.",
-      color: "from-emerald-600 to-emerald-700",
+      color: "from-brand-teal to-brand-green",
     },
     {
       icon: Handshake,
       title: "Responsabilidad Social",
       description:
         "Nos comprometemos con el desarrollo sostenible de la comunidad patagónica y el bienestar de las generaciones futuras.",
-      color: "from-teal-600 to-teal-700",
+      color: "from-brand-teal to-brand-green",
     },
   ];
 
@@ -51,8 +51,8 @@ const NosotrosObjetivos = () => {
     <section className="py-16 lg:py-20 bg-gradient-to-br from-white to-green-50 relative overflow-hidden">
       {/* Decorative background */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-0 left-0 w-96 h-96 bg-green-600 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-emerald-600 rounded-full blur-3xl"></div>
+        <div className="absolute top-0 left-0 w-96 h-96 bg-brand-green rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-brand-teal rounded-full blur-3xl"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -86,7 +86,7 @@ const NosotrosObjetivos = () => {
                   </div>
 
                   {/* Content */}
-                  <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-4 group-hover:text-green-700 transition-colors">
+                  <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-4 group-hover:text-brand-teal transition-colors">
                     {value.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed flex-1">

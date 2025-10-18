@@ -24,36 +24,21 @@ const ServicesOverview = () => {
       title: "Proteger",
       description:
         "Protegemos el medio ambiente mediante evaluaciones rigurosas y planes de gestión que minimizan el impacto ambiental de proyectos y operaciones.",
-      features: [
-        "Estudios de Impacto Ambiental",
-        "Auditorías y monitoreo continuo",
-        "Planes de contingencia ambiental",
-      ],
-      color: "from-green-500 to-green-600",
+      color: "from-brand-green to-brand-teal",
     },
     {
       icon: Leaf,
       title: "Conservar",
       description:
         "Desarrollamos estrategias de conservación y uso sustentable de recursos naturales, promoviendo prácticas que benefician al ambiente y la comunidad.",
-      features: [
-        "Gestión de recursos naturales",
-        "Planes de conservación de biodiversidad",
-        "Evaluación de ecosistemas",
-      ],
-      color: "from-emerald-500 to-emerald-600",
+      color: "from-brand-teal to-brand-lime",
     },
     {
       icon: TrendingUp,
       title: "Desarrollar",
       description:
         "Impulsamos el desarrollo sustentable mediante soluciones innovadoras que equilibran el crecimiento económico con la responsabilidad ambiental.",
-      features: [
-        "Certificaciones ambientales ISO 14001",
-        "Capacitación y formación ambiental",
-        "Asesoría en normativa vigente",
-      ],
-      color: "from-teal-500 to-teal-600",
+      color: "from-brand-lime to-brand-green",
     },
   ];
 
@@ -68,7 +53,7 @@ const ServicesOverview = () => {
       icon: Award,
       title: "Experiencia Comprobada",
       description:
-        "Más de 15 años brindando soluciones ambientales exitosas en toda la región patagónica.",
+        "Experiencia en brindando soluciones ambientales exitosas en toda la región patagónica.",
     },
     {
       icon: MapPin,
@@ -81,7 +66,7 @@ const ServicesOverview = () => {
   return (
     <section
       aria-labelledby="services-heading"
-      className="py-16 lg:py-20 bg-gradient-to-br from-gray-50 to-green-50"
+      className="py-16 lg:py-20 bg-gradient-to-br from-gray-50 to-green-50/30"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
@@ -94,7 +79,7 @@ const ServicesOverview = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             En IAAF Ambiental trabajamos para{" "}
-            <strong className="text-green-700">
+            <strong className="text-brand-green">
               proteger, conservar y desarrollar
             </strong>{" "}
             soluciones ambientales que permitan el crecimiento económico en
@@ -110,7 +95,7 @@ const ServicesOverview = () => {
             return (
               <Card
                 key={index}
-                className="hover:shadow-2xl transition-all duration-300 border-t-4 border-t-green-600 hover:scale-105 group bg-white"
+                className="hover:shadow-2xl transition-all duration-300 border-t-4 border-t-brand-teal hover:scale-105 group bg-white"
               >
                 <CardHeader className="text-center pb-4">
                   <div className="flex justify-center mb-4" aria-hidden="true">
@@ -120,35 +105,20 @@ const ServicesOverview = () => {
                       <IconComponent className="h-10 w-10 text-white" />
                     </div>
                   </div>
-                  <CardTitle className="text-2xl text-gray-900 mb-3 group-hover:text-green-700 transition-colors">
+                  <CardTitle className="text-2xl text-gray-900 mb-3 group-hover:text-brand-teal transition-colors">
                     {service.title}
                   </CardTitle>
                   <CardDescription className="text-gray-600 leading-relaxed text-base">
                     {service.description}
                   </CardDescription>
                 </CardHeader>
-                <CardContent>
-                  <ul className="space-y-3">
-                    {service.features.map((feature, featureIndex) => (
-                      <li
-                        key={featureIndex}
-                        className="flex items-start text-gray-700"
-                      >
-                        <CheckCircle className="h-5 w-5 text-green-600 mr-3 flex-shrink-0 mt-0.5" />
-                        <span className="text-sm leading-relaxed">
-                          {feature}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
               </Card>
             );
           })}
         </div>
 
         {/* Features Section */}
-        <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-xl border-2 border-green-100">
+        <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-xl border-2 border-brand-lime/20">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             {features.map((feature, index) => {
               const IconComponent = feature.icon;
@@ -157,7 +127,7 @@ const ServicesOverview = () => {
                   key={index}
                   className="flex flex-col items-center text-center group"
                 >
-                  <div className="flex-shrink-0 w-14 h-14 bg-green-600 rounded-full flex items-center justify-center mb-4 group-hover:bg-green-700 transition-colors shadow-lg">
+                  <div className="flex-shrink-0 w-14 h-14 bg-brand-teal rounded-full flex items-center justify-center mb-4 group-hover:bg-brand-green transition-colors shadow-lg">
                     <IconComponent className="h-7 w-7 text-white" />
                   </div>
                   <h3 className="font-bold text-gray-900 mb-2 text-lg">

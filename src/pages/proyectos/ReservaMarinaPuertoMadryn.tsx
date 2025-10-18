@@ -148,7 +148,7 @@ const ReservaMarinaPuertoMadryn = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="py-16 lg:py-20 bg-gradient-to-br from-blue-50 via-cyan-50 to-teal-50 relative overflow-hidden">
+      <section className="py-16 lg:py-20 bg-gradient-to-br from-blue-50 via-cyan-50 to-green-50/20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 right-0 w-96 h-96 bg-blue-300 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-cyan-300 rounded-full blur-3xl"></div>
@@ -245,7 +245,7 @@ const ReservaMarinaPuertoMadryn = () => {
             {projectPhases.map((phase, index) => {
               const IconComponent = phase.icon;
               const statusColors = {
-                Completado: "bg-green-100 text-green-800 border-green-300",
+                Completado: "bg-brand-lime/10 text-brand-dark border-green-300",
                 "En Progreso": "bg-blue-100 text-blue-800 border-blue-300",
                 Planificado: "bg-gray-100 text-gray-800 border-gray-300",
               };

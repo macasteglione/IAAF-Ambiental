@@ -21,7 +21,7 @@ const ProyectoCard = ({ proyecto }: ProyectoCardProps) => {
       <CardHeader className="pb-4">
         <div className="flex items-start gap-4">
           {/* Icon with gradient background */}
-          <div className="bg-gradient-to-br from-green-500 to-green-600 text-white p-4 rounded-xl flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+          <div className="bg-gradient-to-br from-brand-green to-brand-green text-white p-4 rounded-xl flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
             <proyecto.icon className="h-7 w-7" />
           </div>
           <div className="flex-1">
@@ -47,8 +47,8 @@ const ProyectoCard = ({ proyecto }: ProyectoCardProps) => {
         {/* Services Section */}
         <div className="space-y-3">
           <div className="flex items-center gap-2 mb-3">
-            <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center">
-              <CheckCircle className="h-5 w-5 text-green-700" />
+            <div className="w-8 h-8 bg-brand-lime/10 rounded-lg flex items-center justify-center">
+              <CheckCircle className="h-5 w-5 text-brand-teal" />
             </div>
             <h4 className="font-bold text-gray-900 text-base">
               Servicios Incluidos
@@ -60,7 +60,7 @@ const ProyectoCard = ({ proyecto }: ProyectoCardProps) => {
                 key={idx}
                 className="flex items-start gap-3 text-sm text-gray-700 group/item"
               >
-                <div className="w-5 h-5 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
+                <div className="w-5 h-5 bg-brand-green rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:scale-110 transition-transform">
                   <CheckCircle className="h-3 w-3 text-white" />
                 </div>
                 <span className="leading-relaxed">{service}</span>
@@ -96,7 +96,7 @@ const ProyectoCard = ({ proyecto }: ProyectoCardProps) => {
               <Badge
                 key={idx}
                 variant="outline"
-                className="text-xs px-3 py-1 border-2 border-gray-300 text-gray-700 hover:border-green-500 hover:text-green-700 hover:bg-green-50 transition-all"
+                className="text-xs px-3 py-1 border-2 border-gray-300 text-gray-700 hover:border-green-500 hover:text-brand-teal hover:bg-green-50 transition-all"
               >
                 {event}
               </Badge>
@@ -107,8 +107,8 @@ const ProyectoCard = ({ proyecto }: ProyectoCardProps) => {
         {/* Certifications Section */}
         <div className="space-y-3">
           <div className="flex items-center gap-2 mb-3">
-            <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center">
-              <Award className="h-5 w-5 text-green-700" />
+            <div className="w-8 h-8 bg-brand-lime/10 rounded-lg flex items-center justify-center">
+              <Award className="h-5 w-5 text-brand-teal" />
             </div>
             <h4 className="font-bold text-gray-900 text-base">
               Certificaciones
@@ -118,7 +118,7 @@ const ProyectoCard = ({ proyecto }: ProyectoCardProps) => {
             {proyecto.certifications.map((cert, idx) => (
               <Badge
                 key={idx}
-                className="bg-gradient-to-r from-green-600 to-emerald-600 text-white text-xs px-3 py-1.5 shadow-md hover:shadow-lg hover:scale-105 transition-all border-none"
+                className="bg-gradient-to-r from-brand-green to-brand-green text-white text-xs px-3 py-1.5 shadow-md hover:shadow-lg hover:scale-105 transition-all border-none"
               >
                 <Award className="h-3 w-3 mr-1 inline" />
                 {cert}

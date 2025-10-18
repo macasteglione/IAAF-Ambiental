@@ -1,30 +1,95 @@
-
 const RawsonCovertura = () => {
   const areas = [
     {
       title: "Zona Administrativa",
-      cities: ["Casa de Gobierno", "Legislatura Provincial", "Ministerios", "Tribunales", "Municipalidad", "Organismos Provinciales", "Oficinas Públicas", "Edificios Gubernamentales", "Centro Cívico", "Instituciones Provinciales"]
+      cities: [
+        "Casa de Gobierno",
+        "Legislatura Provincial",
+        "Ministerios",
+        "Tribunales",
+        "Municipalidad",
+        "Organismos Provinciales",
+        "Oficinas Públicas",
+        "Edificios Gubernamentales",
+        "Centro Cívico",
+        "Instituciones Provinciales",
+      ],
     },
     {
       title: "Zona Urbana",
-      cities: ["Rawson Centro", "Barrio Playa Magagna", "Barrio Don Bosco", "Barrio Belgrano", "Barrio San Martín", "Barrio Rawson Norte", "Barrio Rawson Sur", "Zona Residencial", "Barrios Periféricos", "Zona de Viviendas"]
+      cities: [
+        "Rawson Centro",
+        "Barrio Playa Magagna",
+        "Barrio Don Bosco",
+        "Barrio Belgrano",
+        "Barrio San Martín",
+        "Barrio Rawson Norte",
+        "Barrio Rawson Sur",
+        "Zona Residencial",
+        "Barrios Periféricos",
+        "Zona de Viviendas",
+      ],
     },
     {
-      title: "Zona Costera", 
-      cities: ["Playa Unión", "Puerto Rawson", "Playa Magagna", "Costanera", "Zona Portuaria", "Balnearios", "Frente Marítimo", "Zona de Playas", "Paseo Costero", "Área Recreativa Costera"]
+      title: "Zona Costera",
+      cities: [
+        "Playa Unión",
+        "Puerto Rawson",
+        "Playa Magagna",
+        "Costanera",
+        "Zona Portuaria",
+        "Balnearios",
+        "Frente Marítimo",
+        "Zona de Playas",
+        "Paseo Costero",
+        "Área Recreativa Costera",
+      ],
     },
     {
       title: "Zona Comercial y Servicios",
-      cities: ["Centro Comercial", "Zona de Servicios", "Comercios Locales", "Restaurantes", "Hoteles", "Servicios Turísticos", "Locales Gastronómicos", "Emprendimientos", "Oficinas", "Bancos"]
+      cities: [
+        "Centro Comercial",
+        "Zona de Servicios",
+        "Comercios Locales",
+        "Restaurantes",
+        "Hoteles",
+        "Servicios Turísticos",
+        "Locales Gastronómicos",
+        "Emprendimientos",
+        "Oficinas",
+        "Bancos",
+      ],
     },
     {
       title: "Infraestructura y Servicios Públicos",
-      cities: ["Planta de Tratamiento", "Sistema Cloacal", "Red de Agua Potable", "Infraestructura Urbana", "Servicios Sanitarios", "Vertedero", "Planta Potabilizadora", "Terminal de Ómnibus", "Servicios Públicos", "Infraestructura Provincial"]
+      cities: [
+        "Planta de Tratamiento",
+        "Sistema Cloacal",
+        "Red de Agua Potable",
+        "Infraestructura Urbana",
+        "Servicios Sanitarios",
+        "Vertedero",
+        "Planta Potabilizadora",
+        "Terminal de Ómnibus",
+        "Servicios Públicos",
+        "Infraestructura Provincial",
+      ],
     },
     {
       title: "Zona de Expansión",
-      cities: ["Nuevos Desarrollos", "Zona Residencial Norte", "Zona Residencial Sur", "Loteos", "Proyectos Inmobiliarios", "Barrios en Construcción", "Área de Crecimiento", "Periferia Urbana", "Zona de Desarrollo", "Emprendimientos Nuevos"]
-    }
+      cities: [
+        "Nuevos Desarrollos",
+        "Zona Residencial Norte",
+        "Zona Residencial Sur",
+        "Loteos",
+        "Proyectos Inmobiliarios",
+        "Barrios en Construcción",
+        "Área de Crecimiento",
+        "Periferia Urbana",
+        "Zona de Desarrollo",
+        "Emprendimientos Nuevos",
+      ],
+    },
   ];
 
   return (

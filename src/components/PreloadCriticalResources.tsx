@@ -5,8 +5,8 @@ const PreloadCriticalResources = () => {
   useEffect(() => {
     // Preload critical images
     const criticalImages = [
-      '/lovable-uploads/79b6e9f8-e9dc-45a9-807e-b50a03fae874.png',
-      '/lovable-uploads/3e8186d2-1c99-4db7-a536-573f92e38d0d.png'
+      '/src/assets/logo blanco.png',
+      '/src/assets/logo negro.png'
     ];
 
     criticalImages.forEach(src => {

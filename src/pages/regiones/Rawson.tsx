@@ -1,4 +1,3 @@
-
 import Header from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
@@ -12,7 +11,7 @@ import RawsonSEOContent from "@/components/regiones/RawsonSEOContent";
 const Rawson = () => {
   return (
     <div className="min-h-screen">
-      <SEO 
+      <SEO
         title="Servicios Ambientales en Rawson | IAAF Ambiental"
         description="Consultoría ambiental profesional en Rawson, Chubut. Capital de la provincia con desarrollo administrativo, comercial y turístico. Estudios de impacto ambiental, gestión de residuos y auditorías ambientales para proyectos gubernamentales, comerciales y turísticos."
         keywords="consultoría ambiental rawson, estudio impacto ambiental chubut, gestión ambiental rawson, auditoría ambiental capital, servicios ambientales rawson, EIA rawson"
@@ -20,15 +19,39 @@ const Rawson = () => {
         robots="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         serviceSchema={{
           name: "Servicios Ambientales - Rawson",
-          description: "Consultoría ambiental integral en Rawson, capital de la provincia de Chubut",
-          areaServed: ["Rawson Centro", "Playa Unión", "Puerto Rawson", "Barrio Playa Magagna", "Barrio Rawson Centro", "Zona Administrativa", "Zona Comercial", "Zona Costera", "Rawson Norte", "Rawson Sur"],
+          description:
+            "Consultoría ambiental integral en Rawson, capital de la provincia de Chubut",
+          areaServed: [
+            "Rawson Centro",
+            "Playa Unión",
+            "Puerto Rawson",
+            "Barrio Playa Magagna",
+            "Barrio Rawson Centro",
+            "Zona Administrativa",
+            "Zona Comercial",
+            "Zona Costera",
+            "Rawson Norte",
+            "Rawson Sur",
+          ],
           provider: "IAAF Ambiental",
-          url: "https://iaafambiental.com"
+          url: "https://iaafambiental.com",
         }}
         localBusinessSchema={{
           name: "IAAF Ambiental - Rawson",
-          description: "Servicios de consultoría ambiental en Rawson, capital de Chubut",
-          areaServed: ["Rawson Centro", "Playa Unión", "Puerto Rawson", "Barrio Playa Magagna", "Barrio Rawson Centro", "Zona Administrativa", "Zona Comercial", "Zona Costera", "Rawson Norte", "Rawson Sur"],
+          description:
+            "Servicios de consultoría ambiental en Rawson, capital de Chubut",
+          areaServed: [
+            "Rawson Centro",
+            "Playa Unión",
+            "Puerto Rawson",
+            "Barrio Playa Magagna",
+            "Barrio Rawson Centro",
+            "Zona Administrativa",
+            "Zona Comercial",
+            "Zona Costera",
+            "Rawson Norte",
+            "Rawson Sur",
+          ],
           telephone: "+54 280 XXX-XXXX",
           email: "administracion@iaafambiental.com",
           address: {
@@ -36,22 +59,28 @@ const Rawson = () => {
             addressLocality: "Rawson",
             addressRegion: "Chubut",
             postalCode: "9103",
-            addressCountry: "AR"
+            addressCountry: "AR",
           },
           geo: {
             latitude: -43.3002,
-            longitude: -65.1023
+            longitude: -65.1023,
           },
-          serviceType: ["Consultoría Ambiental", "Estudios de Impacto Ambiental", "Gestión Ambiental", "Auditorías Ambientales", "Monitoreo Ambiental"]
+          serviceType: [
+            "Consultoría Ambiental",
+            "Estudios de Impacto Ambiental",
+            "Gestión Ambiental",
+            "Auditorías Ambientales",
+            "Monitoreo Ambiental",
+          ],
         }}
         breadcrumbs={[
           { name: "Inicio", url: "https://iaafambiental.com" },
           { name: "Regiones", url: "https://iaafambiental.com/regiones" },
-          { name: "Rawson", url: "https://iaafambiental.com/regiones/rawson" }
+          { name: "Rawson", url: "https://iaafambiental.com/regiones/rawson" },
         ]}
       />
       <Header />
-      
+
       <main>
         <RawsonHero />
         <RawsonFAQ />
@@ -62,8 +91,8 @@ const Rawson = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="relative overflow-hidden rounded-lg shadow-lg">
-                <img 
-                  src="/lovable-uploads/087234d2-9a7a-43e9-8ca8-aa0b5b7aa797.png"
+                <img
+                  src="/src/assets/rawson-region01.jpg"
                   alt="Rawson - Capital de la provincia de Chubut"
                   className="w-full h-64 object-cover"
                   loading="lazy"
@@ -73,7 +102,7 @@ const Rawson = () => {
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <img
-                  src="/lovable-uploads/a5e78a61-d5cf-4480-bea6-29d9fc2a908c.png"
+                  src="/src/assets/rawson-region02.jpeg"
                   alt="Equipo de IAAF Ambiental brindando servicios ambientales en Rawson"
                   className="w-full h-64 object-cover"
                   loading="lazy"

@@ -8,42 +8,42 @@ const NosotrosServicios = () => {
       title: "Evaluación de Impacto Ambiental",
       description:
         "Estudios de impacto ambiental completos, incluyendo diagnóstico, evaluación de riesgos y planes de gestión ambiental para proyectos de todas las escalas.",
-      color: "from-green-500 to-green-600",
+      color: "from-brand-green to-brand-green",
     },
     {
       icon: Recycle,
       title: "Gestión de Residuos",
       description:
         "Asesoramiento integral en gestión de residuos sólidos urbanos e industriales, incluyendo programas de reducción, reciclaje y disposición final responsable.",
-      color: "from-emerald-500 to-emerald-600",
+      color: "from-brand-teal to-brand-green",
     },
     {
       icon: Award,
       title: "Auditorías Ambientales",
       description:
         "Auditorías ambientales exhaustivas para evaluar el cumplimiento normativo, identificar no conformidades y proponer planes de acción correctiva.",
-      color: "from-teal-500 to-teal-600",
+      color: "from-brand-lime to-brand-green",
     },
     {
       icon: FileCheck,
       title: "Certificaciones ISO",
       description:
         "Asesoramiento para la implementación y certificación de sistemas de gestión ambiental ISO 14001 y otras normativas internacionales.",
-      color: "from-green-600 to-green-700",
+      color: "from-brand-green to-brand-teal",
     },
     {
       icon: Droplet,
       title: "Monitoreo Ambiental",
       description:
         "Monitoreo continuo de calidad de aire, agua y suelo. Análisis de emisiones atmosféricas y control de efluentes líquidos con tecnología de punta.",
-      color: "from-blue-500 to-blue-600",
+      color: "from-brand-teal to-brand-green",
     },
     {
       icon: Leaf,
       title: "Planes de Gestión",
       description:
         "Desarrollo de planes de gestión ambiental integral, programas de educación ambiental y estrategias de desarrollo sustentable.",
-      color: "from-emerald-600 to-emerald-700",
+      color: "from-brand-teal to-brand-green",
     },
   ];
 
@@ -80,7 +80,7 @@ const NosotrosServicios = () => {
                   </div>
 
                   {/* Content */}
-                  <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-4 group-hover:text-green-700 transition-colors">
+                  <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-4 group-hover:text-brand-teal transition-colors">
                     {service.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed flex-1">

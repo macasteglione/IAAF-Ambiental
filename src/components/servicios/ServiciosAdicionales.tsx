@@ -16,13 +16,13 @@ const ServiciosAmbientales = () => {
       name: "Monitoreo Ambiental",
       icon: Leaf,
       description: "Control continuo de parámetros ambientales",
-      color: "from-green-500 to-green-600",
+      color: "from-brand-green to-brand-green",
     },
     {
       name: "Gestión de Residuos",
       icon: Recycle,
       description: "Planes integrales de manejo",
-      color: "from-emerald-500 to-emerald-600",
+      color: "from-brand-teal to-brand-green",
     },
     {
       name: "Control de Calidad del Agua",
@@ -34,7 +34,7 @@ const ServiciosAmbientales = () => {
       name: "Reforestación y Compensación",
       icon: TreePine,
       description: "Programas de restauración ecológica",
-      color: "from-teal-500 to-teal-600",
+      color: "from-brand-lime to-brand-green",
     },
     {
       name: "Gestión de Emisiones",
@@ -63,7 +63,7 @@ const ServiciosAmbientales = () => {
   ];
 
   return (
-    <section className="py-16 lg:py-20 bg-gradient-to-br from-green-700 via-green-600 to-emerald-700 relative overflow-hidden">
+    <section className="py-16 lg:py-20 bg-gradient-to-br from-brand-teal via-brand-green to-brand-green relative overflow-hidden">
       {/* Decorative background */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -103,7 +103,7 @@ const ServiciosAmbientales = () => {
                   </div>
 
                   {/* Content */}
-                  <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-green-700 transition-colors">
+                  <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-brand-teal transition-colors">
                     {service.name}
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed">

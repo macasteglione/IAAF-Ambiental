@@ -8,7 +8,7 @@ const ServiciosProcesos = () => {
       title: "Diagnóstico Inicial",
       description:
         "Reunión inicial para comprender las necesidades específicas, objetivos ambientales y características particulares del proyecto o empresa.",
-      color: "from-green-500 to-green-600",
+      color: "from-brand-green to-brand-green",
     },
     {
       step: "2",
@@ -16,7 +16,7 @@ const ServiciosProcesos = () => {
       title: "Evaluación Ambiental",
       description:
         "Análisis detallado de impactos potenciales, identificación de riesgos ambientales y evaluación de oportunidades de mejora continua.",
-      color: "from-emerald-500 to-emerald-600",
+      color: "from-brand-teal to-brand-green",
     },
     {
       step: "3",
@@ -24,7 +24,7 @@ const ServiciosProcesos = () => {
       title: "Planificación Estratégica",
       description:
         "Diseño de un plan ambiental personalizado con medidas de mitigación, protocolos de monitoreo y estrategias de cumplimiento normativo.",
-      color: "from-teal-500 to-teal-600",
+      color: "from-brand-lime to-brand-green",
     },
     {
       step: "4",
@@ -32,7 +32,7 @@ const ServiciosProcesos = () => {
       title: "Implementación y Seguimiento",
       description:
         "Ejecución del plan con acciones sostenibles, evaluación continua de resultados, ajustes necesarios y mejoras permanentes.",
-      color: "from-green-600 to-green-700",
+      color: "from-brand-green to-brand-teal",
     },
   ];
 
@@ -40,8 +40,8 @@ const ServiciosProcesos = () => {
     <section className="py-16 lg:py-20 bg-gradient-to-br from-gray-50 to-green-50 relative overflow-hidden">
       {/* Decorative background */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-0 left-0 w-96 h-96 bg-green-600 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-emerald-600 rounded-full blur-3xl"></div>
+        <div className="absolute top-0 left-0 w-96 h-96 bg-brand-green rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-brand-teal rounded-full blur-3xl"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -80,13 +80,13 @@ const ServiciosProcesos = () => {
                       </div>
                     </div>
                     {/* Step number badge */}
-                    <div className="absolute -top-2 -right-2 bg-white border-2 border-green-600 text-green-700 rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm shadow-md">
+                    <div className="absolute -top-2 -right-2 bg-white border-2 border-brand-green text-brand-teal rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm shadow-md">
                       {process.step}
                     </div>
                   </div>
 
                   {/* Content */}
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 text-center group-hover:text-green-700 transition-colors">
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 text-center group-hover:text-brand-teal transition-colors">
                     {process.title}
                   </h3>
                   <p className="text-gray-600 text-center leading-relaxed text-sm">

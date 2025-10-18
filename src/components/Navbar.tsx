@@ -89,8 +89,8 @@ const Header = () => {
                   to={item.href}
                   className={`text-base font-medium transition-all duration-200 px-4 py-2 rounded-lg ${
                     isActivePath(item.href)
-                      ? "text-white bg-green-600 shadow-md"
-                      : "text-gray-700 hover:text-green-700 hover:bg-green-50"
+                      ? "text-white bg-brand-green shadow-md"
+                      : "text-gray-700 hover:text-brand-teal hover:bg-green-50"
                   }`}
                   aria-current={isActivePath(item.href) ? 'page' : undefined}
                 >
@@ -102,7 +102,7 @@ const Header = () => {
             <div className="hidden md:flex items-center space-x-4">
               <Button 
                 asChild 
-                className="text-base bg-green-600 hover:bg-green-700 text-white shadow-lg hover:shadow-xl transition-all"
+                className="text-base bg-brand-teal hover:bg-brand-green text-white shadow-lg hover:shadow-xl transition-all"
               >
                 <Link to="/contacto" aria-label="Ir a página de contacto">
                   Contacto
@@ -119,7 +119,7 @@ const Header = () => {
                 aria-label={isMenuOpen ? 'Cerrar menú de navegación' : 'Abrir menú de navegación'}
                 aria-expanded={isMenuOpen}
                 aria-controls="mobile-menu"
-                className="text-green-700"
+                className="text-brand-teal"
               >
                 {isMenuOpen ? (
                   <X className="h-6 w-6" aria-hidden="true" />
@@ -145,8 +145,8 @@ const Header = () => {
                   to={item.href}
                   className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-200 ${
                     isActivePath(item.href)
-                      ? "text-white bg-green-600 shadow-md"
-                      : "text-gray-700 hover:text-green-700 hover:bg-green-50"
+                      ? "text-white bg-brand-green shadow-md"
+                      : "text-gray-700 hover:text-brand-teal hover:bg-green-50"
                   }`}
                   aria-current={isActivePath(item.href) ? 'page' : undefined}
                   onClick={() => setIsMenuOpen(false)}
@@ -157,7 +157,7 @@ const Header = () => {
 
               <Link
                 to="/contacto"
-                className="block px-4 py-3 text-base font-medium rounded-lg text-white bg-green-600 hover:bg-green-700 transition-all duration-200 text-center shadow-md"
+                className="block px-4 py-3 text-base font-medium rounded-lg text-white bg-brand-teal hover:bg-brand-green transition-all duration-200 text-center shadow-md"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contacto

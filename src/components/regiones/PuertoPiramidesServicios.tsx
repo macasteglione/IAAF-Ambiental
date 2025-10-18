@@ -1,5 +1,10 @@
-
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Waves, Hotel, Shield } from "lucide-react";
 
 const PuertoPiramidesServicios = () => {
@@ -7,45 +12,53 @@ const PuertoPiramidesServicios = () => {
     {
       icon: Waves,
       title: "Turismo Náutico y Avistaje",
-      description: "Servicios ambientales especializados para operadores de avistaje de ballenas y turismo marino en área protegida.",
+      description:
+        "Servicios ambientales especializados para operadores de avistaje de ballenas y turismo marino en área protegida.",
       features: [
         "Avistaje de Ballenas",
         "Operadores de Buceo",
         "Kayak y Snorkel",
         "Turismo Náutico",
         "Fauna Marina Protegida",
-        "Normativas UNESCO"
+        "Normativas UNESCO",
       ],
-      suitableFor: ["Avistaje de Ballenas", "Buceo", "Kayak", "Turismo Marino"]
+      suitableFor: ["Avistaje de Ballenas", "Buceo", "Kayak", "Turismo Marino"],
     },
     {
       icon: Hotel,
       title: "Proyectos Hoteleros y Turísticos",
-      description: "Asesoramiento ambiental para hoteles, hosterías y emprendimientos turísticos sustentables.",
+      description:
+        "Asesoramiento ambiental para hoteles, hosterías y emprendimientos turísticos sustentables.",
       features: [
         "Hoteles y Hosterías",
         "Cabañas y Alojamientos",
         "Restaurantes",
         "Campings",
         "Turismo Sustentable",
-        "Infraestructura Turística"
+        "Infraestructura Turística",
       ],
-      suitableFor: ["Hoteles", "Alojamientos", "Gastronomía", "Campings"]
+      suitableFor: ["Hoteles", "Alojamientos", "Gastronomía", "Campings"],
     },
     {
       icon: Shield,
       title: "Conservación y Área Protegida",
-      description: "Estudios ambientales para proyectos en Patrimonio de la Humanidad UNESCO respetando la conservación.",
+      description:
+        "Estudios ambientales para proyectos en Patrimonio de la Humanidad UNESCO respetando la conservación.",
       features: [
         "Patrimonio UNESCO",
         "Península Valdés",
         "Conservación de Fauna",
         "Área Protegida",
         "Normativas Ambientales",
-        "Turismo Responsable"
+        "Turismo Responsable",
       ],
-      suitableFor: ["Conservación", "Proyectos UNESCO", "Turismo Sustentable", "Infraestructura"]
-    }
+      suitableFor: [
+        "Conservación",
+        "Proyectos UNESCO",
+        "Turismo Sustentable",
+        "Infraestructura",
+      ],
+    },
   ];
 
   return (
@@ -66,10 +79,15 @@ const PuertoPiramidesServicios = () => {
               </CardHeader>
               <CardContent>
                 <div className="mb-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">Características del Servicio:</h4>
+                  <h4 className="font-semibold text-gray-900 mb-2">
+                    Características del Servicio:
+                  </h4>
                   <ul className="space-y-1">
                     {service.features.map((feature, idx) => (
-                      <li key={idx} className="text-sm text-gray-600 flex items-center">
+                      <li
+                        key={idx}
+                        className="text-sm text-gray-600 flex items-center"
+                      >
                         <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2" />
                         {feature}
                       </li>
@@ -77,10 +95,15 @@ const PuertoPiramidesServicios = () => {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Adecuado Para:</h4>
+                  <h4 className="font-semibold text-gray-900 mb-2">
+                    Adecuado Para:
+                  </h4>
                   <div className="flex flex-wrap gap-1">
                     {service.suitableFor.map((item, idx) => (
-                      <span key={idx} className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                      <span
+                        key={idx}
+                        className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded"
+                      >
                         {item}
                       </span>
                     ))}

@@ -30,7 +30,7 @@ const NosotrosHistoria = () => {
                 servicios de consultoría ambiental de la más alta calidad en la
                 Patagonia. Lo que comenzó como un pequeño equipo de
                 profesionales comprometidos se ha convertido en una{" "}
-                <strong className="text-green-700">
+                <strong className="text-brand-teal">
                   consultora líder en gestión ambiental
                 </strong>{" "}
                 de la región.
@@ -39,7 +39,7 @@ const NosotrosHistoria = () => {
               <p>
                 Entendemos que cada proyecto es único, por eso trabajamos
                 estrechamente con nuestros clientes para desarrollar{" "}
-                <strong className="text-green-700">
+                <strong className="text-brand-teal">
                   soluciones personalizadas
                 </strong>{" "}
                 que aseguren el cumplimiento normativo y la sustentabilidad
@@ -59,7 +59,7 @@ const NosotrosHistoria = () => {
             {/* Certifications */}
             <div className="mt-8">
               <div className="flex items-center gap-2 mb-4">
-                <Award className="h-5 w-5 text-green-700" />
+                <Award className="h-5 w-5 text-brand-teal" />
                 <h3 className="text-lg font-bold text-gray-900">
                   Certificaciones y Registros
                 </h3>
@@ -69,7 +69,7 @@ const NosotrosHistoria = () => {
                   <div key={index} className="group">
                     <Badge
                       variant="outline"
-                      className="w-full justify-center py-3 px-4 bg-green-600 hover:bg-green-700 border-green-700 text-white font-semibold transition-all cursor-default text-center"
+                      className="w-full justify-center py-3 px-4 bg-brand-green hover:bg-brand-teal border-brand-teal text-white font-semibold transition-all cursor-default text-center"
                     >
                       {cert.name}
                     </Badge>
@@ -84,13 +84,13 @@ const NosotrosHistoria = () => {
 
           {/* Image Section */}
           <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-green-100 group">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-lime/20 group">
               <img
                 src="/src/assets/sobre_nosotros.png"
                 alt="Equipo IAAF Ambiental trabajando en evaluaciones ambientales en la Patagonia"
                 className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-green-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
             </div>
           </div>
         </div>

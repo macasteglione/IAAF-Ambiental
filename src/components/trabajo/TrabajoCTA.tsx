@@ -24,7 +24,7 @@ const TrabajoCTA = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               size="lg"
-              className="bg-white text-green-700 hover:bg-gray-100 font-semibold text-lg px-8 py-6 shadow-2xl hover:shadow-xl transition-all transform hover:scale-105 border-2 border-white/50"
+              className="bg-white text-brand-teal hover:bg-gray-100 font-semibold text-lg px-8 py-6 shadow-2xl hover:shadow-xl transition-all transform hover:scale-105 border-2 border-white/50"
             >
               <Mail className="h-5 w-5 mr-2" />
               Contactar Recursos Humanos
@@ -33,7 +33,7 @@ const TrabajoCTA = () => {
             <Button
               size="lg"
               variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-green-700 font-semibold text-lg px-8 py-6 backdrop-blur-sm bg-white/10 transition-all transform hover:scale-105"
+              className="border-2 border-white text-white hover:bg-white hover:text-brand-teal font-semibold text-lg px-8 py-6 backdrop-blur-sm bg-white/10 transition-all transform hover:scale-105"
             >
               <FileText className="h-5 w-5 mr-2" />
               Enviar CV

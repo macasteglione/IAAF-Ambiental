@@ -1,30 +1,95 @@
-
 const DolavonCovertura = () => {
   const areas = [
     {
       title: "Zona Histórica",
-      cities: ["Molino Harinero Andes", "Molino Harinero Viejo", "Molino Harinero Central", "Centro Histórico", "Edificios Patrimoniales", "Museo Regional", "Capilla Galesa", "Arquitectura Histórica", "Monumentos", "Sitios Patrimoniales"]
+      cities: [
+        "Molino Harinero Andes",
+        "Molino Harinero Viejo",
+        "Molino Harinero Central",
+        "Centro Histórico",
+        "Edificios Patrimoniales",
+        "Museo Regional",
+        "Capilla Galesa",
+        "Arquitectura Histórica",
+        "Monumentos",
+        "Sitios Patrimoniales",
+      ],
     },
     {
       title: "Zona Urbana",
-      cities: ["Dolavon Centro", "Barrio Histórico", "Barrio Norte", "Barrio Sur", "Barrio Este", "Barrio Oeste", "Zona Residencial", "Barrios Periféricos", "Zona de Viviendas", "Área Urbana"]
+      cities: [
+        "Dolavon Centro",
+        "Barrio Histórico",
+        "Barrio Norte",
+        "Barrio Sur",
+        "Barrio Este",
+        "Barrio Oeste",
+        "Zona Residencial",
+        "Barrios Periféricos",
+        "Zona de Viviendas",
+        "Área Urbana",
+      ],
     },
     {
-      title: "Chacras y Zona Rural", 
-      cities: ["Chacras Norte", "Chacras Sur", "Chacras Este", "Chacras Oeste", "Establecimientos Agropecuarios", "Zona de Riego", "Campos Productivos", "Quintas", "Huertas", "Zona Agrícola"]
+      title: "Chacras y Zona Rural",
+      cities: [
+        "Chacras Norte",
+        "Chacras Sur",
+        "Chacras Este",
+        "Chacras Oeste",
+        "Establecimientos Agropecuarios",
+        "Zona de Riego",
+        "Campos Productivos",
+        "Quintas",
+        "Huertas",
+        "Zona Agrícola",
+      ],
     },
     {
       title: "Zona Turística",
-      cities: ["Circuito de Molinos", "Paseo Turístico", "Zona de Servicios Turísticos", "Alojamientos", "Restaurantes", "Artesanías", "Emprendimientos Turísticos", "Casas de Té", "Guías Turísticas", "Atractivos Culturales"]
+      cities: [
+        "Circuito de Molinos",
+        "Paseo Turístico",
+        "Zona de Servicios Turísticos",
+        "Alojamientos",
+        "Restaurantes",
+        "Artesanías",
+        "Emprendimientos Turísticos",
+        "Casas de Té",
+        "Guías Turísticas",
+        "Atractivos Culturales",
+      ],
     },
     {
       title: "Comercios y Servicios",
-      cities: ["Centro Comercial", "Comercios Locales", "Servicios", "Locales Gastronómicos", "Panaderías", "Almacenes", "Emprendimientos", "Oficinas", "Servicios Turísticos", "Negocios Locales"]
+      cities: [
+        "Centro Comercial",
+        "Comercios Locales",
+        "Servicios",
+        "Locales Gastronómicos",
+        "Panaderías",
+        "Almacenes",
+        "Emprendimientos",
+        "Oficinas",
+        "Servicios Turísticos",
+        "Negocios Locales",
+      ],
     },
     {
       title: "Zona de Expansión",
-      cities: ["Nuevos Desarrollos", "Zona Residencial Norte", "Zona Residencial Sur", "Loteos", "Proyectos Inmobiliarios", "Barrios en Construcción", "Área de Crecimiento", "Periferia Urbana", "Zona de Desarrollo", "Emprendimientos Nuevos"]
-    }
+      cities: [
+        "Nuevos Desarrollos",
+        "Zona Residencial Norte",
+        "Zona Residencial Sur",
+        "Loteos",
+        "Proyectos Inmobiliarios",
+        "Barrios en Construcción",
+        "Área de Crecimiento",
+        "Periferia Urbana",
+        "Zona de Desarrollo",
+        "Emprendimientos Nuevos",
+      ],
+    },
   ];
 
   return (

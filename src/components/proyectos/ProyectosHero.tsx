@@ -1,8 +1,8 @@
 const ProyectosHero = () => {
   return (
     <section
-      className="text-white py-16 lg:py-20 relative overflow-hidden"
-      style={{ backgroundColor: "#006400" }}
+      className="bg-gradient-to-br from-brand-teal via-brand-green to-brand-lime text-white py-16 lg:py-20 relative overflow-hidden"
+      style={{ backgroundColor: "#5AB75B" }}
     >
       {/* Decorative background elements */}
       <div className="absolute inset-0 opacity-5">

@@ -11,7 +11,7 @@ const ContactoMetodos = () => {
       description:
         "Atención telefónica para consultas y asesoramiento con nuestro equipo profesional.",
       link: "tel:+542804123456",
-      color: "from-green-500 to-green-600",
+      color: "from-brand-green to-brand-green",
     },
     {
       icon: Mail,
@@ -21,7 +21,7 @@ const ContactoMetodos = () => {
       description:
         "Para cotizaciones, información general y consultas técnicas por escrito.",
       link: "mailto:contacto@iaafambiental.com",
-      color: "from-emerald-500 to-emerald-600",
+      color: "from-brand-teal to-brand-green",
     },
     {
       icon: MapPin,
@@ -31,7 +31,7 @@ const ContactoMetodos = () => {
       description:
         "Nuestra sede principal brindando servicios de consultoría en toda la región patagónica.",
       link: null,
-      color: "from-teal-500 to-teal-600",
+      color: "from-brand-lime to-brand-green",
     },
     {
       icon: Clock,
@@ -41,7 +41,7 @@ const ContactoMetodos = () => {
       description:
         "Consultas técnicas y asesoramiento disponible en horario laboral.",
       link: null,
-      color: "from-green-600 to-green-700",
+      color: "from-brand-green to-brand-teal",
     },
   ];
 
@@ -90,7 +90,7 @@ const ContactoMetodos = () => {
                     method.link
                       ? "hover:shadow-2xl hover:scale-105 cursor-pointer"
                       : "hover:shadow-lg"
-                  } border-l-green-600 group`}
+                  } border-l-brand-green group`}
                 >
                   <CardHeader className="pb-4">
                     <div
@@ -98,7 +98,7 @@ const ContactoMetodos = () => {
                     >
                       <method.icon className="h-8 w-8" />
                     </div>
-                    <CardTitle className="text-xl text-gray-900 group-hover:text-green-700 transition-colors">
+                    <CardTitle className="text-xl text-gray-900 group-hover:text-brand-teal transition-colors">
                       {method.title}
                     </CardTitle>
                   </CardHeader>
@@ -107,7 +107,7 @@ const ContactoMetodos = () => {
                       {method.primary}
                     </p>
                     {method.secondary && (
-                      <p className="text-sm font-semibold text-green-700 bg-green-50 inline-block px-3 py-1 rounded-full">
+                      <p className="text-sm font-semibold text-brand-teal bg-green-50 inline-block px-3 py-1 rounded-full">
                         {method.secondary}
                       </p>
                     )}

@@ -66,7 +66,7 @@ const ContactoCamposFormulario = ({
     <div className="space-y-6">
       {/* Información Personal */}
       <div className="space-y-4">
-        <div className="border-l-4 border-green-600 pl-4">
+        <div className="border-l-4 border-brand-green pl-4">
           <h3 className="text-lg font-semibold text-gray-900">Información de Contacto</h3>
           <p className="text-sm text-gray-600">Los campos con (*) son obligatorios</p>
         </div>
@@ -84,7 +84,7 @@ const ContactoCamposFormulario = ({
               required
               placeholder="Ej: Juan Pérez"
               disabled={disabled}
-              className="border-gray-300 focus:border-green-600 focus:ring-green-600"
+              className="border-gray-300 focus:border-brand-green focus:ring-brand-green"
             />
           </div>
           
@@ -101,7 +101,7 @@ const ContactoCamposFormulario = ({
               required
               placeholder="ejemplo@email.com"
               disabled={disabled}
-              className="border-gray-300 focus:border-green-600 focus:ring-green-600"
+              className="border-gray-300 focus:border-brand-green focus:ring-brand-green"
             />
             <p className="text-xs text-gray-500">Enviaremos la respuesta a este correo</p>
           </div>
@@ -121,7 +121,7 @@ const ContactoCamposFormulario = ({
               required
               placeholder="+54 280 XXX-XXXX"
               disabled={disabled}
-              className="border-gray-300 focus:border-green-600 focus:ring-green-600"
+              className="border-gray-300 focus:border-brand-green focus:ring-brand-green"
             />
             <p className="text-xs text-gray-500">Incluya código de área</p>
           </div>
@@ -135,7 +135,7 @@ const ContactoCamposFormulario = ({
               onValueChange={(value) => handleSelectChange('companySize', value)}
               disabled={disabled}
             >
-              <SelectTrigger className="border-gray-300 focus:border-green-600 focus:ring-green-600">
+              <SelectTrigger className="border-gray-300 focus:border-brand-green focus:ring-brand-green">
                 <SelectValue placeholder="Seleccione una opción" />
               </SelectTrigger>
               <SelectContent>
@@ -152,7 +152,7 @@ const ContactoCamposFormulario = ({
 
       {/* Información del Proyecto */}
       <div className="space-y-4">
-        <div className="border-l-4 border-green-600 pl-4">
+        <div className="border-l-4 border-brand-green pl-4">
           <h3 className="text-lg font-semibold text-gray-900">Detalles del Proyecto</h3>
           <p className="text-sm text-gray-600">Ayúdanos a entender mejor sus necesidades</p>
         </div>
@@ -166,7 +166,7 @@ const ContactoCamposFormulario = ({
             onValueChange={(value) => handleSelectChange('projectType', value)}
             disabled={disabled}
           >
-            <SelectTrigger className="border-gray-300 focus:border-green-600 focus:ring-green-600">
+            <SelectTrigger className="border-gray-300 focus:border-brand-green focus:ring-brand-green">
               <SelectValue placeholder="Seleccione un servicio" />
             </SelectTrigger>
             <SelectContent>
@@ -191,7 +191,7 @@ const ContactoCamposFormulario = ({
               onChange={onInputChange}
               placeholder="Ej: Puerto Madryn, Trelew, etc."
               disabled={disabled}
-              className="border-gray-300 focus:border-green-600 focus:ring-green-600"
+              className="border-gray-300 focus:border-brand-green focus:ring-brand-green"
             />
           </div>
 
@@ -207,7 +207,7 @@ const ContactoCamposFormulario = ({
               onChange={onInputChange}
               disabled={disabled}
               min={new Date().toISOString().split('T')[0]}
-              className="border-gray-300 focus:border-green-600 focus:ring-green-600"
+              className="border-gray-300 focus:border-brand-green focus:ring-brand-green"
             />
             <p className="text-xs text-gray-500">¿Cuándo necesita comenzar?</p>
           </div>
@@ -216,7 +216,7 @@ const ContactoCamposFormulario = ({
 
       {/* Mensaje */}
       <div className="space-y-4">
-        <div className="border-l-4 border-green-600 pl-4">
+        <div className="border-l-4 border-brand-green pl-4">
           <h3 className="text-lg font-semibold text-gray-900">Información Adicional</h3>
           <p className="text-sm text-gray-600">Cuéntenos más sobre su proyecto</p>
         </div>
@@ -233,7 +233,7 @@ const ContactoCamposFormulario = ({
             placeholder="Describa su proyecto, requisitos específicos, objetivos, o cualquier otra información relevante que nos ayude a entender mejor sus necesidades..."
             rows={6}
             disabled={disabled}
-            className="border-gray-300 focus:border-green-600 focus:ring-green-600 resize-none"
+            className="border-gray-300 focus:border-brand-green focus:ring-brand-green resize-none"
           />
           <p className="text-xs text-gray-500">
             {formData.message.length}/1000 caracteres
@@ -242,15 +242,15 @@ const ContactoCamposFormulario = ({
       </div>
 
       {/* Privacy Notice */}
-      <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+      <div className="bg-green-50 border border-brand-lime/30 rounded-lg p-4">
         <div className="flex items-start gap-3">
-          <svg className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
           </svg>
           <div className="text-xs text-gray-700 leading-relaxed">
-            <strong className="text-green-800">Protección de Datos:</strong> Sus datos serán tratados de forma confidencial 
+            <strong className="text-brand-dark">Protección de Datos:</strong> Sus datos serán tratados de forma confidencial 
             y utilizados únicamente para responder a su consulta. Consulte nuestra{" "}
-            <a href="/privacidad" className="text-green-700 underline hover:text-green-800">
+            <a href="/privacidad" className="text-brand-teal underline hover:text-brand-dark">
               Política de Privacidad
             </a>{" "}
             para más información.

@@ -222,7 +222,7 @@ const Terminos = () => {
               consulte nuestra{" "}
               <a
                 href="/privacidad"
-                className="text-green-600 hover:underline font-semibold"
+                className="text-brand-green hover:underline font-semibold"
               >
                 Política de Privacidad
               </a>

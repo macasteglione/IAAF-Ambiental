@@ -1,30 +1,95 @@
-
 const PuertoPiramidesCovertura = () => {
   const areas = [
     {
       title: "Zona Costera",
-      cities: ["Playa Principal", "Zona de Avistaje de Ballenas", "Embarcadero", "Playa Norte", "Playa Sur", "Costanera", "Frente Marítimo", "Zona de Buceo", "Área de Kayak", "Zona de Snorkel"]
+      cities: [
+        "Playa Principal",
+        "Zona de Avistaje de Ballenas",
+        "Embarcadero",
+        "Playa Norte",
+        "Playa Sur",
+        "Costanera",
+        "Frente Marítimo",
+        "Zona de Buceo",
+        "Área de Kayak",
+        "Zona de Snorkel",
+      ],
     },
     {
       title: "Zona Hotelera y Turística",
-      cities: ["Hoteles", "Hosterías", "Cabañas", "Apart Hoteles", "Alojamientos Turísticos", "Campings", "Zona de Servicios Turísticos", "Restaurantes", "Locales Gastronómicos", "Emprendimientos Turísticos"]
+      cities: [
+        "Hoteles",
+        "Hosterías",
+        "Cabañas",
+        "Apart Hoteles",
+        "Alojamientos Turísticos",
+        "Campings",
+        "Zona de Servicios Turísticos",
+        "Restaurantes",
+        "Locales Gastronómicos",
+        "Emprendimientos Turísticos",
+      ],
     },
     {
-      title: "Zona Comercial", 
-      cities: ["Centro Comercial", "Comercios Locales", "Artesanías", "Tiendas de Souvenirs", "Servicios Turísticos", "Agencias de Excursiones", "Operadores de Avistaje", "Locales de Buceo", "Guías Turísticas", "Servicios Náuticos"]
+      title: "Zona Comercial",
+      cities: [
+        "Centro Comercial",
+        "Comercios Locales",
+        "Artesanías",
+        "Tiendas de Souvenirs",
+        "Servicios Turísticos",
+        "Agencias de Excursiones",
+        "Operadores de Avistaje",
+        "Locales de Buceo",
+        "Guías Turísticas",
+        "Servicios Náuticos",
+      ],
     },
     {
       title: "Península Valdés",
-      cities: ["Reserva Natural", "Área Protegida UNESCO", "Zona de Conservación", "Hábitat de Fauna Marina", "Zona de Lobos Marinos", "Zona de Elefantes Marinos", "Área de Aves", "Zona de Pingüinos", "Ecosistema Costero", "Patrimonio Natural"]
+      cities: [
+        "Reserva Natural",
+        "Área Protegida UNESCO",
+        "Zona de Conservación",
+        "Hábitat de Fauna Marina",
+        "Zona de Lobos Marinos",
+        "Zona de Elefantes Marinos",
+        "Área de Aves",
+        "Zona de Pingüinos",
+        "Ecosistema Costero",
+        "Patrimonio Natural",
+      ],
     },
     {
       title: "Zona Residencial",
-      cities: ["Puerto Pirámides Centro", "Barrio Residencial", "Zona de Viviendas", "Barrio Norte", "Barrio Sur", "Área Urbana", "Zona Habitacional", "Viviendas Permanentes", "Residencias", "Barrios Locales"]
+      cities: [
+        "Puerto Pirámides Centro",
+        "Barrio Residencial",
+        "Zona de Viviendas",
+        "Barrio Norte",
+        "Barrio Sur",
+        "Área Urbana",
+        "Zona Habitacional",
+        "Viviendas Permanentes",
+        "Residencias",
+        "Barrios Locales",
+      ],
     },
     {
       title: "Infraestructura y Servicios",
-      cities: ["Servicios Públicos", "Planta de Tratamiento", "Sistema de Agua", "Infraestructura Urbana", "Terminal de Ómnibus", "Estación de Servicio", "Centro de Interpretación", "Museo", "Oficina de Turismo", "Servicios Sanitarios"]
-    }
+      cities: [
+        "Servicios Públicos",
+        "Planta de Tratamiento",
+        "Sistema de Agua",
+        "Infraestructura Urbana",
+        "Terminal de Ómnibus",
+        "Estación de Servicio",
+        "Centro de Interpretación",
+        "Museo",
+        "Oficina de Turismo",
+        "Servicios Sanitarios",
+      ],
+    },
   ];
 
   return (

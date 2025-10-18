@@ -1,6 +1,6 @@
 const ContactoHero = () => {
   return (
-    <section className="bg-[#33B779] text-white py-16 lg:py-20 relative overflow-hidden">
+    <section className="bg-gradient-to-r from-[#5AB75B] to-[#33B779] text-white py-16 lg:py-20 relative overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 right-10 w-96 h-96 bg-white rounded-full blur-3xl"></div>

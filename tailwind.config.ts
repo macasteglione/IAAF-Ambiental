@@ -29,19 +29,19 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#B0C933', // Green yellow
-					foreground: '#000000',
+					DEFAULT: '#B0C933', // Verde hojas1 - verde lima/amarillo
+					foreground: '#30252A', // Letras Isologo
 					50: '#f8fef0',
 					100: '#f0fce1',
 					500: '#B0C933',
-					600: '#b8dc05',
-					700: '#9ec004',
-					800: '#84a403',
-					900: '#6a8802',
+					600: '#9eb82d',
+					700: '#8ca627',
+					800: '#7a9421',
+					900: '#68821b',
 				},
 				secondary: {
-					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					DEFAULT: '#5AB75B', // Verde hojas2 - verde medio
+					foreground: '#ffffff'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -52,7 +52,7 @@ export default {
 					foreground: 'hsl(var(--muted-foreground))'
 				},
 				accent: {
-					DEFAULT: '#006400', // Dark green
+					DEFAULT: '#33B779', // Verde hojas3 - verde turquesa
 					foreground: '#ffffff'
 				},
 				popover: {
@@ -73,11 +73,18 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				medical: {
-					blue: '#B0C933', // Changed to green yellow
-					lightBlue: '#f8fef0', // Light yellow variant
-					green: '#006400', // Dark green
-					darkGreen: '#30252A', // Dark green
+				brand: {
+					dark: '#30252A', // Letras Isologo - marrón oscuro
+					lime: '#B0C933', // Verde hojas1 - verde lima/amarillo
+					green: '#5AB75B', // Verde hojas2 - verde medio
+					teal: '#33B779', // Verde hojas3 - verde turquesa
+				},
+				iaaf: {
+					blue: '#B0C933', // Verde hojas1
+					lightBlue: '#f8fef0', // Light variant
+					green: '#5AB75B', // Verde hojas2
+					darkGreen: '#30252A', // Letras Isologo
+					teal: '#33B779', // Verde hojas3
 					gray: '#6b7280',
 					lightGray: '#f9fafb'
 				}

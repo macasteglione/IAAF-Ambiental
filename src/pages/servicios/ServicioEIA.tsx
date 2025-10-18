@@ -139,25 +139,25 @@ const ServicioEIA = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="py-16 lg:py-20 bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-green-300 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-emerald-300 rounded-full blur-3xl"></div>
+      <section className="py-16 lg:py-20 bg-gradient-to-br from-brand-green via-brand-teal to-brand-lime relative overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-brand-dark rounded-full blur-3xl"></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 leading-tight">
               Estudios de Impacto Ambiental (EIA)
             </h1>
-            <p className="text-xl lg:text-2xl text-gray-700 max-w-4xl mx-auto mb-8 leading-relaxed">
+            <p className="text-xl lg:text-2xl text-white/95 max-w-4xl mx-auto mb-8 leading-relaxed">
               Evaluaciones ambientales profesionales para proyectos en la
               Patagonia. Nuestro equipo certificado realiza EIA completos
               garantizando cumplimiento normativo, identificación de impactos y
               propuestas de mitigación efectivas para obras civiles, industria y
               turismo sustentable.
             </p>
-            <div className="flex items-center justify-center text-green-700 mb-8">
+            <div className="flex items-center justify-center text-white mb-8">
               <MapPin className="h-6 w-6 mr-2" />
               <span className="text-lg font-semibold">
                 Puerto Madryn, Trelew, Rawson y toda la Región Patagónica
@@ -174,8 +174,8 @@ const ServicioEIA = () => {
             ¿Por Qué Elegir Nuestros Servicios de EIA?
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center bg-green-50 rounded-2xl p-8 border-2 border-green-100 hover:border-green-300 hover:shadow-lg transition-all">
-              <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="text-center bg-green-50 rounded-2xl p-8 border-2 border-brand-lime/20 hover:border-green-300 hover:shadow-lg transition-all">
+              <div className="w-16 h-16 bg-brand-green rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">
@@ -187,8 +187,8 @@ const ServicioEIA = () => {
                 argentina.
               </p>
             </div>
-            <div className="text-center bg-green-50 rounded-2xl p-8 border-2 border-green-100 hover:border-green-300 hover:shadow-lg transition-all">
-              <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="text-center bg-green-50 rounded-2xl p-8 border-2 border-brand-lime/20 hover:border-green-300 hover:shadow-lg transition-all">
+              <div className="w-16 h-16 bg-brand-green rounded-full flex items-center justify-center mx-auto mb-4">
                 <CheckCircle className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">
@@ -199,8 +199,8 @@ const ServicioEIA = () => {
                 nacional vigente en materia ambiental.
               </p>
             </div>
-            <div className="text-center bg-green-50 rounded-2xl p-8 border-2 border-green-100 hover:border-green-300 hover:shadow-lg transition-all">
-              <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="text-center bg-green-50 rounded-2xl p-8 border-2 border-brand-lime/20 hover:border-green-300 hover:shadow-lg transition-all">
+              <div className="w-16 h-16 bg-brand-green rounded-full flex items-center justify-center mx-auto mb-4">
                 <Shield className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">
@@ -230,10 +230,10 @@ const ServicioEIA = () => {
                   className="hover:shadow-2xl transition-all duration-300 border-2 border-gray-200 hover:border-green-300 group"
                 >
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform">
+                    <div className="w-16 h-16 bg-gradient-to-br from-brand-green to-brand-green rounded-2xl flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform">
                       <IconComponent className="h-8 w-8 text-white" />
                     </div>
-                    <CardTitle className="text-xl lg:text-2xl group-hover:text-green-700 transition-colors">
+                    <CardTitle className="text-xl lg:text-2xl group-hover:text-brand-teal transition-colors">
                       {service.title}
                     </CardTitle>
                     <CardDescription className="text-base leading-relaxed">
@@ -243,7 +243,7 @@ const ServicioEIA = () => {
                   <CardContent>
                     <div className="mb-4">
                       <h4 className="font-bold text-gray-900 mb-3 flex items-center gap-2">
-                        <CheckCircle className="h-5 w-5 text-green-600" />
+                        <CheckCircle className="h-5 w-5 text-brand-green" />
                         Servicios Incluidos:
                       </h4>
                       <ul className="space-y-2">
@@ -252,7 +252,7 @@ const ServicioEIA = () => {
                             key={idx}
                             className="text-sm text-gray-700 flex items-start gap-2"
                           >
-                            <div className="w-5 h-5 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                            <div className="w-5 h-5 bg-brand-green rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                               <CheckCircle className="h-3 w-3 text-white" />
                             </div>
                             <span className="leading-relaxed">{feature}</span>
@@ -275,51 +275,51 @@ const ServicioEIA = () => {
             Proceso del Estudio de Impacto Ambiental
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-green-50 rounded-2xl p-8 border-2 border-green-100">
+            <div className="bg-green-50 rounded-2xl p-8 border-2 border-brand-lime/20">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 bg-brand-green rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white font-bold">1</span>
                 </div>
                 Etapas del EIA
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start gap-3">
-                  <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
                     <strong>Diagnóstico:</strong> Relevamiento de la situación
                     ambiental actual
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
                     <strong>Identificación:</strong> Determinación de impactos
                     potenciales
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
                     <strong>Evaluación:</strong> Análisis de magnitud y
                     significancia
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
                     <strong>Mitigación:</strong> Propuestas de medidas
                     correctivas
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
                     <strong>Plan de Gestión:</strong> Estrategias de
                     implementación
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
                     <strong>Seguimiento:</strong> Monitoreo y control
                     post-proyecto
@@ -327,47 +327,47 @@ const ServicioEIA = () => {
                 </li>
               </ul>
             </div>
-            <div className="bg-green-50 rounded-2xl p-8 border-2 border-green-100">
+            <div className="bg-green-50 rounded-2xl p-8 border-2 border-brand-lime/20">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 bg-brand-green rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white font-bold">2</span>
                 </div>
                 Componentes Evaluados
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start gap-3">
-                  <Leaf className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <Leaf className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
                     <strong>Medio Físico:</strong> Aire, agua, suelo, clima
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Leaf className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <Leaf className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
                     <strong>Medio Biótico:</strong> Flora, fauna, ecosistemas
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Leaf className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <Leaf className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
                     <strong>Medio Social:</strong> Población, economía, cultura
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Leaf className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <Leaf className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
                     <strong>Paisaje:</strong> Impacto visual y estético
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Leaf className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <Leaf className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
                     <strong>Patrimonio:</strong> Recursos culturales e
                     históricos
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Leaf className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <Leaf className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
                     <strong>Riesgos:</strong> Evaluación de contingencias
                   </span>
@@ -396,7 +396,7 @@ const ServicioEIA = () => {
       </div>
 
       {/* CTA Section */}
-      <section className="py-16 lg:py-20 bg-gradient-to-r from-green-600 to-emerald-700 text-white relative overflow-hidden">
+      <section className="py-16 lg:py-20 bg-gradient-to-r from-brand-green to-brand-green text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -415,7 +415,7 @@ const ServicioEIA = () => {
             <Button
               asChild
               size="lg"
-              className="bg-white text-green-700 hover:bg-gray-50 font-bold text-lg px-8 py-6 shadow-2xl"
+              className="bg-white text-brand-teal hover:bg-gray-50 font-bold text-lg px-8 py-6 shadow-2xl"
             >
               <Link to="/contacto">Solicitar Cotización</Link>
             </Button>

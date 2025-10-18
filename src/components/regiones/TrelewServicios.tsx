@@ -58,8 +58,8 @@ const TrelewServicios = () => {
           {services.map((service, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="bg-green-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
-                  <service.icon className="h-6 w-6 text-green-600" />
+                <div className="bg-brand-lime/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                  <service.icon className="h-6 w-6 text-brand-green" />
                 </div>
                 <CardTitle className="text-xl">{service.title}</CardTitle>
                 <CardDescription>{service.description}</CardDescription>
@@ -70,7 +70,7 @@ const TrelewServicios = () => {
                   <ul className="space-y-1">
                     {service.features.map((feature, idx) => (
                       <li key={idx} className="text-sm text-gray-600 flex items-center">
-                        <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-2" />
+                        <div className="w-1.5 h-1.5 bg-brand-green rounded-full mr-2" />
                         {feature}
                       </li>
                     ))}
@@ -80,7 +80,7 @@ const TrelewServicios = () => {
                   <h4 className="font-semibold text-gray-900 mb-2">Adecuado Para:</h4>
                   <div className="flex flex-wrap gap-1">
                     {service.suitableFor.map((item, idx) => (
-                      <span key={idx} className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">
+                      <span key={idx} className="bg-brand-lime/10 text-brand-dark text-xs px-2 py-1 rounded">
                         {item}
                       </span>
                     ))}

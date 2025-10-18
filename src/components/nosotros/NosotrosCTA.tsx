@@ -4,7 +4,7 @@ import { Phone, Mail, ArrowRight } from "lucide-react";
 
 const NosotrosCTA = () => {
   return (
-    <section className="py-16 lg:py-20 bg-gradient-to-r from-green-600 via-emerald-600 to-green-700 text-white relative overflow-hidden">
+    <section className="py-16 lg:py-20 bg-gradient-to-r from-brand-green via-brand-teal to-brand-teal text-white relative overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -18,9 +18,8 @@ const NosotrosCTA = () => {
           </h2>
 
           <p className="text-xl lg:text-2xl mb-10 max-w-3xl mx-auto text-white/95 leading-relaxed">
-            Únase a las <strong>200+ empresas</strong> que confían en IAAF
-            Ambiental para sus necesidades de consultoría y gestión ambiental en
-            la Patagonia.
+            Únase a las empresas que confían en IAAF Ambiental para sus
+            necesidades de consultoría y gestión ambiental en la Patagonia.
           </p>
 
           {/* Main CTAs */}
@@ -28,7 +27,7 @@ const NosotrosCTA = () => {
             <Button
               asChild
               size="lg"
-              className="bg-white text-green-700 hover:bg-gray-50 font-bold text-lg px-8 py-6 shadow-2xl hover:shadow-white/20 transition-all transform hover:scale-105"
+              className="bg-white text-brand-teal hover:bg-gray-50 font-bold text-lg px-8 py-6 shadow-2xl hover:shadow-white/20 transition-all transform hover:scale-105"
             >
               <Link to="/servicios">
                 Ver Nuestros Servicios
@@ -40,7 +39,7 @@ const NosotrosCTA = () => {
               asChild
               size="lg"
               variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-green-700 font-bold text-lg px-8 py-6 backdrop-blur-sm bg-white/10 transition-all transform hover:scale-105"
+              className="border-2 border-white text-white hover:bg-white hover:text-brand-teal font-bold text-lg px-8 py-6 backdrop-blur-sm bg-white/10 transition-all transform hover:scale-105"
             >
               <Link to="/contacto">Solicitar Consultoría</Link>
             </Button>

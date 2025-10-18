@@ -37,7 +37,7 @@ const ServiciosLista = () => {
         "Interacción con organismos",
       ],
       suitable: ["Obras civiles", "Industria", "Energía", "Turismo"],
-      color: "from-green-500 to-green-600",
+      color: "from-brand-green to-brand-green",
     },
     {
       icon: TreePine,
@@ -59,7 +59,7 @@ const ServiciosLista = () => {
         "Proyectos extractivos",
         "Construcción",
       ],
-      color: "from-emerald-500 to-emerald-600",
+      color: "from-brand-teal to-brand-green",
     },
     {
       icon: Waves,
@@ -103,7 +103,7 @@ const ServiciosLista = () => {
         "Industria",
         "ONGs",
       ],
-      color: "from-teal-500 to-teal-600",
+      color: "from-brand-lime to-brand-green",
     },
     {
       icon: FlaskConical,
@@ -198,7 +198,7 @@ const ServiciosLista = () => {
         "Estudios de arquitectura",
         "Ingenierías",
       ],
-      color: "from-green-600 to-green-700",
+      color: "from-brand-green to-brand-teal",
     },
   ];
 
@@ -214,9 +214,9 @@ const ServiciosLista = () => {
             Nuestros Principales Servicios
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Soluciones ambientales integrales adaptadas a las necesidades de
-            cada proyecto en la región patagónica, garantizando cumplimiento
-            normativo y sustentabilidad.
+            Desde estudios de impacto hasta capacitación ambiental, cada servicio
+            está diseñado para proteger el ambiente patagónico y asegurar el
+            cumplimiento de la normativa vigente.
           </p>
         </div>
 
@@ -264,7 +264,7 @@ const ServiciosLista = () => {
                       to={`/servicios/${service.title
                         .toLowerCase()
                         .replace(/\s+/g, "-")}`}
-                      className="hover:text-green-600 transition-colors group-hover:text-green-700"
+                      className="hover:text-brand-green transition-colors group-hover:text-brand-teal"
                     >
                       {service.title}
                     </Link>
@@ -278,7 +278,7 @@ const ServiciosLista = () => {
                   {/* Features */}
                   <div>
                     <h4 className="font-bold text-gray-900 mb-3 flex items-center gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600" />
+                      <CheckCircle className="h-5 w-5 text-brand-green" />
                       Características:
                     </h4>
                     <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -287,7 +287,7 @@ const ServiciosLista = () => {
                           key={idx}
                           className="flex items-start gap-2 text-sm text-gray-700"
                         >
-                          <div className="w-5 h-5 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <div className="w-5 h-5 bg-brand-green rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                             <CheckCircle className="h-3 w-3 text-white" />
                           </div>
                           <span className="leading-relaxed">{feature}</span>
@@ -305,7 +305,7 @@ const ServiciosLista = () => {
                       {service.suitable.map((item, idx) => (
                         <Badge
                           key={idx}
-                          className="text-xs px-3 py-1.5 bg-green-600 hover:bg-green-700 text-white border-none font-medium transition-all hover:scale-105"
+                          className="text-xs px-3 py-1.5 bg-brand-green hover:bg-brand-teal text-white border-none font-medium transition-all hover:scale-105"
                         >
                           {item}
                         </Badge>

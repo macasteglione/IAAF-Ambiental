@@ -13,10 +13,6 @@ import { Link } from "react-router-dom";
 const ContactoInfo = () => {
   const benefits = [
     {
-      icon: Award,
-      text: "15+ años de experiencia en consultoría ambiental",
-    },
-    {
       icon: Users,
       text: "Equipo de profesionales especializados",
     },
@@ -48,7 +44,7 @@ const ContactoInfo = () => {
   return (
     <div className="space-y-6">
       {/* Why Choose Us Card */}
-      <Card className="bg-gradient-to-br from-green-600 to-emerald-700 text-white border-none shadow-2xl overflow-hidden relative">
+      <Card className="bg-gradient-to-br from-brand-green to-brand-green text-white border-none shadow-2xl overflow-hidden relative">
         {/* Decorative background */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 right-0 w-64 h-64 bg-white rounded-full blur-3xl"></div>
@@ -84,10 +80,10 @@ const ContactoInfo = () => {
       </Card>
 
       {/* Service Areas Card */}
-      <Card className="shadow-lg border-2 border-gray-100 hover:border-green-200 transition-colors">
+      <Card className="shadow-lg border-2 border-gray-100 hover:border-brand-lime/30 transition-colors">
         <CardHeader className="bg-gradient-to-r from-gray-50 to-green-50 border-b border-gray-200">
           <CardTitle className="flex items-center gap-2 text-gray-900">
-            <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center">
+            <div className="w-10 h-10 bg-brand-green rounded-full flex items-center justify-center">
               <MapPin className="h-5 w-5 text-white" />
             </div>
             <div>
@@ -113,8 +109,8 @@ const ContactoInfo = () => {
                   variant="outline"
                   className={`justify-center py-3 px-4 transition-all cursor-pointer w-full text-sm font-medium border-2 ${
                     area.highlight
-                      ? "bg-green-600 border-green-700 text-white hover:bg-green-700 hover:shadow-lg"
-                      : "bg-white border-green-200 text-gray-700 hover:bg-green-50 hover:border-green-400 hover:text-green-800"
+                      ? "bg-brand-green border-brand-teal text-white hover:bg-brand-teal hover:shadow-lg"
+                      : "bg-white border-brand-lime/30 text-gray-700 hover:bg-green-50 hover:border-green-400 hover:text-brand-dark"
                   } group-hover:scale-105`}
                 >
                   <MapPin className="h-3 w-3 mr-1.5 flex-shrink-0" />

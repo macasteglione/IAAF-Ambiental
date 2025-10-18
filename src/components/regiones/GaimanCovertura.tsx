@@ -1,30 +1,95 @@
-
 const GaimanCovertura = () => {
   const areas = [
     {
       title: "Zona Urbana",
-      cities: ["Centro Histórico", "Barrio Trevelin", "Barrio 28 de Julio", "Barrio Galés", "Barrio Belgrano", "Barrio San Martín", "Barrio Rivadavia", "Zona Residencial", "Calle Michael D. Jones", "Calle Tello"]
+      cities: [
+        "Centro Histórico",
+        "Barrio Trevelin",
+        "Barrio 28 de Julio",
+        "Barrio Galés",
+        "Barrio Belgrano",
+        "Barrio San Martín",
+        "Barrio Rivadavia",
+        "Zona Residencial",
+        "Calle Michael D. Jones",
+        "Calle Tello",
+      ],
     },
     {
       title: "Zona Turística",
-      cities: ["Casas de Té Galesas", "Museo Histórico Regional", "Capilla Bethel", "Capilla Vieja", "Parque Paleontológico", "Túnel del Amor", "Primera Casa", "Parque El Desafío", "Circuito Turístico", "Zona de Servicios Turísticos"]
+      cities: [
+        "Casas de Té Galesas",
+        "Museo Histórico Regional",
+        "Capilla Bethel",
+        "Capilla Vieja",
+        "Parque Paleontológico",
+        "Túnel del Amor",
+        "Primera Casa",
+        "Parque El Desafío",
+        "Circuito Turístico",
+        "Zona de Servicios Turísticos",
+      ],
     },
     {
-      title: "Chacras y Zona Rural", 
-      cities: ["Chacras Norte", "Chacras Sur", "Chacras Este", "Chacras Oeste", "Establecimientos Agropecuarios", "Zona de Riego", "Campos Productivos", "Quintas", "Huertas", "Zona Agrícola"]
+      title: "Chacras y Zona Rural",
+      cities: [
+        "Chacras Norte",
+        "Chacras Sur",
+        "Chacras Este",
+        "Chacras Oeste",
+        "Establecimientos Agropecuarios",
+        "Zona de Riego",
+        "Campos Productivos",
+        "Quintas",
+        "Huertas",
+        "Zona Agrícola",
+      ],
     },
     {
       title: "Comercios y Servicios",
-      cities: ["Casas de Té", "Restaurantes", "Artesanías", "Comercios Locales", "Panaderías Galesas", "Servicios Turísticos", "Alojamientos", "Zona Comercial Centro", "Locales Gastronómicos", "Emprendimientos Locales"]
+      cities: [
+        "Casas de Té",
+        "Restaurantes",
+        "Artesanías",
+        "Comercios Locales",
+        "Panaderías Galesas",
+        "Servicios Turísticos",
+        "Alojamientos",
+        "Zona Comercial Centro",
+        "Locales Gastronómicos",
+        "Emprendimientos Locales",
+      ],
     },
     {
       title: "Patrimonio Cultural",
-      cities: ["Capillas Históricas", "Museos", "Edificios Patrimoniales", "Cementerio Galés", "Monumentos", "Sitios Históricos", "Arquitectura Galesa", "Espacios Culturales", "Biblioteca", "Centro Cultural"]
+      cities: [
+        "Capillas Históricas",
+        "Museos",
+        "Edificios Patrimoniales",
+        "Cementerio Galés",
+        "Monumentos",
+        "Sitios Históricos",
+        "Arquitectura Galesa",
+        "Espacios Culturales",
+        "Biblioteca",
+        "Centro Cultural",
+      ],
     },
     {
       title: "Zona de Expansión",
-      cities: ["Nuevos Desarrollos", "Zona Residencial Norte", "Zona Residencial Sur", "Loteos", "Proyectos Turísticos", "Emprendimientos", "Área de Crecimiento", "Periferia Urbana", "Zona de Desarrollo", "Nuevos Barrios"]
-    }
+      cities: [
+        "Nuevos Desarrollos",
+        "Zona Residencial Norte",
+        "Zona Residencial Sur",
+        "Loteos",
+        "Proyectos Turísticos",
+        "Emprendimientos",
+        "Área de Crecimiento",
+        "Periferia Urbana",
+        "Zona de Desarrollo",
+        "Nuevos Barrios",
+      ],
+    },
   ];
 
   return (

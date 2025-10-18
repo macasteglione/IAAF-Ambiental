@@ -24,10 +24,10 @@ const ContactoFormulario = () => {
 
   return (
     <div className="max-w-4xl mx-auto" id="formulario">
-      <Card className="bg-white shadow-2xl border-2 border-green-100 hover:border-green-200 transition-colors">
-        <CardHeader className="bg-gradient-to-r from-green-50 to-emerald-50 border-b border-green-100">
+      <Card className="bg-white shadow-2xl border-2 border-brand-lime/20 hover:border-brand-lime/30 transition-colors">
+        <CardHeader className="bg-gradient-to-r from-green-50 to-green-50/30 border-b border-brand-lime/20">
           <div className="flex items-start gap-4">
-            <div className="flex-shrink-0 w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
+            <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center">
               <Mail className="h-6 w-6 text-white" />
             </div>
             <div className="flex-1">
@@ -37,25 +37,9 @@ const ContactoFormulario = () => {
               <CardDescription className="text-base text-gray-600 leading-relaxed">
                 Complete el formulario a continuación y nuestro equipo se pondrá
                 en contacto dentro de{" "}
-                <strong className="text-green-700">24 horas hábiles</strong>.
+                <strong className="text-brand-teal">24 horas hábiles</strong>.
                 Todas las consultas iniciales son sin cargo.
               </CardDescription>
-            </div>
-          </div>
-
-          {/* Trust indicators */}
-          <div className="flex flex-wrap gap-4 mt-6 pt-6 border-t border-green-100">
-            <div className="flex items-center gap-2 text-sm text-gray-600">
-              <CheckCircle className="h-4 w-4 text-green-600" />
-              <span>Respuesta garantizada</span>
-            </div>
-            <div className="flex items-center gap-2 text-sm text-gray-600">
-              <CheckCircle className="h-4 w-4 text-green-600" />
-              <span>Consulta sin compromiso</span>
-            </div>
-            <div className="flex items-center gap-2 text-sm text-gray-600">
-              <CheckCircle className="h-4 w-4 text-green-600" />
-              <span>Datos 100% confidenciales</span>
             </div>
           </div>
         </CardHeader>
@@ -73,7 +57,7 @@ const ContactoFormulario = () => {
             <div className="pt-6 border-t border-gray-200">
               <Button
                 type="submit"
-                className="w-full bg-green-600 hover:bg-green-700 text-white shadow-lg hover:shadow-xl transition-all text-lg py-6 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-brand-green hover:bg-brand-teal text-white shadow-lg hover:shadow-xl transition-all text-lg py-6 disabled:opacity-50 disabled:cursor-not-allowed"
                 size="lg"
                 disabled={isSubmitting}
               >
@@ -113,7 +97,7 @@ const ContactoFormulario = () => {
                 Al enviar este formulario, acepta nuestra{" "}
                 <a
                   href="/privacidad"
-                  className="text-green-700 hover:text-green-800 underline"
+                  className="text-brand-teal hover:text-brand-dark underline"
                 >
                   Política de Privacidad
                 </a>

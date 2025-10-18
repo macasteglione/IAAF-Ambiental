@@ -12,7 +12,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-medical-darkGreen text-white" role="contentinfo">
+    <footer className="bg-brand-dark text-white" role="contentinfo">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -25,13 +25,10 @@ const Footer = () => {
               />
             </div>
             <p className="text-gray-300 mb-4 leading-relaxed">
-              Consultora ambiental líder en Puerto Madryn, brindando soluciones
+              Consultora ambiental en Puerto Madryn, brindando soluciones
               sostenibles para empresas y comunidades en toda la Patagonia.
             </p>
-            <p
-              className="font-semibold mb-4 text-sm leading-relaxed"
-              style={{ color: "#B0C933" }}
-            >
+            <p className="font-semibold mb-4 text-sm leading-relaxed text-brand-lime">
               "Compromiso con el Ambiente y la Sustentabilidad"
             </p>
 
@@ -41,8 +38,7 @@ const Footer = () => {
                 href="https://www.facebook.com/iaafambiental"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full flex items-center justify-center transition-all hover:scale-110 hover:shadow-lg"
-                style={{ backgroundColor: "#B0C933" }}
+                className="w-10 h-10 rounded-full bg-brand-lime flex items-center justify-center transition-all hover:scale-110 hover:shadow-lg"
                 aria-label="Síguenos en Facebook (abre en nueva ventana)"
               >
                 <span
@@ -56,8 +52,7 @@ const Footer = () => {
                 href="https://www.instagram.com/iaafambiental"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full flex items-center justify-center transition-all hover:scale-110 hover:shadow-lg"
-                style={{ backgroundColor: "#B0C933" }}
+                className="w-10 h-10 rounded-full bg-brand-lime flex items-center justify-center transition-all hover:scale-110 hover:shadow-lg"
                 aria-label="Síguenos en Instagram (abre en nueva ventana)"
               >
                 <Instagram className="h-5 w-5 text-black" aria-hidden="true" />
@@ -66,8 +61,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/company/iaaf-ambiental"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full flex items-center justify-center transition-all hover:scale-110 hover:shadow-lg"
-                style={{ backgroundColor: "#B0C933" }}
+                className="w-10 h-10 rounded-full bg-brand-lime flex items-center justify-center transition-all hover:scale-110 hover:shadow-lg"
                 aria-label="Síguenos en LinkedIn (abre en nueva ventana)"
               >
                 <span
@@ -82,10 +76,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <nav aria-label="Enlaces rápidos">
-            <h3
-              className="text-lg font-semibold mb-4"
-              style={{ color: "#B0C933" }}
-            >
+            <h3 className="text-lg font-semibold mb-4 text-brand-lime">
               Enlaces Rápidos
             </h3>
             <ul className="space-y-2">
@@ -158,10 +149,7 @@ const Footer = () => {
 
           {/* Services */}
           <nav aria-label="Nuestros servicios">
-            <h3
-              className="text-lg font-semibold mb-4"
-              style={{ color: "#B0C933" }}
-            >
+            <h3 className="text-lg font-semibold mb-4 text-brand-lime">
               Nuestros Servicios
             </h3>
             <ul className="space-y-2">
@@ -236,8 +224,7 @@ const Footer = () => {
           <section aria-labelledby="contact-heading">
             <h3
               id="contact-heading"
-              className="text-lg font-semibold mb-4"
-              style={{ color: "#B0C933" }}
+              className="text-lg font-semibold mb-4 text-brand-lime"
             >
               Contacto
             </h3>
@@ -245,8 +232,7 @@ const Footer = () => {
               {/* Phone */}
               <div className="flex items-start space-x-3">
                 <Phone
-                  className="h-5 w-5 mt-1 flex-shrink-0"
-                  style={{ color: "#B0C933" }}
+                  className="h-5 w-5 mt-1 flex-shrink-0 text-brand-lime"
                   aria-hidden="true"
                 />
                 <div>
@@ -265,8 +251,7 @@ const Footer = () => {
               {/* Email */}
               <div className="flex items-start space-x-3">
                 <Mail
-                  className="h-5 w-5 mt-1 flex-shrink-0"
-                  style={{ color: "#B0C933" }}
+                  className="h-5 w-5 mt-1 flex-shrink-0 text-brand-lime"
                   aria-hidden="true"
                 />
                 <div>
@@ -283,8 +268,7 @@ const Footer = () => {
               {/* Contact Form */}
               <div className="flex items-start space-x-3">
                 <MessageSquare
-                  className="h-5 w-5 mt-1 flex-shrink-0"
-                  style={{ color: "#B0C933" }}
+                  className="h-5 w-5 mt-1 flex-shrink-0 text-brand-lime"
                   aria-hidden="true"
                 />
                 <div>
@@ -302,8 +286,7 @@ const Footer = () => {
               {/* Business Hours */}
               <div className="flex items-start space-x-3 pt-2 border-t border-gray-600">
                 <Clock
-                  className="h-5 w-5 mt-1 flex-shrink-0"
-                  style={{ color: "#B0C933" }}
+                  className="h-5 w-5 mt-1 flex-shrink-0 text-brand-lime"
                   aria-hidden="true"
                 />
                 <div>
