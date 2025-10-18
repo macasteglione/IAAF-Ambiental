@@ -1,12 +1,13 @@
-import { MapPin, Users, Award, TrendingUp } from "lucide-react";
-
 const NosotrosHero = () => {
   return (
-    <section className="bg-gradient-to-br from-brand-lime via-brand-green to-brand-teal text-gray-900 py-16 lg:py-20 relative overflow-hidden">
-      {/* Decorative elements */}
-      <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-brand-lime/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-80 h-80 bg-brand-teal/20 rounded-full blur-3xl"></div>
+    <section className="text-gray-900 h-[500px] lg:h-[550px] relative overflow-hidden flex items-center pt-20">
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url(/img/nosotros-hero.jpg)" }}
+      >
+        {/* Overlay para oscurecer/aclarar la imagen */}
+        <div className="absolute inset-0 bg-black/70"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">

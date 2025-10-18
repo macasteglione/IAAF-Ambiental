@@ -1,13 +1,16 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Phone, Mail } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
+  const isHomePage = location.pathname === '/';
+  const isLegalPage = ['/privacidad', '/terminos', '/accesibilidad'].includes(location.pathname);
 
   useEffect(() => {
     setIsMenuOpen(false);
@@ -16,6 +19,9 @@ const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
+
+      // Detectar si hay scroll para cambiar el fondo
+      setIsScrolled(currentScrollY > 50);
 
       // No ocultar el navbar si el menú móvil está abierto
       if (isMenuOpen) {
@@ -64,8 +70,12 @@ const Header = () => {
     <>
       {/* Main Header */}
       <header 
-        className={`bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50 transition-transform duration-300 ease-in-out ${
+        className={`${isLegalPage ? 'sticky' : 'fixed'} top-0 z-50 w-full transition-all duration-300 ease-in-out ${
           isVisible ? 'translate-y-0' : '-translate-y-full'
+        } ${
+          !isLegalPage && !isScrolled && !isMenuOpen
+            ? 'bg-transparent shadow-none border-b-0'
+            : 'bg-white shadow-sm border-gray-200'
         }`}
       >
         {/* Main navigation */}
@@ -74,9 +84,9 @@ const Header = () => {
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-3" aria-label="IAAF Ambiental - Volver al inicio">
                 <img
-                  src="/img/logo_color.svg"
+                  src={!isLegalPage && !isScrolled && !isMenuOpen ? "/img/logo blanco.png" : "/img/logo_color.svg"}
                   alt="IAAF Ambiental - Consultoría Ambiental en Puerto Madryn"
-                  className="h-20 w-auto transition-transform hover:scale-105"
+                  className="h-20 w-auto transition-all duration-300 hover:scale-105"
                 />
               </Link>
             </div>
@@ -89,7 +99,9 @@ const Header = () => {
                   to={item.href}
                   className={`text-base font-medium transition-all duration-200 px-4 py-2 rounded-lg ${
                     isActivePath(item.href)
-                      ? "text-white bg-brand-green shadow-md"
+                      ? "text-black bg-brand-lime shadow-md"
+                      : !isLegalPage && !isScrolled
+                      ? "text-white hover:text-brand-lime hover:bg-white/10"
                       : "text-gray-700 hover:text-brand-teal hover:bg-green-50"
                   }`}
                   aria-current={isActivePath(item.href) ? 'page' : undefined}
@@ -119,7 +131,7 @@ const Header = () => {
                 aria-label={isMenuOpen ? 'Cerrar menú de navegación' : 'Abrir menú de navegación'}
                 aria-expanded={isMenuOpen}
                 aria-controls="mobile-menu"
-                className="text-brand-teal"
+                className={!isLegalPage && !isScrolled ? "text-white" : "text-brand-teal"}
               >
                 {isMenuOpen ? (
                   <X className="h-6 w-6" aria-hidden="true" />

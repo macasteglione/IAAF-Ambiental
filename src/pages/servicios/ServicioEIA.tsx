@@ -139,7 +139,7 @@ const ServicioEIA = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="py-16 lg:py-20 bg-gradient-to-br from-brand-green via-brand-teal to-brand-lime relative overflow-hidden">
+      <section className="h-[500px] lg:h-[550px] bg-gradient-to-br from-brand-green via-brand-teal to-brand-lime relative overflow-hidden flex items-center pt-20">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-brand-dark rounded-full blur-3xl"></div>

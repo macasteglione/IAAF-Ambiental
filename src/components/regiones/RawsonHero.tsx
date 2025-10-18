@@ -1,8 +1,6 @@
-import { MapPin } from "lucide-react";
-
 const RawsonHero = () => {
   return (
-    <section className="bg-gradient-to-br from-[#5AB75B] via-[#33B779] to-[#B0C933] py-16 lg:py-20">
+    <section className="bg-gradient-to-br from-[#5AB75B] via-[#33B779] to-[#B0C933] h-[500px] lg:h-[550px] flex items-center pt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6">
@@ -15,13 +13,6 @@ const RawsonHero = () => {
             proyectos gubernamentales, comerciales, turísticos y de
             infraestructura provincial.
           </p>
-          <div className="flex items-center justify-center text-white mb-8">
-            <MapPin className="h-6 w-6 mr-2" />
-            <span className="text-lg font-semibold">
-              Servicios en Rawson: Centro Administrativo, Playa Unión, Puerto
-              Rawson, Zona Comercial y Costera
-            </span>
-          </div>
         </div>
       </div>
     </section>
