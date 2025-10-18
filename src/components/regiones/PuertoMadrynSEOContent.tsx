@@ -25,7 +25,7 @@ const PuertoMadrynSEOContent = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="relative overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/src/assets/puerto-madryn-region01.png"
+                src="/img/puerto-madryn-region01.png"
                 alt="Puerto Madryn - Costa patagónica y área de cobertura de servicios ambientales"
                 className="w-full h-64 object-cover"
                 loading="lazy"
@@ -35,7 +35,7 @@ const PuertoMadrynSEOContent = () => {
             </div>
             <div className="relative overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/src/assets/puerto-madryn-region02.jpg"
+                src="/img/puerto-madryn-region02.jpg"
                 alt="Equipo de IAAF Ambiental brindando servicios ambientales en la costa de Chubut"
                 className="w-full h-64 object-cover"
                 loading="lazy"

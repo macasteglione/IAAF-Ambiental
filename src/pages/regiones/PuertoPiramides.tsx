@@ -92,7 +92,7 @@ const PuertoPiramides = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <img
-                  src="/src/assets/puerto-piramides-region01.png"
+                  src="/img/puerto-piramides-region01.png"
                   alt="Puerto Pirámides - Península Valdés, Patrimonio de la Humanidad"
                   className="w-full h-64 object-cover"
                   loading="lazy"
@@ -102,7 +102,7 @@ const PuertoPiramides = () => {
               </div>
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <img
-                  src="/src/assets/puerto-piramides-region02.png"
+                  src="/img/puerto-piramides-region02.png"
                   alt="Equipo de IAAF Ambiental brindando servicios ambientales en Puerto Pirámides"
                   className="w-full h-64 object-cover"
                   loading="lazy"

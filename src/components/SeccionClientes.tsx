@@ -16,12 +16,12 @@ const TrustSection = () => {
   ];
 
   const clientLogos = [
-    { name: "Cliente 1", logo: "/src/assets/empresa_1.png" },
-    { name: "Cliente 2", logo: "/src/assets/empresa_2.png" },
-    { name: "Cliente 3", logo: "/src/assets/empresa_3.png" },
-    { name: "Cliente 4", logo: "/src/assets/empresa_4.png" },
-    { name: "Cliente 5", logo: "/src/assets/empresa_5.png" },
-    { name: "Cliente 6", logo: "/src/assets/empresa_6.png" },
+    { name: "Cliente 1", logo: "/img/empresa_1.png" },
+    { name: "Cliente 2", logo: "/img/empresa_2.png" },
+    { name: "Cliente 3", logo: "/img/empresa_3.png" },
+    { name: "Cliente 4", logo: "/img/empresa_4.png" },
+    { name: "Cliente 5", logo: "/img/empresa_5.png" },
+    { name: "Cliente 6", logo: "/img/empresa_6.png" },
   ];
 
   const sectors = [

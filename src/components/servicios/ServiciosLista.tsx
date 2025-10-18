@@ -27,7 +27,7 @@ const ServiciosLista = () => {
       title: "Estudios de Impacto Ambiental",
       description:
         "Evaluación detallada de impactos ambientales potenciales y propuestas de mitigación para proyectos públicos y privados en toda la Patagonia.",
-      image: "/src/assets/estudio-impacto-servicio.jpg",
+      image: "/img/estudio-impacto-servicio.jpg",
       features: [
         "Identificación de impactos",
         "Propuestas de mitigación",
@@ -44,7 +44,7 @@ const ServiciosLista = () => {
       title: "Planes de Manejo Ambiental",
       description:
         "Diseño e implementación de planes para minimizar impactos y asegurar prácticas sustentables en proyectos de todas las escalas.",
-      image: "/src/assets/manejo-ambiental-servicio.webp",
+      image: "/img/manejo-ambiental-servicio.webp",
       features: [
         "Diseño de programas ambientales",
         "Seguimiento y control",
@@ -66,7 +66,7 @@ const ServiciosLista = () => {
       title: "Monitoreos Ambientales",
       description:
         "Recolección y análisis de datos ambientales para garantizar el cumplimiento normativo y la calidad del entorno.",
-      image: "/src/assets/monitoreo-ambiental-servicio.webp",
+      image: "/img/monitoreo-ambiental-servicio.webp",
       features: [
         "Calidad de aire, agua y suelo",
         "Ruido y vibraciones",
@@ -88,7 +88,7 @@ const ServiciosLista = () => {
       title: "Auditorías Ambientales",
       description:
         "Evaluación del desempeño ambiental de una organización o proyecto según normativa vigente nacional y provincial.",
-      image: "/src/assets/auditoria-ambiental-servicio.webp",
+      image: "/img/auditoria-ambiental-servicio.webp",
       features: [
         "Diagnóstico de cumplimiento",
         "Recomendaciones de mejora",
@@ -110,7 +110,7 @@ const ServiciosLista = () => {
       title: "Gestión de Residuos",
       description:
         "Asesoramiento en la correcta gestión de residuos sólidos urbanos, peligrosos y patogénicos según normativa argentina.",
-      image: "/src/assets/gestion-residual-servicio.avif",
+      image: "/img/gestion-residual-servicio.avif",
       features: [
         "Caracterización de residuos",
         "Planes de manejo",
@@ -127,7 +127,7 @@ const ServiciosLista = () => {
       title: "Estudios de Viento y Ruido",
       description:
         "Mediciones e informes para evaluar la influencia de factores físicos en entornos urbanos y rurales.",
-      image: "/src/assets/estudio-viento-ruido-servicio.jpg",
+      image: "/img/estudio-viento-ruido-servicio.jpg",
       features: [
         "Estaciones meteorológicas",
         "Mediciones in situ",
@@ -149,7 +149,7 @@ const ServiciosLista = () => {
       title: "Educación y Capacitación Ambiental",
       description:
         "Diseño e implementación de talleres, cursos y programas educativos sobre medio ambiente y desarrollo sustentable.",
-      image: "/src/assets/capacitacion-educacion-servicio.png",
+      image: "/img/capacitacion-educacion-servicio.png",
       features: [
         "Capacitaciones a medida",
         "Charlas y talleres",
@@ -166,7 +166,7 @@ const ServiciosLista = () => {
       title: "Ordenamiento Territorial",
       description:
         "Análisis y planificación del uso del suelo bajo criterios ambientales, sociales y económicos sustentables.",
-      image: "/src/assets/ordenamiento-terrenal-servicio.jpg",
+      image: "/img/ordenamiento-terrenal-servicio.jpg",
       features: [
         "Zonificación ambiental",
         "Mapas temáticos",
@@ -183,7 +183,7 @@ const ServiciosLista = () => {
       title: "Licencias y Permisos Ambientales",
       description:
         "Gestión integral de trámites ambientales ante organismos provinciales y nacionales para asegurar el cumplimiento normativo.",
-      image: "/src/assets/permisos-ambientales-servicio.avif",
+      image: "/img/permisos-ambientales-servicio.avif",
       features: [
         "Gestión ante organismos",
         "Asesoramiento técnico",

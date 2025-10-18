@@ -86,7 +86,7 @@ const NosotrosHistoria = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-lime/20 group">
               <img
-                src="/src/assets/sobre_nosotros.png"
+                src="/img/sobre_nosotros.png"
                 alt="Equipo IAAF Ambiental trabajando en evaluaciones ambientales en la Patagonia"
                 className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
               />

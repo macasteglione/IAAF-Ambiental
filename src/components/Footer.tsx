@@ -19,7 +19,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img
-                src="/src/assets/logo_color.svg"
+                src="/img/logo_color.svg"
                 alt="IAAF Ambiental - Consultora Ambiental"
                 className="h-24 w-auto filter brightness-0 invert"
               />
