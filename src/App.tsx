@@ -21,12 +21,14 @@ import NotFound from "./pages/NotFound";
 import Accessibility from "./pages/Accesibilidad";
 import Privacy from "./pages/Privacidad";
 import Terminos from "./pages/Terminos";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 function App() {
   return (
     <HelmetProvider>
       <Router>
         <ScrollToTop />
+        <SpeedInsights />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/nosotros" element={<Nosotros />} />
