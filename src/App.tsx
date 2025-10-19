@@ -21,10 +21,12 @@ import NotFound from "./pages/NotFound";
 import Accessibility from "./pages/Accesibilidad";
 import Privacy from "./pages/Privacidad";
 import Terminos from "./pages/Terminos";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
     <HelmetProvider>
+      <SpeedInsights />
       <Router>
         <ScrollToTop />
         <Routes>
