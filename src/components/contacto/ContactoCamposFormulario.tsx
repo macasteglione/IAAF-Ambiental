@@ -10,11 +10,7 @@ import {
 } from "@/components/ui/select";
 
 interface DatosFormulario {
-  name: string;
   email: string;
-  phone: string;
-  projectType: string;
-  startDate: string;
   location: string;
   companySize: string;
   message: string;
