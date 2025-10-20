@@ -3,7 +3,6 @@ import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import ProyectosHero from "@/components/proyectos/ProyectosHero";
 import ProyectosGrid from "@/components/proyectos/ProyectosGrid";
-import ProyectosPorque from "@/components/proyectos/ProyectosPorque";
 import ProyectosCTA from "@/components/proyectos/ProyectosCTA";
 
 const Proyectos = () => {
@@ -18,7 +17,6 @@ const Proyectos = () => {
       <Header />
       <ProyectosHero />
       <ProyectosGrid />
-      <ProyectosPorque />
       <ProyectosCTA />
       <Footer />
     </div>

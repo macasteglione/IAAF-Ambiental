@@ -1,16 +1,6 @@
-import { Badge } from "@/components/ui/badge";
-import { Award, CheckCircle } from "lucide-react";
+import { Users } from "lucide-react";
 
 const NosotrosHistoria = () => {
-  const certifications = [
-    { name: "ISO 14001", description: "Gestión Ambiental" },
-    { name: "Registro Provincial", description: "Chubut Habilitada" },
-    { name: "Profesionales Matriculados", description: "CPIC - COPIME" },
-    { name: "SAyDS", description: "Sec. Ambiente y Desarrollo" },
-    { name: "Normativa Nacional", description: "Ley 24.051 - Ley 25.675" },
-    { name: "Normativa Provincial", description: "Ley XVII N°68 (Chubut)" },
-  ];
-
   return (
     <section
       id="historia"
@@ -28,12 +18,7 @@ const NosotrosHistoria = () => {
               <p>
                 IAAF Ambiental nació con una misión clara: proporcionar
                 servicios de consultoría ambiental de la más alta calidad en la
-                Patagonia. Lo que comenzó como un pequeño equipo de
-                profesionales comprometidos se ha convertido en una{" "}
-                <strong className="text-brand-teal">
-                  consultora líder en gestión ambiental
-                </strong>{" "}
-                de la región.
+                Patagonia.
               </p>
 
               <p>
@@ -55,44 +40,27 @@ const NosotrosHistoria = () => {
                 organismos públicos e instituciones de toda la Patagonia.
               </p>
             </div>
-
-            {/* Certifications */}
-            <div className="mt-8">
-              <div className="flex items-center gap-2 mb-4">
-                <Award className="h-5 w-5 text-brand-teal" />
-                <h3 className="text-lg font-bold text-gray-900">
-                  Certificaciones y Registros
-                </h3>
-              </div>
-              <div className="grid grid-cols-2 gap-3">
-                {certifications.map((cert, index) => (
-                  <div key={index} className="group">
-                    <Badge
-                      variant="outline"
-                      className="w-full justify-center py-3 px-4 bg-brand-green hover:bg-brand-teal border-brand-teal text-white font-semibold transition-all cursor-default text-center"
-                    >
-                      {cert.name}
-                    </Badge>
-                    <p className="text-xs text-gray-500 text-center mt-1">
-                      {cert.description}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
 
           {/* Image Section */}
-          <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-lime/20 group">
-              <img
-                src="/img/sobre_nosotros.png"
-                alt="Equipo IAAF Ambiental trabajando en evaluaciones ambientales en la Patagonia"
-                className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-            </div>
-          </div>
+              <div className="relative">
+                <div className="aspect-square bg-gradient-to-br from-green-100 to-emerald-200 rounded-2xl overflow-hidden shadow-lg">
+                  {/* Placeholder for image - replace with actual team photo */}
+                  <div className="w-full h-full flex items-center justify-center">
+                    <div className="text-center p-8">
+                      <div className="w-24 h-24 bg-brand-green rounded-full flex items-center justify-center mx-auto mb-4">
+                        <Users className="h-12 w-12 text-white" />
+                      </div>
+                      <p className="text-gray-700 font-semibold text-lg">
+                        Equipo IAAF Ambiental
+                      </p>
+                      <p className="text-gray-600 text-sm mt-2">
+                        Profesionales comprometidos con el ambiente
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
     </section>

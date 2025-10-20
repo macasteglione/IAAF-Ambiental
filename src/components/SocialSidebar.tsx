@@ -1,13 +1,7 @@
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { Instagram, Linkedin } from "lucide-react";
 
 const SocialSidebar = () => {
   const socialLinks = [
-    {
-      name: "Facebook",
-      url: "https://www.facebook.com/iaafambiental",
-      icon: Facebook,
-      color: "hover:text-[#1877F2]",
-    },
     {
       name: "Instagram",
       url: "https://www.instagram.com/iaafambiental",
@@ -16,7 +10,7 @@ const SocialSidebar = () => {
     },
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/company/iaaf-ambiental",
+      url: "https://www.linkedin.com/in/iaaf-ambiental",
       icon: Linkedin,
       color: "hover:text-[#0A66C2]",
     },

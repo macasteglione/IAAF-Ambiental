@@ -123,28 +123,6 @@ const ServiciosLista = () => {
       color: "from-orange-500 to-orange-600",
     },
     {
-      icon: Wind,
-      title: "Estudios de Viento y Ruido",
-      description:
-        "Mediciones e informes para evaluar la influencia de factores físicos en entornos urbanos y rurales.",
-      image: "/img/estudio-viento-ruido-servicio.jpg",
-      features: [
-        "Estaciones meteorológicas",
-        "Mediciones in situ",
-        "Mapeo acústico",
-        "Modelado predictivo",
-        "Recomendaciones técnicas",
-        "Normas IRAM aplicadas",
-      ],
-      suitable: [
-        "Proyectos eólicos",
-        "Obras urbanas",
-        "Eventos",
-        "Zonificación",
-      ],
-      color: "from-sky-500 to-sky-600",
-    },
-    {
       icon: Globe2,
       title: "Educación y Capacitación Ambiental",
       description:
@@ -263,6 +241,8 @@ const ServiciosLista = () => {
                     <Link
                       to={`/servicios/${service.title
                         .toLowerCase()
+                        .normalize("NFD")
+                        .replace(/[\u0300-\u036f]/g, "")
                         .replace(/\s+/g, "-")}`}
                       className="hover:text-brand-green transition-colors group-hover:text-brand-teal"
                     >
