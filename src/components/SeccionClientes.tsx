@@ -9,7 +9,7 @@ import {
 
 const TrustSection = () => {
   const certifications = [
-    { text: "ISO 14001 Certificada", icon: Award },
+    { text: "Certificados IRAM-ISO 14001", icon: Award },
     { text: "Registro Provincial Activo", icon: FileCheck },
     { text: "Profesionales Matriculados", icon: CheckCircle },
     { text: "Normativa Ambiental Vigente", icon: Shield },

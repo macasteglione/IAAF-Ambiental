@@ -25,17 +25,9 @@ const ProyectoCard = ({ proyecto }: ProyectoCardProps) => {
             <proyecto.icon className="h-7 w-7" />
           </div>
           <div className="flex-1">
-            {proyecto.link ? (
-              <Link to={proyecto.link}>
-                <CardTitle className="text-xl lg:text-2xl mb-2 text-gray-900 hover:text-blue-600 transition-colors cursor-pointer">
-                  {proyecto.title}
-                </CardTitle>
-              </Link>
-            ) : (
-              <CardTitle className="text-xl lg:text-2xl mb-2 text-gray-900">
-                {proyecto.title}
-              </CardTitle>
-            )}
+            <CardTitle className="text-xl lg:text-2xl mb-2 text-gray-900">
+              {proyecto.title}
+            </CardTitle>
             <CardDescription className="text-gray-600 text-base leading-relaxed">
               {proyecto.description}
             </CardDescription>

@@ -35,21 +35,7 @@ const Footer = () => {
             {/* Social Media */}
             <div className="flex space-x-3 mb-4">
               <a
-                href="https://www.facebook.com/iaafambiental"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-brand-lime flex items-center justify-center transition-all hover:scale-110 hover:shadow-lg"
-                aria-label="Síguenos en Facebook (abre en nueva ventana)"
-              >
-                <span
-                  className="text-base font-bold text-black"
-                  aria-hidden="true"
-                >
-                  f
-                </span>
-              </a>
-              <a
-                href="https://www.instagram.com/iaafambiental"
+                href="https://www.instagram.com/iaafambiental/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-brand-lime flex items-center justify-center transition-all hover:scale-110 hover:shadow-lg"
@@ -58,7 +44,7 @@ const Footer = () => {
                 <Instagram className="h-5 w-5 text-black" aria-hidden="true" />
               </a>
               <a
-                href="https://www.linkedin.com/company/iaaf-ambiental"
+                href="https://www.linkedin.com/in/iaaf-ambiental"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-brand-lime flex items-center justify-center transition-all hover:scale-110 hover:shadow-lg"
@@ -237,13 +223,19 @@ const Footer = () => {
                 />
                 <div>
                   <a
-                    href="tel:+542804123456"
+                    href="tel:+542804597153"
                     className="text-white font-semibold hover:underline block"
                   >
-                    +54 280 412-3456
+                    +54 280 459-7153
+                  </a>
+                  <a
+                    href="tel:+542804557226"
+                    className="text-white font-semibold hover:underline block"
+                  >
+                    +54 280 455-7226
                   </a>
                   <p className="text-gray-300 text-sm">
-                    Lun a Vie: 9:00 - 18:00 hs
+                    Todos los Días: 9:00 - 18:00 hs
                   </p>
                 </div>
               </div>
@@ -256,10 +248,10 @@ const Footer = () => {
                 />
                 <div>
                   <a
-                    href="mailto:contacto@iaafambiental.com.ar"
-                    className="text-white hover:underline block break-all"
+                    href="mailto:administracion@iaafambiental.com.ar"
+                    className="text-sm text-white hover:underline block break-all"
                   >
-                    contacto@iaafambiental.com.ar
+                    administracion@iaafambiental.com
                   </a>
                   <p className="text-gray-300 text-sm">Consultas generales</p>
                 </div>
@@ -293,7 +285,7 @@ const Footer = () => {
                   <p className="text-white font-semibold">
                     Horario de Atención
                   </p>
-                  <p className="text-gray-300 text-sm">Lunes a Viernes</p>
+                  <p className="text-gray-300 text-sm">Todos los Días</p>
                   <p className="text-gray-300 text-sm">09:00 - 18:00 hs</p>
                 </div>
               </div>

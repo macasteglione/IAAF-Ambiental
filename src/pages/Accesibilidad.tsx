@@ -102,10 +102,10 @@ const Accessibility = () => {
             <p className="text-gray-700 mb-6">
               Email:{" "}
               <a
-                href="mailto:contacto@iaafambiental.com.ar"
+                href="mailto:administracion@iaafambiental.com.ar"
                 className="text-brand-green hover:underline"
               >
-                contacto@iaafambiental.com
+                administracion@iaafambiental.com
               </a>
             </p>
             <p className="text-gray-700">

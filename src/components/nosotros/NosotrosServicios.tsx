@@ -26,9 +26,9 @@ const NosotrosServicios = () => {
     },
     {
       icon: FileCheck,
-      title: "Certificaciones ISO",
+      title: "Certificación ISO-IRAM 14001",
       description:
-        "Asesoramiento para la implementación y certificación de sistemas de gestión ambiental ISO 14001 y otras normativas internacionales.",
+        "Asesoramiento para la implementación y certificación de sistemas de gestión ambiental según norma ISO-IRAM 14001",
       color: "from-brand-green to-brand-teal",
     },
     {
