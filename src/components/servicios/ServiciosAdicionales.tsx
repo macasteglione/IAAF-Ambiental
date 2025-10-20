@@ -3,11 +3,11 @@ import {
   Leaf,
   Recycle,
   Droplet,
-  TreePine,
   Factory,
   BookOpen,
   Globe,
   ShieldCheck,
+  BarChart3,
 } from "lucide-react";
 
 const ServiciosAmbientales = () => {
@@ -31,9 +31,9 @@ const ServiciosAmbientales = () => {
       color: "from-blue-500 to-blue-600",
     },
     {
-      name: "Reforestación y Compensación",
-      icon: TreePine,
-      description: "Programas de restauración ecológica",
+      name: "Seguimiento de KPIs",
+      icon: BarChart3,
+      description: "Evaluación de indicadores ambientales clave",
       color: "from-brand-lime to-brand-green",
     },
     {

@@ -103,29 +103,6 @@ const TrabajoPorque = () => {
             </div>
           </div>
         </div>
-
-        {/* Benefits Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-          {benefits.map((benefit, index) => {
-            const IconComponent = benefit.icon;
-            return (
-              <div 
-                key={index} 
-                className="text-center bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow border border-green-50"
-              >
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-brand-green rounded-full mb-6 shadow-lg">
-                  <IconComponent className="h-8 w-8 text-white" />
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  {benefit.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {benefit.description}
-                </p>
-              </div>
-            );
-          })}
-        </div>
       </div>
     </section>
   );

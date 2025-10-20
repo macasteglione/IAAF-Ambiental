@@ -306,13 +306,12 @@ const Terminos = () => {
               <p className="text-gray-700 mb-2">
                 <strong>IAAF Ambiental</strong>
               </p>
-              <p className="text-gray-700 mb-2">[Dirección de la empresa]</p>
               <p className="text-gray-700 mb-2">Puerto Madryn, Chubut</p>
               <p className="text-gray-700 mb-2">
-                Email: contacto@iaafambiental.com
+                Email: administracion@iaafambiental.com
               </p>
               <p className="text-gray-700 mb-2">
-                Teléfono: [Número de teléfono]
+                Teléfono: +54 280 459-7153, +54 280 455-7226
               </p>
             </div>
           </section>

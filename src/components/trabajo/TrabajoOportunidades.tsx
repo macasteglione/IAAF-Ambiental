@@ -1,5 +1,14 @@
-import { GraduationCap, Briefcase, Users, Mail } from "lucide-react";
+import {
+  GraduationCap,
+  Briefcase,
+  Users,
+  Mail,
+  Bell,
+  Rocket,
+} from "lucide-react";
 import TrabajoCard from "./TrabajoCard";
+import { Card, CardContent } from "../ui/card";
+import { Button } from "react-day-picker";
 
 const CurrentOpportunities = () => {
   const juniorRoles = [
@@ -137,8 +146,33 @@ const CurrentOpportunities = () => {
             profesionales en el sector ambiental de la Patagonia
           </p>
         </div>
+        {/* Mensaje Principal */}
+        <Card className="max-w-4xl mx-auto border-2 border-brand-lime/30 shadow-xl">
+          <CardContent className="p-8 lg:p-12">
+            <div className="text-center space-y-6">
+              <div className="flex justify-center">
+                <div className="w-20 h-20 bg-gradient-to-br from-brand-green to-brand-teal rounded-full flex items-center justify-center shadow-lg">
+                  <Rocket className="h-10 w-10 text-white" />
+                </div>
+              </div>
+
+              <div className="space-y-3">
+                <h3 className="text-2xl lg:text-3xl font-bold text-gray-900">
+                  Recién Nos Estamos Introduciendo al Mercado
+                </h3>
+                <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
+                  Estamos en una etapa emocionante de crecimiento. Aunque
+                  actualmente no tenemos posiciones abiertas, pronto
+                  comenzaremos a expandir nuestro equipo con profesionales
+                  apasionados por el medio ambiente.
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
 
         {/* Posiciones Junior */}
+        {/* 
         <div className="mb-16">
           <div className="flex items-center mb-6 bg-green-50 p-4 rounded-lg border-l-4 border-brand-green">
             <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center mr-4">
@@ -161,7 +195,6 @@ const CurrentOpportunities = () => {
           </div>
         </div>
 
-        {/* Posiciones con Experiencia */}
         <div className="mb-16">
           <div className="flex items-center mb-6 bg-green-50/30 p-4 rounded-lg border-l-4 border-brand-teal">
             <div className="flex-shrink-0 w-12 h-12 bg-brand-teal rounded-full flex items-center justify-center mr-4">
@@ -184,7 +217,6 @@ const CurrentOpportunities = () => {
           </div>
         </div>
 
-        {/* Posiciones Especializadas */}
         <div className="mb-16">
           <div className="flex items-center mb-6 bg-green-50/30 p-4 rounded-lg border-l-4 border-brand-teal">
             <div className="flex-shrink-0 w-12 h-12 bg-brand-teal rounded-full flex items-center justify-center mr-4">
@@ -206,6 +238,7 @@ const CurrentOpportunities = () => {
             ))}
           </div>
         </div>
+        */}
       </div>
     </section>
   );
