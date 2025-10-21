@@ -16,12 +16,10 @@ const TrustSection = () => {
   ];
 
   const clientLogos = [
-    { name: "Cliente 1", logo: "/img/empresa_1.png" },
-    { name: "Cliente 2", logo: "/img/empresa_2.png" },
-    { name: "Cliente 3", logo: "/img/empresa_3.png" },
-    { name: "Cliente 4", logo: "/img/empresa_4.png" },
-    { name: "Cliente 5", logo: "/img/empresa_5.png" },
-    { name: "Cliente 6", logo: "/img/empresa_6.png" },
+    { name: "Oftalmomadryn", logo: "/img/oftalmomadryn_logo.png" },
+    { name: "Abercar Cipolletti", logo: "/img/abercar_cipolletti.png" },
+    { name: "Abercar Trelew", logo: "/img/abercar_trelew.png" },
+    { name: "Abercar Comodoro", logo: "/img/abercar_comodoro.png" },
   ];
 
   const sectors = [
@@ -59,7 +57,7 @@ const TrustSection = () => {
           <h3 className="text-xl font-semibold text-gray-900 text-center mb-8">
             Empresas que Trabajan con IAAF Ambiental
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center">
             {clientLogos.map((client, index) => (
               <div
                 key={index}

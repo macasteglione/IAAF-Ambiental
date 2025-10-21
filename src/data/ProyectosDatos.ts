@@ -48,33 +48,6 @@ export const proyectos: Proyecto[] = [
     link: "/proyectos/reserva-marina-puerto-madryn"
   },
   {
-    title: "Reforestación y Conservación",
-    description: "Proyectos de reforestación y restauración de ecosistemas degradados para mejorar la biodiversidad y captación de carbono.",
-    icon: TreePine,
-    services: [
-      "Plantación de árboles nativos",
-      "Mantenimiento de viveros",
-      "Monitoreo de biodiversidad",
-      "Planes de restauración ecológica",
-      "Educación ambiental comunitaria"
-    ],
-    events: [
-      "Campañas comunitarias",
-      "Proyectos educativos",
-      "Programas de voluntariado",
-      "Talleres ambientales",
-      "Proyectos escolares",
-      "Jornadas de reforestación"
-    ],
-    certifications: [
-      "ISO 14001",
-      "Gestión Ambiental Sustentable",
-      "Monitoreo de Biodiversidad",
-      "Planes de Restauración Certificados"
-    ],
-    link: "/proyectos/reforestacion-conservacion"
-  },
-  {
     title: "Gestión de Recursos Hídricos",
     description: "Evaluación y monitoreo de calidad del agua, optimización de recursos hídricos y protección de cuerpos de agua.",
     icon: Droplet,

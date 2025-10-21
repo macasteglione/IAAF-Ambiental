@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import {
   Card,
   CardContent,
@@ -18,7 +19,7 @@ import {
 import { Link } from "react-router-dom";
 
 const ServicesOverview = () => {
-  const services = [
+  const services = useMemo(() => [
     {
       icon: Shield,
       title: "Proteger",
@@ -40,9 +41,9 @@ const ServicesOverview = () => {
         "Impulsamos el desarrollo sustentable mediante soluciones innovadoras que equilibran el crecimiento económico con la responsabilidad ambiental.",
       color: "from-brand-lime to-brand-green",
     },
-  ];
+  ], []);
 
-  const features = [
+  const features = useMemo(() => [
     {
       icon: Clock,
       title: "Respuesta Rápida",
@@ -61,7 +62,7 @@ const ServicesOverview = () => {
       description:
         "Servicios integrales en Puerto Madryn, Trelew, Rawson y toda la provincia de Chubut.",
     },
-  ];
+  ], []);
 
   return (
     <section
