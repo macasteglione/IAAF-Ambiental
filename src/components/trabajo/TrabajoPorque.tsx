@@ -1,46 +1,57 @@
-import { Leaf, Users, GraduationCap, MapPin, TrendingUp, Heart } from "lucide-react";
+import {
+  Leaf,
+  Users,
+  GraduationCap,
+  MapPin,
+  TrendingUp,
+  Heart,
+} from "lucide-react";
 
 const TrabajoPorque = () => {
   const benefits = [
     {
       icon: Leaf,
       title: "Impacto Real",
-      description: "Contribuí al cuidado del medio ambiente y al desarrollo sustentable de la Patagonia con proyectos que generan un cambio positivo."
+      description:
+        "Contribuí al cuidado del medio ambiente y al desarrollo sustentable de la Patagonia con proyectos que generan un cambio positivo.",
     },
     {
       icon: Users,
       title: "Equipo Profesional",
-      description: "Formá parte de un equipo multidisciplinario de profesionales comprometidos que trabajan en un ambiente colaborativo."
+      description:
+        "Formá parte de un equipo multidisciplinario de profesionales comprometidos que trabajan en un ambiente colaborativo.",
     },
     {
       icon: GraduationCap,
       title: "Desarrollo Continuo",
-      description: "Accedé a capacitaciones permanentes, cursos especializados y oportunidades de crecimiento profesional en el área ambiental."
+      description:
+        "Accedé a capacitaciones permanentes, cursos especializados y oportunidades de crecimiento profesional en el área ambiental.",
     },
     {
       icon: MapPin,
       title: "Proyectos Diversos",
-      description: "Participá en proyectos variados en toda la región patagónica, desde estudios ambientales hasta auditorías en diferentes sectores."
-    }
+      description:
+        "Participá en proyectos variados en toda la región patagónica, desde estudios ambientales hasta auditorías en diferentes sectores.",
+    },
   ];
 
   const perks = [
     {
       icon: TrendingUp,
-      text: "Crecimiento profesional"
+      text: "Crecimiento profesional",
     },
     {
       icon: MapPin,
-      text: "Trabajo en toda la Patagonia"
+      text: "Trabajo en toda la Patagonia",
     },
     {
       icon: Users,
-      text: "Ambiente laboral positivo"
+      text: "Ambiente laboral positivo",
     },
     {
       icon: GraduationCap,
-      text: "Capacitación continua"
-    }
+      text: "Capacitación continua",
+    },
   ];
 
   return (
@@ -51,8 +62,9 @@ const TrabajoPorque = () => {
             ¿Por Qué Trabajar en IAAF Ambiental?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Descubrí lo que hace especial a nuestro equipo y por qué los profesionales ambientales 
-            eligen desarrollar su carrera con nosotros.
+            Descubrí lo que hace especial a nuestro equipo y por qué los
+            profesionales ambientales eligen desarrollar su carrera con
+            nosotros.
           </p>
         </div>
 
@@ -62,17 +74,21 @@ const TrabajoPorque = () => {
             <div className="grid md:grid-cols-2 gap-8 items-center p-8 lg:p-12">
               <div>
                 <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-                  Formá Parte del Cambio Ambiental
+                  Cuidar el Planeta es Nuestra Misión
                 </h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Trabajá en proyectos que contribuyen al desarrollo sustentable de la Patagonia 
-                  junto a un equipo de profesionales comprometidos con el medio ambiente.
+                  Trabajá en proyectos que contribuyen al desarrollo sustentable
+                  de la Patagonia junto a un equipo de profesionales
+                  comprometidos con el medio ambiente.
                 </p>
                 <div className="space-y-3">
                   {perks.map((perk, index) => {
                     const IconComponent = perk.icon;
                     return (
-                      <div key={index} className="flex items-center text-gray-700">
+                      <div
+                        key={index}
+                        className="flex items-center text-gray-700"
+                      >
                         <div className="flex-shrink-0 w-10 h-10 bg-brand-green rounded-full flex items-center justify-center mr-3">
                           <IconComponent className="h-5 w-5 text-white" />
                         </div>

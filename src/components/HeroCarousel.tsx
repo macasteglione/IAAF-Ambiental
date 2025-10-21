@@ -11,6 +11,7 @@ const HeroCarousel = () => {
     {
       id: 1,
       image: "/img/consultora-ambiental-hero.jpg",
+      webp: "/img/consultora-ambiental-hero.webp",
       title: "Consultoría Ambiental Profesional",
       subtitle: "Expertos en Gestión Ambiental en la Patagonia",
       description:
@@ -23,6 +24,7 @@ const HeroCarousel = () => {
     {
       id: 2,
       image: "/img/estudio-impacto-hero.jpg",
+      webp: "/img/estudio-impacto-hero.webp",
       title: "Estudios de Impacto Ambiental",
       subtitle: "Evaluaciones Completas y Detalladas",
       description:
@@ -35,6 +37,7 @@ const HeroCarousel = () => {
     {
       id: 3,
       image: "/img/gestion-residual-hero.jpeg",
+      webp: "/img/gestion-residual-hero.webp",
       title: "Gestión de Residuos",
       subtitle: "Soluciones Sostenibles para tu Empresa",
       description:
@@ -47,6 +50,7 @@ const HeroCarousel = () => {
     {
       id: 4,
       image: "/img/auditoria-ambiental-hero.png",
+      webp: "/img/auditoria-ambiental-hero.webp",
       title: "Auditorías y Certificaciones",
       subtitle: "IRAM-ISO 14001 y Cumplimiento Normativo",
       description:
@@ -105,15 +109,23 @@ const HeroCarousel = () => {
         >
           {/* Background Image */}
           <div
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat transform scale-105"
+            className="absolute inset-0 transform scale-105"
             style={{
-              backgroundImage: `url(${slide.image})`,
               animation:
                 index === currentSlide ? "kenBurns 15s ease-out" : "none",
             }}
-            role="img"
-            aria-label={slide.title}
           >
+            <picture>
+              <source srcSet={slide.webp} type="image/webp" />
+              <img
+                src={slide.image}
+                alt={slide.title}
+                className="absolute inset-0 w-full h-full object-cover"
+                loading={index === 0 ? "eager" : "lazy"}
+                decoding="async"
+                fetchPriority={index === 0 ? "high" : "low"}
+              />
+            </picture>
             <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
           </div>
 

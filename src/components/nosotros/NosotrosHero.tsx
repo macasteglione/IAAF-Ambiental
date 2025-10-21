@@ -4,7 +4,7 @@ const NosotrosHero = () => {
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url(/img/nosotros-hero.jpg)" }}
+        style={{ backgroundImage: "url(/img/nosotros-hero.webp)" }}
       >
         {/* Overlay para oscurecer/aclarar la imagen */}
         <div className="absolute inset-0 bg-black/70"></div>

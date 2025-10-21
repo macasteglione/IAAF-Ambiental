@@ -3,7 +3,7 @@ const ServiciosHero = () => {
     <section className="text-gray-900 h-[500px] lg:h-[550px] relative overflow-hidden flex items-center pt-20">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url(/img/servicios-hero.jpg)" }}
+        style={{ backgroundImage: "url(/img/servicios-hero.webp)" }}
       >
         <div className="absolute inset-0 bg-black/70"></div>
       </div>

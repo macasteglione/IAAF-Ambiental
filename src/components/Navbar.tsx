@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
@@ -9,8 +9,12 @@ const Header = () => {
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
-  const isHomePage = location.pathname === '/';
-  const isLegalPage = ['/privacidad', '/terminos', '/accesibilidad'].includes(location.pathname);
+  
+  const isHomePage = useMemo(() => location.pathname === '/', [location.pathname]);
+  const isLegalPage = useMemo(() => 
+    ['/privacidad', '/terminos', '/accesibilidad'].includes(location.pathname),
+    [location.pathname]
+  );
 
   useEffect(() => {
     setIsMenuOpen(false);
@@ -56,15 +60,20 @@ const Header = () => {
     }
   }, [isMenuOpen]);
 
-  const navigation = [
+  const navigation = useMemo(() => [
     { name: "Inicio", href: "/" },
     { name: "Sobre Nosotros", href: "/nosotros" },
     { name: "Servicios", href: "/servicios" },
     { name: "Proyectos", href: "/proyectos" },
     { name: "Trabajo", href: "/trabajo" },
-  ];
+  ], []);
 
-  const isActivePath = (path: string) => location.pathname === path;
+  const isActivePath = useCallback((path: string) => location.pathname === path, [location.pathname]);
+  
+  const logoSrc = useMemo(() => 
+    !isLegalPage && !isScrolled && !isMenuOpen ? "/img/logo blanco.png" : "/img/logo_color.svg",
+    [isLegalPage, isScrolled, isMenuOpen]
+  );
 
   return (
     <>
@@ -84,9 +93,11 @@ const Header = () => {
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-3" aria-label="IAAF Ambiental - Volver al inicio">
                 <img
-                  src={!isLegalPage && !isScrolled && !isMenuOpen ? "/img/logo blanco.png" : "/img/logo_color.svg"}
+                  src={logoSrc}
                   alt="IAAF Ambiental - Consultoría Ambiental en Puerto Madryn"
                   className="h-20 w-auto transition-all duration-300 hover:scale-105"
+                  loading="eager"
+                  decoding="async"
                 />
               </Link>
             </div>
