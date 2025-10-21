@@ -63,11 +63,17 @@ const TrustSection = () => {
                 key={index}
                 className="flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 transform hover:scale-110"
               >
-                <img
-                  src={client.logo}
-                  alt={`Logo de ${client.name}`}
-                  className="w-auto object-contain filter drop-shadow-md"
-                />
+                <div className="w-full aspect-[3/2] flex items-center justify-center">
+                  <img
+                    src={client.logo}
+                    alt={`Logo de ${client.name}`}
+                    className="max-w-full max-h-full w-auto h-auto object-contain filter drop-shadow-md"
+                    width="200"
+                    height="133"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
               </div>
             ))}
           </div>

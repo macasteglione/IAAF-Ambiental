@@ -1,9 +1,11 @@
 const ProyectosHero = () => {
   return (
-    <section className="text-gray-900 h-[550px] lg:h-[550px] relative overflow-hidden flex items-center pt-20">
+    <section className="text-gray-900 h-[550px] lg:h-[550px] relative overflow-hidden flex items-center pt-20" style={{ minHeight: '550px' }}>
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat will-change-auto"
         style={{ backgroundImage: "url(/img/proyectos-hero.webp)" }}
+        role="img"
+        aria-label="Hero de proyectos"
       >
         <div className="absolute inset-0 bg-black/70"></div>
       </div>
