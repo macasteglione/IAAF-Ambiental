@@ -1,3 +1,4 @@
+import { lazy, Suspense } from "react";
 import {
   Card,
   CardContent,
@@ -16,7 +17,9 @@ import {
 } from "lucide-react";
 import { useFormularioContacto } from "@/hooks/useFormularioContacto";
 import ContactoCamposFormulario from "./ContactoCamposFormulario";
-import HCaptcha from "@hcaptcha/react-hcaptcha";
+
+// Lazy load hCaptcha to improve INP
+const HCaptcha = lazy(() => import("@hcaptcha/react-hcaptcha"));
 
 const ContactoFormulario = () => {
   const {
@@ -152,13 +155,19 @@ const ContactoFormulario = () => {
 
               {/* hCaptcha */}
               <div className="flex flex-col space-y-3 py-4">
-                <HCaptcha
-                  ref={captchaRef}
-                  sitekey={HCAPTCHA_SITE_KEY}
-                  onVerify={handleCaptchaVerify}
-                  onExpire={handleCaptchaExpire}
-                  theme="light"
-                />
+                <Suspense fallback={
+                  <div className="h-20 flex items-center justify-center bg-gray-50 rounded border border-gray-200">
+                    <span className="text-sm text-gray-500">Cargando verificación...</span>
+                  </div>
+                }>
+                  <HCaptcha
+                    ref={captchaRef}
+                    sitekey={HCAPTCHA_SITE_KEY}
+                    onVerify={handleCaptchaVerify}
+                    onExpire={handleCaptchaExpire}
+                    theme="light"
+                  />
+                </Suspense>
                 {!captchaToken && (
                   <p className="text-xs text-gray-500">
                     Complete la verificación para habilitar el envío

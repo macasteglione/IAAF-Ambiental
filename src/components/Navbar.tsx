@@ -96,6 +96,8 @@ const Header = () => {
                   src={logoSrc}
                   alt="IAAF Ambiental - Consultoría Ambiental en Puerto Madryn"
                   className="h-20 w-auto transition-all duration-300 hover:scale-105"
+                  width="80"
+                  height="80"
                   loading="eager"
                   decoding="async"
                 />
