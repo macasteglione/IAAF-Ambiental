@@ -1,10 +1,12 @@
 const NosotrosHero = () => {
   return (
-    <section className="text-gray-900 h-[500px] lg:h-[550px] relative overflow-hidden flex items-center pt-20">
+    <section className="text-gray-900 h-[500px] lg:h-[550px] relative overflow-hidden flex items-center pt-20" style={{ minHeight: '500px' }}>
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat will-change-auto"
         style={{ backgroundImage: "url(/img/nosotros-hero.webp)" }}
+        role="img"
+        aria-label="Hero de nosotros"
       >
         {/* Overlay para oscurecer/aclarar la imagen */}
         <div className="absolute inset-0 bg-black/70"></div>

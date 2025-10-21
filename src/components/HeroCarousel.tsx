@@ -91,6 +91,7 @@ const HeroCarousel = () => {
   return (
     <div
       className="relative h-screen overflow-hidden"
+      style={{ minHeight: '600px', contain: 'layout' }}
       role="region"
       aria-label="Servicios de consultoría ambiental destacados"
       aria-live="polite"
@@ -124,6 +125,8 @@ const HeroCarousel = () => {
                 loading={index === 0 ? "eager" : "lazy"}
                 decoding="async"
                 fetchPriority={index === 0 ? "high" : "low"}
+                width="1920"
+                height="1080"
               />
             </picture>
             <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
