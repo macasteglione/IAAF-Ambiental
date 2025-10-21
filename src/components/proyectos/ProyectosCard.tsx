@@ -6,10 +6,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Proyecto } from "@/data/ProyectosDatos";
-import { CheckCircle, Award, ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
+import { CheckCircle, Award } from "lucide-react";
 
 interface ProyectoCardProps {
   proyecto: Proyecto;
