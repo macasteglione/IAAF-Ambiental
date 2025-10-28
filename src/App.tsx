@@ -16,6 +16,13 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 const Accessibility = lazy(() => import("./pages/Accesibilidad"));
 const Privacy = lazy(() => import("./pages/Privacidad"));
 const Terminos = lazy(() => import("./pages/Terminos"));
+const ServicioPlanesManejo = lazy(() => import("./pages/servicios/ServicioPlanesManejo"));
+const ServicioMonitores = lazy(() => import("./pages/servicios/ServicioMonitoreos"));
+const ServicioResiduos = lazy(() => import("./pages/servicios/ServicioResiduos"));
+const ServicioAuditorias = lazy(() => import("./pages/servicios/ServicioAuditorias"));
+const ServicioEducacion = lazy(() => import("./pages/servicios/ServicioEducacion"));
+const ServicioOrdenamiento = lazy(() => import("./pages/servicios/ServicioOrdenamiento"));
+const ServicioLicencias = lazy(() => import("./pages/servicios/ServicioLicencias"));
 
 const PageLoader = () => (
   <div className="flex items-center justify-center min-h-screen">
@@ -40,6 +47,34 @@ function App() {
             <Route
               path="/servicios/estudios-de-impacto-ambiental"
               element={<ServicioEIA />}
+            />
+            <Route
+              path="/servicios/planes-de-manejo-ambiental"
+              element={<ServicioPlanesManejo />}
+            />
+            <Route
+              path="/servicios/monitoreos-ambientales"
+              element={<ServicioMonitores />}
+            />
+            <Route
+              path="/servicios/gestion-de-residuos"
+              element={<ServicioResiduos />}
+            />
+            <Route
+              path="/servicios/auditorias-ambientales"
+              element={<ServicioAuditorias />}
+            />
+            <Route
+              path="/servicios/educacion-y-capacitacion-ambiental"
+              element={<ServicioEducacion />}
+            />
+            <Route
+              path="/servicios/ordenamiento-territorial"
+              element={<ServicioOrdenamiento />}
+            />
+            <Route
+              path="/servicios/licencias-y-permisos-ambientales"
+              element={<ServicioLicencias />}
             />
             <Route path="/accesibilidad" element={<Accessibility />} />
             <Route path="/privacidad" element={<Privacy />} />
