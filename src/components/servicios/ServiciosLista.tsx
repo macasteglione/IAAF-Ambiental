@@ -17,6 +17,7 @@ import {
   Map,
   ShieldCheck,
   CheckCircle,
+  Flame,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -62,11 +63,11 @@ const ServiciosLista = () => {
       color: "from-brand-teal to-brand-green",
     },
     {
-      icon: Waves,
-      title: "Monitoreos Ambientales",
+      icon: Flame,
+      title: "Estudio de Carga de Fuego Vegetal",
       description:
         "Recolección y análisis de datos ambientales para garantizar el cumplimiento normativo y la calidad del entorno.",
-      image: "/img/monitoreo-ambiental-servicio.webp",
+      image: "/img/estudio-fuego-servicio.webp",
       features: [
         "Calidad de aire, agua y suelo",
         "Ruido y vibraciones",
@@ -81,7 +82,7 @@ const ServiciosLista = () => {
         "Industrias",
         "Minería",
       ],
-      color: "from-blue-500 to-blue-600",
+      color: "from-orange-500 to-orange-600",
     },
     {
       icon: ClipboardCheck,

@@ -5,9 +5,9 @@ import {
   Droplet,
   Factory,
   BookOpen,
-  Globe,
   ShieldCheck,
   BarChart3,
+  Bird,
 } from "lucide-react";
 
 const ServiciosAmbientales = () => {
@@ -19,9 +19,9 @@ const ServiciosAmbientales = () => {
       color: "from-brand-green to-brand-green",
     },
     {
-      name: "Gestión de Residuos",
+      name: "Estudios de Composición de RSU",
       icon: Recycle,
-      description: "Planes integrales de manejo",
+      description: "Según IRAM 29523",
       color: "from-brand-teal to-brand-green",
     },
     {
@@ -43,15 +43,15 @@ const ServiciosAmbientales = () => {
       color: "from-gray-500 to-gray-600",
     },
     {
-      name: "Capacitación Ambiental",
+      name: "Inducciones Ambientales",
       icon: BookOpen,
-      description: "Formación y educación continua",
+      description: "Formación acorde a la necesidad de la empresa",
       color: "from-purple-500 to-purple-600",
     },
     {
-      name: "Evaluación de Impacto",
-      icon: Globe,
-      description: "Estudios ambientales integrales",
+      name: "Monitoreos de Fauna Voladora",
+      icon: Bird,
+      description: "Atendiendo necesidades específicas del cliente",
       color: "from-indigo-500 to-indigo-600",
     },
     {

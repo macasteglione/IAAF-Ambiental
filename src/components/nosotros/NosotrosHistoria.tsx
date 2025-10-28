@@ -32,13 +32,6 @@ const NosotrosHistoria = () => {
                 de impacto ambiental, gestión de residuos, auditorías y
                 monitoreo continuo.
               </p>
-
-              <p>
-                Nuestro compromiso con la excelencia nos ha valido el
-                reconocimiento de organismos ambientales provinciales y
-                nacionales, así como la confianza de importantes empresas,
-                organismos públicos e instituciones de toda la Patagonia.
-              </p>
             </div>
           </div>
 

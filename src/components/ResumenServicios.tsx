@@ -54,7 +54,7 @@ const ServicesOverview = () => {
       icon: Award,
       title: "Experiencia Comprobada",
       description:
-        "Experiencia en brindando soluciones ambientales exitosas en toda la región patagónica.",
+        "Contamos con un equipo de expertos ambientales con amplia experiencia brindando soluciones exitosas en toda la región patagónica",
     },
     {
       icon: MapPin,

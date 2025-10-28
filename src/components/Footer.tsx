@@ -141,7 +141,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  to="/servicios/eia"
+                  to="/servicios/estudios-de-impacto-ambiental"
                   className="text-gray-300 hover:text-white hover:pl-2 transition-all inline-block"
                 >
                   Evaluación de Impacto Ambiental
@@ -149,7 +149,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/servicios/gestion-residuos"
+                  to="/servicios/gestion-de-residuos"
                   className="text-gray-300 hover:text-white hover:pl-2 transition-all inline-block"
                 >
                   Gestión de Residuos
@@ -157,7 +157,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/servicios/auditorias"
+                  to="/servicios/auditorias-ambientales"
                   className="text-gray-300 hover:text-white hover:pl-2 transition-all inline-block"
                 >
                   Auditorías Ambientales
@@ -165,23 +165,23 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/servicios/monitoreo"
+                  to="/servicios/monitoreos-ambientales"
                   className="text-gray-300 hover:text-white hover:pl-2 transition-all inline-block"
                 >
-                  Monitoreo Ambiental
+                  Monitoreos Ambientales
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/servicios/estudios"
+                  to="/servicios/ordenamiento-territorial"
                   className="text-gray-300 hover:text-white hover:pl-2 transition-all inline-block"
                 >
-                  Estudios de Suelo y Agua
+                  Ordenamiento Territorial
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/servicios/legislacion"
+                  to="/servicios/licencias-y-permisos-ambientales"
                   className="text-gray-300 hover:text-white hover:pl-2 transition-all inline-block"
                 >
                   Asesoría en Legislación
@@ -189,7 +189,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/servicios/capacitacion"
+                  to="/servicios/educacion-y-capacitacion-ambiental"
                   className="text-gray-300 hover:text-white hover:pl-2 transition-all inline-block"
                 >
                   Capacitación Ambiental
@@ -197,10 +197,10 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/servicios/planes"
+                  to="/servicios/planes-de-manejo-ambiental"
                   className="text-gray-300 hover:text-white hover:pl-2 transition-all inline-block"
                 >
-                  Planes de Gestión
+                  Planes de Manejo Ambiental
                 </Link>
               </li>
             </ul>

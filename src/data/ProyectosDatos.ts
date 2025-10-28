@@ -1,11 +1,6 @@
-import { 
-  TreePine, 
-  Leaf, 
-  Droplet, 
-  Factory, 
-  Globe, 
-  BookOpen,
-  Fish
+import {
+  Wind,
+  Recycle,
 } from "lucide-react";
 
 export interface Proyecto {
@@ -20,43 +15,41 @@ export interface Proyecto {
 
 export const proyectos: Proyecto[] = [
   {
-    title: "Reserva Marina Puerto Madryn",
-    description: "Proyecto integral de conservación y gestión sustentable de los ecosistemas marinos del Golfo Nuevo, protegiendo la biodiversidad marina de la Patagonia.",
-    icon: Fish,
+    title: "Parques Eólicos",
+    description:
+      "Nuestros profesionales cuentan con experiencia en el mantenimiento del sistema de gestión ambiental segun ISO-IRAM 14001",
+    icon: Wind,
     services: [
-      "Diagnóstico ambiental marino",
-      "Estudio de biodiversidad marina",
-      "Análisis de calidad de agua",
-      "Plan de gestión sustentable",
-      "Monitoreo continuo de ecosistemas",
-      "Educación ambiental marina"
+      "Desarrollo y revisión de procedimientos",
+      "Análisis de contexto de la organización",
+      "Evaluación de aspectos/impactos ambientales",
+      "Análisis de riesgos y oportunidades",
+      "Auditorías internas",
+      "Seguimiento de la evaluación de desempeño ambiental",
+      "Auditorías de cumplimiento de requisitos legales",
     ],
     events: [
-      "Talleres comunitarios",
-      "Capacitación de pescadores",
-      "Consultas públicas",
-      "Jornadas de avistaje responsable",
-      "Programas escolares",
-      "Campañas de conservación"
+      "Energías renovables",
+      "Descarbonización del sistema energético",
+      "Desarrollo energético sustentable",
     ],
     certifications: [
-      "Reconocimiento Provincial",
-      "Gestión Ambiental Costera",
-      "Conservación de Biodiversidad",
-      "Monitoreo Marino Certificado"
+      "ISO-IRAM 14001",
+      "Resolución ENRE 558/2022",
+      "Estándares internacionales (IFC)",
     ],
-    link: "/proyectos/reserva-marina-puerto-madryn"
+    link: "/proyectos/reserva-marina-puerto-madryn",
   },
   {
-    title: "Gestión de Recursos Hídricos",
-    description: "Evaluación y monitoreo de calidad del agua, optimización de recursos hídricos y protección de cuerpos de agua.",
-    icon: Droplet,
+    title: "GIRSU",
+    description:
+      "Realizamos los procedimientos técnicos para determinar la composición de los RSU sin tratamiento según lo establecido en la norma IRAM 29523",
+    icon: Recycle,
     services: [
-      "Monitoreo de calidad de agua",
-      "Planes de manejo de cuencas",
-      "Evaluación de riesgos hídricos",
-      "Educación sobre uso responsable",
-      "Estudios de impacto ambiental"
+      "Capacitación y supervisión del personal clasificador",
+      "Logística en el proceso de muetreo",
+      "Redacción del informe técnico",
+      "Sugerencias para mejorar el programa de concientización",
     ],
     events: [
       "Proyectos comunitarios",
@@ -64,122 +57,13 @@ export const proyectos: Proyecto[] = [
       "Capacitaciones industriales",
       "Estudios de impacto hídrico",
       "Proyectos escolares",
-      "Campañas de concienciación"
-    ],
-    certifications: [
-      "ISO 14001",
-      "Gestión de Recursos Hídricos",
-      "Evaluación de Impacto Ambiental",
-      "Monitoreo Ambiental"
-    ],
-    link: "/proyectos/gestion-recursos-hidricos"
-  },
-  {
-    title: "Eficiencia Energética y Energías Renovables",
-    description: "Implementación de proyectos de eficiencia energética y adopción de energías renovables en industrias y comunidades.",
-    icon: Factory,
-    services: [
-      "Auditorías energéticas",
-      "Instalación de paneles solares",
-      "Optimización de consumo energético",
-      "Planes de eficiencia para empresas",
-      "Capacitación en energías limpias"
-    ],
-    events: [
-      "Proyectos industriales",
-      "Proyectos comunitarios",
-      "Talleres educativos",
-      "Consultorías energéticas",
       "Campañas de concienciación",
-      "Ferias de innovación sostenible"
     ],
     certifications: [
-      "ISO 50001",
-      "Certificación de Energías Renovables",
-      "Planes de Eficiencia Energética",
-      "Sostenibilidad Corporativa"
+      "IRAM 29523",
+      "Promoción Ambiental",
+      "Asesoramiento a organismos públicos",
     ],
-    link: "/proyectos/eficiencia-energetica"
+    link: "/proyectos/gestion-recursos-hidricos",
   },
-  {
-    title: "Educación y Capacitación Ambiental",
-    description: "Programas de capacitación y educación ambiental para empresas, escuelas y comunidades.",
-    icon: BookOpen,
-    services: [
-      "Talleres de educación ambiental",
-      "Capacitación corporativa",
-      "Programas escolares",
-      "Campañas de sensibilización",
-      "Asesoría en sostenibilidad"
-    ],
-    events: [
-      "Talleres educativos",
-      "Seminarios corporativos",
-      "Campañas escolares",
-      "Charlas comunitarias",
-      "Ferias ambientales",
-      "Capacitación en línea"
-    ],
-    certifications: [
-      "Educación Ambiental Certificada",
-      "ISO 14001",
-      "Programas de Sostenibilidad",
-      "Gestión de Proyectos Ambientales"
-    ],
-    link: "/proyectos/educacion-ambiental"
-  },
-  {
-    title: "Evaluación y Gestión de Impacto Ambiental",
-    description: "Estudios y asesorías para evaluar, prevenir y mitigar impactos ambientales de proyectos e industrias.",
-    icon: Globe,
-    services: [
-      "Evaluación de impacto ambiental",
-      "Planes de mitigación",
-      "Monitoreo ambiental",
-      "Asesoría en cumplimiento normativo",
-      "Planes de gestión sostenible"
-    ],
-    events: [
-      "Proyectos de infraestructura",
-      "Proyectos industriales",
-      "Proyectos comunitarios",
-      "Auditorías ambientales",
-      "Consultorías estratégicas",
-      "Proyectos educativos"
-    ],
-    certifications: [
-      "ISO 14001",
-      "Evaluación de Impacto Ambiental",
-      "Planes de Mitigación Certificados",
-      "Gestión Ambiental Estratégica"
-    ],
-    link: "/proyectos/evaluacion-impacto-ambiental"
-  },
-  {
-    title: "Gestión de Residuos y Economía Circular",
-    description: "Diseño e implementación de sistemas de gestión de residuos y prácticas de economía circular en empresas y comunidades.",
-    icon: Leaf,
-    services: [
-      "Planes de gestión de residuos",
-      "Reciclaje y compostaje",
-      "Consultoría en economía circular",
-      "Capacitación y concienciación",
-      "Monitoreo de cumplimiento normativo"
-    ],
-    events: [
-      "Proyectos industriales",
-      "Ferias educativas",
-      "Campañas comunitarias",
-      "Auditorías ambientales",
-      "Programas escolares",
-      "Talleres de innovación"
-    ],
-    certifications: [
-      "ISO 14001",
-      "Gestión de Residuos Certificada",
-      "Economía Circular",
-      "Sostenibilidad Corporativa"
-    ],
-    link: "/proyectos/gestion-residuos"
-  }
 ];

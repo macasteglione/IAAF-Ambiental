@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Shield, Recycle, Award, FileCheck, Droplet, Leaf } from "lucide-react";
+import { Shield, Recycle, Award, FileCheck, Flame, Leaf } from "lucide-react";
 
 const NosotrosServicios = () => {
   const services = [
@@ -32,10 +32,10 @@ const NosotrosServicios = () => {
       color: "from-brand-green to-brand-teal",
     },
     {
-      icon: Droplet,
-      title: "Monitoreo Ambiental",
+      icon: Flame,
+      title: "Estudio de Carga de Fuego Vegetal",
       description:
-        "Monitoreo continuo de calidad de aire, agua y suelo. Análisis de emisiones atmosféricas y control de efluentes líquidos con tecnología de punta.",
+        "Análisis del tipo, distribución y cantidad de biomasa disponible para determinar el riesgo potencial de incendios y proponer medidas sustentables de manejo preventivo.",
       color: "from-brand-teal to-brand-green",
     },
     {

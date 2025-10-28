@@ -23,12 +23,12 @@ const TrustSection = () => {
   ];
 
   const sectors = [
+    "Energías Renovables",
     "Industria Pesquera",
     "Minería y Petróleo",
     "Turismo Sustentable",
     "Agricultura y Ganadería",
     "Construcción e Infraestructura",
-    "Sector Público Municipal",
   ];
 
   return (
