@@ -23,14 +23,9 @@ const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-
-      // Detectar si hay scroll para cambiar el fondo
       setIsScrolled(currentScrollY > 50);
 
-      // No ocultar el navbar si el menú móvil está abierto
-      if (isMenuOpen) {
-        return;
-      }
+      if (isMenuOpen) return;
 
       if (currentScrollY < lastScrollY || currentScrollY < 10) {
         setIsVisible(true);
@@ -47,7 +42,6 @@ const Header = () => {
 
   useEffect(() => {
     if (isMenuOpen) {
-      // Asegurar que el navbar sea visible cuando el menú está abierto
       setIsVisible(true);
       
       const handleEscape = (e: KeyboardEvent) => {
@@ -75,6 +69,8 @@ const Header = () => {
     [isLegalPage, isScrolled, isMenuOpen]
   );
 
+  const isTransparent = !isLegalPage && !isScrolled && !isMenuOpen;
+
   return (
     <>
       {/* Main Header */}
@@ -82,8 +78,8 @@ const Header = () => {
         className={`${isLegalPage ? 'sticky' : 'fixed'} top-0 z-50 w-full transition-all duration-300 ease-in-out ${
           isVisible ? 'translate-y-0' : '-translate-y-full'
         } ${
-          !isLegalPage && !isScrolled && !isMenuOpen
-            ? 'bg-transparent shadow-none border-b-0'
+          isTransparent
+            ? 'bg-gradient-to-b from-black/60 via-black/40 to-transparent shadow-none border-b-0'
             : 'bg-white shadow-sm border-gray-200'
         }`}
       >
@@ -113,8 +109,8 @@ const Header = () => {
                   className={`text-base font-medium transition-all duration-200 px-4 py-2 rounded-lg ${
                     isActivePath(item.href)
                       ? "text-black bg-brand-lime shadow-md"
-                      : !isLegalPage && !isScrolled
-                      ? "text-white hover:text-brand-lime hover:bg-white/10"
+                      : isTransparent
+                      ? "text-white hover:text-black hover:bg-white hover:shadow-md backdrop-blur-sm"
                       : "text-gray-700 hover:text-brand-teal hover:bg-green-50"
                   }`}
                   aria-current={isActivePath(item.href) ? 'page' : undefined}
@@ -127,7 +123,11 @@ const Header = () => {
             <div className="hidden md:flex items-center space-x-4">
               <Button 
                 asChild 
-                className="text-base bg-brand-teal hover:bg-brand-green text-white shadow-lg hover:shadow-xl transition-all"
+                className={`text-base shadow-lg hover:shadow-xl transition-all ${
+                  isTransparent
+                    ? "bg-brand-lime hover:bg-white text-black hover:text-brand-teal font-semibold"
+                    : "bg-brand-teal hover:bg-brand-green text-white"
+                }`}
               >
                 <Link to="/contacto" aria-label="Ir a página de contacto">
                   Contacto
@@ -144,7 +144,10 @@ const Header = () => {
                 aria-label={isMenuOpen ? 'Cerrar menú de navegación' : 'Abrir menú de navegación'}
                 aria-expanded={isMenuOpen}
                 aria-controls="mobile-menu"
-                className={!isLegalPage && !isScrolled ? "text-white" : "text-brand-teal"}
+                className={isTransparent 
+                  ? "text-white hover:bg-brand-lime/20" 
+                  : "text-brand-teal hover:bg-green-50"
+                }
               >
                 {isMenuOpen ? (
                   <X className="h-6 w-6" aria-hidden="true" />
