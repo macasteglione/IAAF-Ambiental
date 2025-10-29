@@ -49,7 +49,7 @@ const ServiciosAmbientales = () => {
       color: "from-purple-500 to-purple-600",
     },
     {
-      name: "Monitoreos de Fauna Voladora",
+      name: "Monitoreo de Fauna Voladora",
       icon: Bird,
       description: "Atendiendo necesidades específicas del cliente",
       color: "from-indigo-500 to-indigo-600",

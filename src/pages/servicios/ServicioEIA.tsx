@@ -139,7 +139,7 @@ const ServicioEIA = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="h-[500px] lg:h-[550px] bg-gradient-to-br from-brand-green via-brand-teal to-brand-lime relative overflow-hidden flex items-center pt-20">
+      <section className="h-screen lg:h-[550px] bg-gradient-to-br from-brand-green via-brand-teal to-brand-lime relative overflow-hidden flex items-center pt-20">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-brand-dark rounded-full blur-3xl"></div>
@@ -147,10 +147,10 @@ const ServicioEIA = () => {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-3xl lg:text-5xl xl:text-5xl font-bold text-white mb-6 leading-tight">
               Estudios de Impacto Ambiental (EIA)
             </h1>
-            <p className="text-xl lg:text-2xl text-white/95 max-w-4xl mx-auto mb-8 leading-relaxed">
+            <p className="text-base lg:text-2xl text-white/95 max-w-4xl mx-auto mb-8 leading-relaxed">
               Evaluaciones ambientales profesionales para proyectos en la
               Patagonia. Nuestro equipo certificado realiza EIA completos
               garantizando cumplimiento normativo, identificación de impactos y
@@ -158,58 +158,10 @@ const ServicioEIA = () => {
               turismo sustentable.
             </p>
             <div className="flex items-center justify-center text-white mb-8">
-              <MapPin className="h-6 w-6 mr-2" />
-              <span className="text-lg font-semibold">
+              <MapPin className="lg:h-6 h-5 w-6 mr-2" />
+              <span className="lg:text-lg text-xs font-semibold">
                 Puerto Madryn, Trelew, Rawson y toda la Región Patagónica
               </span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose Our EIA Services */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 text-center mb-12">
-            ¿Por Qué Elegir Nuestros Servicios de EIA?
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center bg-green-50 rounded-2xl p-8 border-2 border-brand-lime/20 hover:border-green-300 hover:shadow-lg transition-all">
-              <div className="w-16 h-16 bg-brand-green rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold mb-3 text-gray-900">
-                Equipo Certificado
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                Profesionales matriculados con amplia experiencia en
-                evaluaciones ambientales y conocimiento profundo de la normativa
-                argentina.
-              </p>
-            </div>
-            <div className="text-center bg-green-50 rounded-2xl p-8 border-2 border-brand-lime/20 hover:border-green-300 hover:shadow-lg transition-all">
-              <div className="w-16 h-16 bg-brand-green rounded-full flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold mb-3 text-gray-900">
-                Cumplimiento Garantizado
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                Aseguramos el cumplimiento total de la normativa provincial y
-                nacional vigente en materia ambiental.
-              </p>
-            </div>
-            <div className="text-center bg-green-50 rounded-2xl p-8 border-2 border-brand-lime/20 hover:border-green-300 hover:shadow-lg transition-all">
-              <div className="w-16 h-16 bg-brand-green rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold mb-3 text-gray-900">
-                Experiencia Regional
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                Conocimiento especializado de los ecosistemas patagónicos y las
-                particularidades ambientales de la región.
-              </p>
             </div>
           </div>
         </div>

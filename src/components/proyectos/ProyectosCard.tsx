@@ -82,7 +82,7 @@ const ProyectoCard = ({ proyecto }: ProyectoCardProps) => {
             </h4>
           </div>
           <div className="flex flex-wrap gap-2">
-            {proyecto.events.map((event, idx) => (
+            {proyecto.type.map((event, idx) => (
               <Badge
                 key={idx}
                 variant="outline"

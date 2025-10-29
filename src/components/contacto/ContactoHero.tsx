@@ -1,7 +1,7 @@
 const ContactoHero = () => {
   return (
     <section 
-      className="text-white min-h-[500px] sm:min-h-[500px] lg:min-h-[550px] relative overflow-hidden flex items-center pt-16 sm:pt-20 pb-8 sm:pb-12 bg-gradient-to-br from-brand-green via-brand-teal to-brand-green"
+      className="text-white min-h-[550px] sm:min-h-[500px] lg:min-h-[550px] relative overflow-hidden flex items-center pt-16 sm:pt-20 pb-8 sm:pb-12 bg-gradient-to-br from-brand-green via-brand-teal to-brand-green"
     >
       {/* Patrón decorativo */}
       <div className="absolute inset-0 opacity-10">

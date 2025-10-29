@@ -17,12 +17,12 @@ const Accessibility = lazy(() => import("./pages/Accesibilidad"));
 const Privacy = lazy(() => import("./pages/Privacidad"));
 const Terminos = lazy(() => import("./pages/Terminos"));
 const ServicioPlanesManejo = lazy(() => import("./pages/servicios/ServicioPlanesManejo"));
-const ServicioMonitores = lazy(() => import("./pages/servicios/ServicioMonitoreos"));
 const ServicioResiduos = lazy(() => import("./pages/servicios/ServicioResiduos"));
 const ServicioAuditorias = lazy(() => import("./pages/servicios/ServicioAuditorias"));
 const ServicioEducacion = lazy(() => import("./pages/servicios/ServicioEducacion"));
 const ServicioOrdenamiento = lazy(() => import("./pages/servicios/ServicioOrdenamiento"));
 const ServicioLicencias = lazy(() => import("./pages/servicios/ServicioLicencias"));
+const ServicioCargaFuego = lazy(() => import("./pages/servicios/ServicioCargaFuego"));
 
 const PageLoader = () => (
   <div className="flex items-center justify-center min-h-screen">
@@ -53,10 +53,6 @@ function App() {
               element={<ServicioPlanesManejo />}
             />
             <Route
-              path="/servicios/monitoreos-ambientales"
-              element={<ServicioMonitores />}
-            />
-            <Route
               path="/servicios/gestion-de-residuos"
               element={<ServicioResiduos />}
             />
@@ -75,6 +71,10 @@ function App() {
             <Route
               path="/servicios/licencias-y-permisos-ambientales"
               element={<ServicioLicencias />}
+            />
+            <Route
+              path="/servicios/estudio-de-carga-de-fuego-vegetal"
+              element={<ServicioCargaFuego />}
             />
             <Route path="/accesibilidad" element={<Accessibility />} />
             <Route path="/privacidad" element={<Privacy />} />
