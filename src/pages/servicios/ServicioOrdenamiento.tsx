@@ -8,8 +8,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 import {
   MapPin,
   Map,
@@ -78,7 +76,7 @@ const ServicioOrdenamiento = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="min-h-[450px] sm:min-h-[500px] lg:min-h-[550px] bg-gradient-to-br from-cyan-500 via-cyan-600 to-cyan-700 relative overflow-hidden flex items-center pt-16 sm:pt-20 pb-8 sm:pb-12">
+      <section className="h-screen lg:h-[550px] bg-gradient-to-br from-cyan-500 via-cyan-600 to-cyan-700 relative overflow-hidden flex items-center pt-16 sm:pt-20 pb-8 sm:pb-12">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
             backgroundImage: `radial-gradient(circle at 30% 20%, rgba(255,255,255,0.15) 0%, transparent 50%),
@@ -88,16 +86,16 @@ const ServicioOrdenamiento = () => {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 text-white leading-tight">
+            <h1 className="text-3xl lg:text-5xl xl:text-5xl font-bold text-white mb-6 leading-tight">
               Ordenamiento Territorial
             </h1>
-            <p className="text-base sm:text-lg lg:text-xl xl:text-2xl text-white/95 mb-6 sm:mb-8 leading-relaxed px-4 sm:px-0">
+            <p className="text-base lg:text-2xl text-white/95 max-w-4xl mx-auto mb-8 leading-relaxed">
               Planificación estratégica del territorio para un desarrollo
               sustentable y equilibrado en la región patagónica
             </p>
             <div className="flex items-center justify-center text-white">
-              <MapPin className="h-5 w-5 sm:h-6 sm:w-6 mr-2" />
-              <span className="text-sm sm:text-base lg:text-lg font-semibold">
+              <MapPin className="lg:h-6 h-5 w-6 mr-2" />
+              <span className="lg:text-lg text-xs font-semibold">
                 Cobertura en toda la Región Patagónica
               </span>
             </div>

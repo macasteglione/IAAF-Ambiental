@@ -66,21 +66,18 @@ const ServiciosLista = () => {
       icon: Flame,
       title: "Estudio de Carga de Fuego Vegetal",
       description:
-        "Recolección y análisis de datos ambientales para garantizar el cumplimiento normativo y la calidad del entorno.",
+        "Evaluación cuantitativa del material vegetal combustible presente en un área determinada, con el fin de estimar el potencial de propagación de incendios y establecer medidas preventivas y de manejo del riesgo.",
       image: "/img/estudio-fuego-servicio.webp",
       features: [
-        "Calidad de aire, agua y suelo",
-        "Ruido y vibraciones",
-        "Biodiversidad",
-        "Relevamiento de flora/fauna",
-        "Muestreos periódicos",
-        "Informes técnicos",
+        "Relevamiento y clasificación del material vegetal",
+        "Cálculo de la carga de fuego total y específica",
+        "Identificación de zonas críticas",
+        "Recomendaciones para reducción del riesgo",
       ],
       suitable: [
-        "Obras en ejecución",
-        "Áreas protegidas",
-        "Industrias",
-        "Minería",
+        "Planes de manejo forestal",
+        "Proyectos de infraestructura en zonas rurales o naturales",
+        "Áreas protegidas y reservas naturales",
       ],
       color: "from-orange-500 to-orange-600",
     },
@@ -193,9 +190,9 @@ const ServiciosLista = () => {
             Nuestros Principales Servicios
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Desde estudios de impacto hasta capacitación ambiental, cada servicio
-            está diseñado para proteger el ambiente patagónico y asegurar el
-            cumplimiento de la normativa vigente.
+            Desde estudios de impacto hasta capacitación ambiental, cada
+            servicio está diseñado para proteger el ambiente patagónico y
+            asegurar el cumplimiento de la normativa vigente.
           </p>
         </div>
 

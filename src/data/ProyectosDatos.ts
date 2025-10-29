@@ -1,14 +1,11 @@
-import {
-  Wind,
-  Recycle,
-} from "lucide-react";
+import { Wind, Recycle } from "lucide-react";
 
 export interface Proyecto {
   title: string;
   description: string;
   icon: any;
   services: string[];
-  events: string[];
+  type: string[];
   certifications: string[];
   link?: string;
 }
@@ -17,7 +14,7 @@ export const proyectos: Proyecto[] = [
   {
     title: "Parques Eólicos",
     description:
-      "Nuestros profesionales cuentan con experiencia en el mantenimiento del sistema de gestión ambiental segun ISO-IRAM 14001",
+      "Nuestros profesionales cuentan con experiencia en el mantenimiento del sistema de gestión ambiental según ISO-IRAM 14001",
     icon: Wind,
     services: [
       "Desarrollo y revisión de procedimientos",
@@ -28,7 +25,7 @@ export const proyectos: Proyecto[] = [
       "Seguimiento de la evaluación de desempeño ambiental",
       "Auditorías de cumplimiento de requisitos legales",
     ],
-    events: [
+    type: [
       "Energías renovables",
       "Descarbonización del sistema energético",
       "Desarrollo energético sustentable",
@@ -47,17 +44,15 @@ export const proyectos: Proyecto[] = [
     icon: Recycle,
     services: [
       "Capacitación y supervisión del personal clasificador",
-      "Logística en el proceso de muetreo",
+      "Logística en el proceso de muestreo",
       "Redacción del informe técnico",
       "Sugerencias para mejorar el programa de concientización",
     ],
-    events: [
-      "Proyectos comunitarios",
-      "Auditorías ambientales",
-      "Capacitaciones industriales",
-      "Estudios de impacto hídrico",
-      "Proyectos escolares",
-      "Campañas de concienciación",
+    type: [
+      "Gestión integral de residuos sólidos urbanos",
+      "Economía circular",
+      "Sostenibilidad ambiental",
+      "Educación y concienciación comunitaria",
     ],
     certifications: [
       "IRAM 29523",

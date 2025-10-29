@@ -165,10 +165,10 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/servicios/monitoreos-ambientales"
+                  to="/servicios/estudio-de-carga-de-fuego-vegetal"
                   className="text-gray-300 hover:text-white hover:pl-2 transition-all inline-block"
                 >
-                  Monitoreos Ambientales
+                  Estudio de Carga de Fuego Vegetal
                 </Link>
               </li>
               <li>
