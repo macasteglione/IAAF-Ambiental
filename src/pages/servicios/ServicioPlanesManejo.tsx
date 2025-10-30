@@ -70,7 +70,7 @@ const ServicioPlanesManejo = () => {
   return (
     <div className="min-h-screen">
       <EnhancedSEO
-        title="Planes de Manejo Ambiental Puerto Madryn | Gestión Ambiental Empresas Chubut | IAAF Ambiental"
+        title="Planes de Manejo Ambiental | IAAF Ambiental"
         description="Diseño e implementación de Planes de Manejo Ambiental en Puerto Madryn y toda la Patagonia. Programas ambientales para empresas, municipios, proyectos extractivos y construcción. Mejora continua y certificaciones ISO 14001."
         keywords="plan manejo ambiental puerto madryn, gestión ambiental empresas chubut, programa ambiental patagonia, manejo ambiental municipios trelew, plan gestión sustentable, ISO 14001 patagonia, consultora ambiental empresas"
         url="https://iaafambiental.com/servicios/planes-de-manejo-ambiental"
@@ -133,7 +133,7 @@ const ServicioPlanesManejo = () => {
       <Header />
 
       {/* Hero Section - Responsive Optimizado */}
-      <section className="h-screen lg:h-[550px] bg-gradient-to-br from-brand-green via-brand-teal to-brand-lime relative overflow-hidden flex items-center pt-20">
+      <section className="h-screen lg:h-[550px] bg-gradient-to-br from-brand-green via-brand-teal to-brand-lime relative overflow-hidden flex items-center lg:pt-20">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
             backgroundImage: `radial-gradient(circle at 30% 20%, rgba(255,255,255,0.15) 0%, transparent 50%),

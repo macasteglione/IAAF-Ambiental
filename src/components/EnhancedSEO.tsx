@@ -43,16 +43,15 @@ const EnhancedSEO = ({
     url: "https://iaafambiental.com",
     logo: {
       "@type": "ImageObject",
-      url: "https://iaafambiental.com/logo.png",
+      url: "https://iaafambiental.com/img/logo_color.png",
       width: 1200,
       height: 630,
     },
     description: description,
-    telephone: "+54 280 XXX-XXXX", // Reemplazar con teléfono real
-    email: "administracion@iaafambiental.com", // Reemplazar con email real
+    telephone: "+54 280 455-7226",
+    email: "administracion@iaafambiental.com",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Dirección de la oficina", // Reemplazar con dirección real
       addressLocality: "Puerto Madryn",
       addressRegion: "Chubut",
       postalCode: "U9120",
@@ -81,9 +80,7 @@ const EnhancedSEO = ({
       "Planes de Gestión de Residuos",
     ],
     sameAs: [
-      // Reemplazar con redes sociales reales de IAAF Ambiental
-      "https://www.facebook.com/iaafambiental",
-      "https://www.linkedin.com/company/iaaf-ambiental",
+      "https://www.linkedin.com/in/iaaf-ambiental",
       "https://www.instagram.com/iaafambiental",
     ],
     priceRange: "$$",

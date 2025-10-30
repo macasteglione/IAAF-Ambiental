@@ -16,9 +16,7 @@ import {
   Building2,
   Landmark,
   Factory,
-  Award,
   CheckCircle,
-  Shield,
 } from "lucide-react";
 
 const ServicioAuditorias = () => {
@@ -70,7 +68,7 @@ const ServicioAuditorias = () => {
   return (
     <div className="min-h-screen">
       <EnhancedSEO
-        title="Auditorías Ambientales Puerto Madryn | Evaluación Cumplimiento Normativo Chubut | IAAF Ambiental"
+        title="Auditorías Ambientales | IAAF Ambiental"
         description="Auditorías Ambientales profesionales en Puerto Madryn y toda la Patagonia. Evaluación de cumplimiento normativo para empresas privadas, instituciones públicas, industrias y ONGs. Diagnóstico certificado y recomendaciones de mejora."
         keywords="auditoría ambiental puerto madryn, evaluación cumplimiento chubut, auditoría empresas patagonia, diagnóstico ambiental trelew, auditoría normativa rawson, consultor auditoría ambiental, ISO 14001 auditoría"
         url="https://iaafambiental.com/servicios/auditorias-ambientales"
@@ -133,12 +131,15 @@ const ServicioAuditorias = () => {
       <Header />
 
       {/* Hero Section - Responsive Optimizado */}
-      <section className="h-screen lg:h-[550px] bg-gradient-to-br from-brand-green via-brand-teal to-brand-lime relative overflow-hidden flex items-center pt-20">
+      <section className="h-screen lg:h-[550px] bg-gradient-to-br from-brand-green via-brand-teal to-brand-lime relative overflow-hidden flex items-center lg:pt-20">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-            backgroundImage: `radial-gradient(circle at 40% 30%, rgba(255,255,255,0.15) 0%, transparent 50%),
-                             radial-gradient(circle at 60% 80%, rgba(255,255,255,0.1) 0%, transparent 50%)`
-          }}></div>
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: `radial-gradient(circle at 40% 30%, rgba(255,255,255,0.15) 0%, transparent 50%),
+                             radial-gradient(circle at 60% 80%, rgba(255,255,255,0.1) 0%, transparent 50%)`,
+            }}
+          ></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
@@ -147,10 +148,11 @@ const ServicioAuditorias = () => {
               Auditorías Ambientales
             </h1>
             <p className="text-base lg:text-2xl text-white/95 max-w-4xl mx-auto mb-8 leading-relaxed">
-              Evaluación profesional del desempeño ambiental de organizaciones y proyectos 
-              según normativa vigente nacional y provincial. Diagnóstico de cumplimiento, 
-              recomendaciones de mejora e informes certificados para empresas, instituciones 
-              públicas, industrias y ONGs en la Patagonia.
+              Evaluación profesional del desempeño ambiental de organizaciones y
+              proyectos según normativa vigente nacional y provincial.
+              Diagnóstico de cumplimiento, recomendaciones de mejora e informes
+              certificados para empresas, instituciones públicas, industrias y
+              ONGs en la Patagonia.
             </p>
             <div className="flex items-center justify-center text-white">
               <MapPin className="lg:h-6 h-5 w-6 mr-2" />
@@ -233,37 +235,43 @@ const ServicioAuditorias = () => {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong>Planificación:</strong> Definición de alcance y objetivos de auditoría
+                    <strong>Planificación:</strong> Definición de alcance y
+                    objetivos de auditoría
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong>Revisión Documental:</strong> Análisis de permisos, registros y procedimientos
+                    <strong>Revisión Documental:</strong> Análisis de permisos,
+                    registros y procedimientos
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong>Visita In Situ:</strong> Inspección de instalaciones y operaciones
+                    <strong>Visita In Situ:</strong> Inspección de instalaciones
+                    y operaciones
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong>Entrevistas:</strong> Diálogo con personal clave y responsables
+                    <strong>Entrevistas:</strong> Diálogo con personal clave y
+                    responsables
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong>Informe:</strong> Elaboración de documento certificado con hallazgos
+                    <strong>Informe:</strong> Elaboración de documento
+                    certificado con hallazgos
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong>Seguimiento:</strong> Verificación de implementación de mejoras
+                    <strong>Seguimiento:</strong> Verificación de implementación
+                    de mejoras
                   </span>
                 </li>
               </ul>
@@ -279,37 +287,43 @@ const ServicioAuditorias = () => {
                 <li className="flex items-start gap-3">
                   <ClipboardCheck className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong>Cumplimiento Legal:</strong> Normativa nacional y provincial vigente
+                    <strong>Cumplimiento Legal:</strong> Normativa nacional y
+                    provincial vigente
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <ClipboardCheck className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong>Permisos y Licencias:</strong> Vigencia y actualización de habilitaciones
+                    <strong>Permisos y Licencias:</strong> Vigencia y
+                    actualización de habilitaciones
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <ClipboardCheck className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong>Gestión de Residuos:</strong> Clasificación, almacenamiento y disposición
+                    <strong>Gestión de Residuos:</strong> Clasificación,
+                    almacenamiento y disposición
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <ClipboardCheck className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong>Emisiones:</strong> Control de aire, agua, ruido y efluentes
+                    <strong>Emisiones:</strong> Control de aire, agua, ruido y
+                    efluentes
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <ClipboardCheck className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong>Sistemas de Gestión:</strong> Procedimientos y registros ambientales
+                    <strong>Sistemas de Gestión:</strong> Procedimientos y
+                    registros ambientales
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <ClipboardCheck className="h-5 w-5 text-brand-green flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong>Capacitación:</strong> Formación del personal en temas ambientales
+                    <strong>Capacitación:</strong> Formación del personal en
+                    temas ambientales
                   </span>
                 </li>
               </ul>
@@ -322,8 +336,8 @@ const ServicioAuditorias = () => {
       <div className="sr-only">
         <h2>Auditorías Ambientales - Cobertura Completa Patagonia</h2>
         <p>
-          IAAF Ambiental realiza Auditorías Ambientales profesionales en
-          toda la Patagonia incluyendo:
+          IAAF Ambiental realiza Auditorías Ambientales profesionales en toda la
+          Patagonia incluyendo:
         </p>
         <p>
           Auditoría ambiental Puerto Madryn, evaluación cumplimiento Trelew,
@@ -346,8 +360,9 @@ const ServicioAuditorias = () => {
             ¿Necesita una Auditoría Ambiental?
           </h2>
           <p className="text-xl lg:text-2xl mb-8 max-w-3xl mx-auto text-white/95">
-            Contáctenos para una evaluación inicial sin cargo. Realizaremos un diagnóstico
-            certificado de su desempeño ambiental y le proporcionaremos recomendaciones concretas.
+            Contáctenos para una evaluación inicial sin cargo. Realizaremos un
+            diagnóstico certificado de su desempeño ambiental y le
+            proporcionaremos recomendaciones concretas.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button
