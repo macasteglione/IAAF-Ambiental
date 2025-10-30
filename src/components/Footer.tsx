@@ -248,7 +248,7 @@ const Footer = () => {
                 />
                 <div>
                   <a
-                    href="mailto:administracion@iaafambiental.com.ar"
+                    href="mailto:administracion@iaafambiental.com"
                     className="text-sm text-white hover:underline block break-all"
                   >
                     administracion@iaafambiental.com
