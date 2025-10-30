@@ -65,7 +65,7 @@ const Header = () => {
   const isActivePath = useCallback((path: string) => location.pathname === path, [location.pathname]);
   
   const logoSrc = useMemo(() => 
-    !isLegalPage && !isScrolled && !isMenuOpen ? "/img/logo blanco.png" : "/img/logo_color.svg",
+    !isLegalPage && !isScrolled && !isMenuOpen ? "/img/logo_blanco.png" : "/img/logo_color.svg",
     [isLegalPage, isScrolled, isMenuOpen]
   );
 

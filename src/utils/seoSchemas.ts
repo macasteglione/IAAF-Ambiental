@@ -48,12 +48,10 @@ export const createDefaultLocalBusinessSchema = (description: string, url: strin
   "alternateName": "IAAF Consultora Ambiental",
   "description": description,
   "url": url,
-  "telephone": "+54 280 XXX-XXXX", // Reemplazar con el teléfono real
+  "telephone": "+54 280 459-7153", // Reemplazar con el teléfono real
   "email": "administracion@iaafambiental.com",
-  "foundingDate": "YYYY", // Reemplazar con el año de fundación
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Dirección de la oficina", // Reemplazar con dirección real
     "addressLocality": "Puerto Madryn",
     "addressRegion": "Chubut",
     "postalCode": "U9120",
@@ -109,15 +107,10 @@ export const createDefaultLocalBusinessSchema = (description: string, url: strin
   ],
   "logo": {
     "@type": "ImageObject",
-    "url": "https://iaafambiental.com/logo.png" // Reemplazar con URL real del logo
+    "url": "https://iaafambiental.com/img/logo_color.png"
   },
-  "image": [
-    "https://iaafambiental.com/images/oficina.jpg" // Reemplazar con imágenes reales
-  ],
   "sameAs": [
-    // Agregar redes sociales de IAAF Ambiental
-    "https://www.facebook.com/iaafambiental",
-    "https://www.linkedin.com/company/iaaf-ambiental",
+    "https://www.linkedin.com/in/iaaf-ambiental",
     "https://www.instagram.com/iaafambiental"
   ],
   "priceRange": "$$",
@@ -201,7 +194,7 @@ export const createArticleSchema = (articleData: ArticleSchemaProps) => ({
     "name": "IAAF Ambiental",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://iaafambiental.com/logo.png" // Reemplazar con URL real
+      "url": "https://iaafambiental.com/img/logo_color.png"
     }
   },
   "mainEntityOfPage": {

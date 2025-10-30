@@ -5,8 +5,8 @@ const RUNTIME_CACHE = 'iaaf-runtime-v1';
 const PRECACHE_URLS = [
   '/',
   '/img/logo_color.svg',
-  '/img/logo blanco.png',
-  '/img/logo negro.png',
+  '/img/logo_blanco.png',
+  '/img/logo_negro.png',
 ];
 
 // Install event - cache critical assets

@@ -9,9 +9,7 @@
     "build:dev": "vite build --mode development",
     "build:analyze": "vite build && npx vite-bundle-visualizer",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "optimize:images": "chmod +x scripts/optimize-images.sh && ./scripts/optimize-images.sh",
-    "check:performance": "echo '📊 Ejecuta Lighthouse en tu sitio desplegado para verificar mejoras'"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@hcaptcha/react-hcaptcha": "^1.13.0",
