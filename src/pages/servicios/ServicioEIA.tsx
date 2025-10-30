@@ -69,7 +69,7 @@ const ServicioEIA = () => {
   return (
     <div className="min-h-screen">
       <EnhancedSEO
-        title="Estudios de Impacto Ambiental (EIA) Puerto Madryn | Evaluación Ambiental Chubut Patagonia | IAAF Ambiental"
+        title="Estudios de Impacto Ambiental | IAAF Ambiental"
         description="Estudios de Impacto Ambiental profesionales en Puerto Madryn, Trelew, Rawson y toda la Patagonia. Evaluaciones ambientales completas para obras civiles, industria, minería, turismo. Equipo certificado, cumplimiento normativo garantizado."
         keywords="estudio impacto ambiental puerto madryn, EIA chubut, evaluación ambiental patagonia, impacto ambiental trelew, EIA rawson, estudio ambiental comodoro rivadavia, evaluación impacto patagonia, consultora ambiental puerto madryn, EIA industria chubut, impacto ambiental obras civiles, evaluación turismo sustentable, EIA minería patagonia"
         url="https://iaafambiental.com/servicios/estudios-de-impacto-ambiental"
@@ -89,11 +89,10 @@ const ServicioEIA = () => {
               "Patagonia",
               "Chubut",
             ],
-            telephone: "+54 280 412-3456",
-            email: "contacto@iaafambiental.com.ar",
+            telephone: "+54 280 455-7226",
+            email: "administracion@iaafambiental.com",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "Dirección de oficina",
               addressLocality: "Puerto Madryn",
               addressRegion: "Chubut",
               postalCode: "U9120",
@@ -139,7 +138,7 @@ const ServicioEIA = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="h-screen lg:h-[550px] bg-gradient-to-br from-brand-green via-brand-teal to-brand-lime relative overflow-hidden flex items-center pt-20">
+      <section className="h-screen lg:h-[550px] bg-gradient-to-br from-brand-green via-brand-teal to-brand-lime relative overflow-hidden flex items-center lg:pt-20">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-brand-dark rounded-full blur-3xl"></div>

@@ -162,10 +162,6 @@ const Index = () => {
         url="https://iaafambiental.com"
         type="website"
         structuredData={[serviceSchema, breadcrumbSchema, faqSchema]}
-        preloadImages={[
-          "/images/hero-iaaf.jpg",
-          "/images/servicios-ambientales.jpg"
-        ]}
         critical={true}
       />
       

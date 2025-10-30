@@ -9,7 +9,7 @@ const Privacy = () => {
         title="Politica de Privacidad | IAAF Ambiental"
         description="Lee nuestra política de privacidad para entender cómo IAAF Ambiental protege y maneja tu información personal de acuerdo con las leyes de privacidad de Argentina"
         keywords="Política de Privacidad, Protección de Datos, IAAF Ambiental, Consultoría Ambiental, Ley de Protección de Datos Argentina"
-        url="https://iaafambiental.com/privacy"
+        url="https://iaafambiental.com/privacidad"
         robots="noindex, nofollow"
       />
       <Header />

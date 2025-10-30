@@ -15,9 +15,7 @@ import {
   Flame,
   TreePine,
   Shield,
-  Award,
   CheckCircle,
-  AlertTriangle,
 } from "lucide-react";
 
 const ServicioCargaFuego = () => {
@@ -69,10 +67,10 @@ const ServicioCargaFuego = () => {
   return (
     <div className="min-h-screen">
       <EnhancedSEO
-        title="Estudio de Carga de Fuego Vegetal Puerto Madryn | Evaluación Riesgo Incendios Patagonia | IAAF Ambiental"
+        title="Estudio de Carga de Fuego Vegetal | IAAF Ambiental"
         description="Estudios de Carga de Fuego Vegetal profesionales en Puerto Madryn y toda la Patagonia. Evaluación de riesgo de incendios forestales, análisis de combustible vegetal, planes de prevención. Protección de bosques nativos y comunidades."
         keywords="carga fuego vegetal puerto madryn, estudio incendios forestales chubut, evaluación riesgo fuego patagonia, análisis combustible vegetal trelew, prevención incendios forestales, estudio biomasa patagonia, riesgo incendio forestal, consultora ambiental fuego"
-        url="https://iaafambiental.com/servicios/estudio-carga-fuego-vegetal"
+        url="https://iaafambiental.com/servicios/estudio-de-carga-de-fuego-vegetal"
         structuredData={[
           {
             "@context": "https://schema.org",
@@ -124,7 +122,7 @@ const ServicioCargaFuego = () => {
                 "@type": "ListItem",
                 position: 3,
                 name: "Estudio de Carga de Fuego Vegetal",
-                item: "https://iaafambiental.com/servicios/estudio-carga-fuego-vegetal",
+                item: "https://iaafambiental.com/servicios/estudio-de-carga-de-fuego-vegetal",
               },
             ],
           },
@@ -133,7 +131,7 @@ const ServicioCargaFuego = () => {
       <Header />
 
       {/* Hero Section - Responsive Optimizado */}
-      <section className="h-screen lg:h-[550px] bg-gradient-to-br bg-gradient-to-br from-orange-500 via-orange-600 to-red-600 relative overflow-hidden flex items-center pt-16 sm:pt-20 pb-8 sm:pb-12">
+      <section className="h-screen lg:h-[550px] bg-gradient-to-br bg-gradient-to-br from-orange-500 via-orange-600 to-red-600 relative overflow-hidden flex items-center lg:pt-20">
         <div className="absolute inset-0 opacity-10">
           <div
             className="absolute inset-0"
