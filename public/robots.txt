@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-# Sitemap
+# Sitemaps
 Sitemap: https://iaafambiental.com/sitemap.xml

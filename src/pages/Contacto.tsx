@@ -11,7 +11,7 @@ const Contacto = () => {
     <div className="min-h-screen">
       <SEO
         title="Contacto | IAAF Ambiental"
-        description="Contáctese con IAAF Ambiental para servicios profesionales de consultoría ambiental en Puerto Madryn. Solicite su cotización sin cargo. Línea de consultas: +54 280 412-3456. Email: contacto@iaafambiental.com.ar"
+        description="Contáctese con IAAF Ambiental para servicios profesionales de consultoría ambiental en Puerto Madryn. Solicite su cotización sin cargo. Línea de consultas: +54 280 412-3456. Email: contacto@iaafambiental.com"
         keywords="contacto IAAF Ambiental, consultoría ambiental, servicios ambientales Puerto Madryn, evaluación impacto ambiental, gestión ambiental, cotización servicios ambientales"
         url="https://iaafambiental.com/contacto"
       />

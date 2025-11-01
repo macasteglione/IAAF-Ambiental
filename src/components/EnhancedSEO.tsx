@@ -9,6 +9,7 @@ interface EnhancedSEOProps {
   type?: string;
   robots?: string;
   canonicalUrl?: string;
+  canonical?: string; // ⬅️ AGREGAR ESTA LÍNEA
   hreflang?: Array<{ lang: string; url: string }>;
   structuredData?: object[];
   preloadImages?: string[];
@@ -17,13 +18,14 @@ interface EnhancedSEOProps {
 
 const EnhancedSEO = ({
   title = "IAAF Ambiental - Consultoría Ambiental",
-  description = "Consultora ambiental líder en Patagonia. Estudios de impacto ambiental, gestión ambiental, auditorías, monitoreo y asesoramiento en normativa ambiental para empresas e instituciones en Puerto Madryn, Chubut y toda la región patagónica.",
-  keywords = "consultoría ambiental, impacto ambiental, gestión ambiental, auditoría ambiental, monitoreo ambiental, puerto madryn, chubut, patagonia, EIA, normativa ambiental argentina",
+  description = "Consultora ambiental líder en Patagonia...",
+  keywords = "consultoría ambiental...",
   image = "/images/iaaf-og-image.jpg",
   url = "https://iaafambiental.com",
   type = "website",
   robots = "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
   canonicalUrl,
+  canonical,
   hreflang = [],
   structuredData = [],
   preloadImages = [],
@@ -32,7 +34,7 @@ const EnhancedSEO = ({
   const fullTitle = title.includes("IAAF Ambiental")
     ? title
     : `${title} | IAAF Ambiental`;
-  const canonical = canonicalUrl || url;
+  const canonicalLink = canonical || canonicalUrl || url;
 
   const organizationSchema = {
     "@context": "https://schema.org",
@@ -119,7 +121,7 @@ const EnhancedSEO = ({
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
       <meta name="robots" content={robots} />
-      <link rel="canonical" href={canonical} />
+      <link rel="canonical" href={canonicalLink} />
 
       {/* Geo tags for local SEO */}
       <meta name="geo.region" content="AR-U" />
