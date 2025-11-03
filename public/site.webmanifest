@@ -1,0 +1,21 @@
+{
+  "name": "IAAF Ambiental",
+  "short_name": "IAAF",
+  "icons": [
+    {
+      "src": "/favicon-blanco.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-negro.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#22c55e",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
