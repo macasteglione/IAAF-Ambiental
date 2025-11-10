@@ -10,7 +10,7 @@ const SocialSidebar = () => {
     },
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/iaaf-ambiental",
+      url: "https://www.linkedin.com/company/iaaf-ambiental",
       icon: Linkedin,
       color: "hover:text-[#0A66C2]",
     },
