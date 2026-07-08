@@ -20,6 +20,7 @@ const TrustSection = () => {
     { name: "Abercar Cipolletti", logo: "/img/abercar_cipolletti.png" },
     { name: "Abercar Trelew", logo: "/img/abercar_trelew.png" },
     { name: "Abercar Comodoro", logo: "/img/abercar_comodoro.png" },
+    { name: "Andesmar", logo: "/img/andesmar_logo.png" },
   ];
 
   const sectors = [
@@ -57,7 +58,7 @@ const TrustSection = () => {
           <h3 className="text-xl font-semibold text-gray-900 text-center mb-8">
             Empresas que Trabajan con IAAF Ambiental
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center">
+          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-8 items-center">
             {clientLogos.map((client, index) => (
               <div
                 key={index}
