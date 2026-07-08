@@ -1,4 +1,4 @@
-import { Users } from "lucide-react";
+import equipo_imagen from "/img/equipo-about.png";
 
 const NosotrosHistoria = () => {
   return (
@@ -36,24 +36,11 @@ const NosotrosHistoria = () => {
           </div>
 
           {/* Image Section */}
-              <div className="relative">
-                <div className="aspect-square bg-gradient-to-br from-green-100 to-emerald-200 rounded-2xl overflow-hidden shadow-lg">
-                  {/* Placeholder for image - replace with actual team photo */}
-                  <div className="w-full h-full flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-24 h-24 bg-brand-green rounded-full flex items-center justify-center mx-auto mb-4">
-                        <Users className="h-12 w-12 text-white" />
-                      </div>
-                      <p className="text-gray-700 font-semibold text-lg">
-                        Equipo IAAF Ambiental
-                      </p>
-                      <p className="text-gray-600 text-sm mt-2">
-                        Profesionales comprometidos con el ambiente
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div className="relative">
+            <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
+              <img src={equipo_imagen} alt="Equipo de IAAF Ambiental" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
